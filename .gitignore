@@ -1,0 +1,35 @@
+# Dependencies
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# Data artifacts (generated, not source)
+data/transcripts/
+data/chunks/
+data/index/
+data/metadata/
+eval/results/
+
+# IDE
+.cursor/
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Podcast audio (large files, tracked separately)
+# Podcast/*.mp3
+
+# Gemini
+.gemini/
