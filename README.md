@@ -26,7 +26,7 @@ Frontend (React/Vite) → FastAPI Backend → Conversational State Management �
 - Node.js 18+
 - `ffmpeg` installed on your system (required for processing raw audio)
 - An OpenRouter API Key
-- The supplied raw Fermi Podcast audio files ( any num ber of podcasts).
+- The supplied raw Fermi Podcast audio files. **You must place the `.mp3` files in the `Podcast/` folder.** (Audio files are ignored in Git to prevent huge uploads).
   - *Note: To save your processing time, the generated JSON transcripts and vector database indexes are already included in the `data/` folder. They were generated directly from the raw audio using this system's built-in pipeline.*
 
 ## Setup
