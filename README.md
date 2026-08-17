@@ -22,8 +22,9 @@ Frontend (React/Vite) → FastAPI Backend → Conversational State Management �
 ## Prerequisites
 - Python 3.10+
 - Node.js 18+
+- `ffmpeg` installed on your system (required for processing raw audio)
 - An OpenRouter API Key
-- The supplied raw Fermi Podcast audio files (placed in `Podcast/`).
+- The supplied raw Fermi Podcast audio files ( any num ber of podcasts).
   - *Note: To save your processing time, the generated JSON transcripts and vector database indexes are already included in the `data/` folder. They were generated directly from the raw audio using this system's built-in pipeline.*
 
 ## Setup
@@ -74,7 +75,7 @@ python -m src.metadata
 python -m src.chunker
 
 # 4. Embed the chunks into the vector database
-python -m src.retrieval
+python -m src.retrieval build
 ```
 *(Warning: The transcription step sends audio to the OpenRouter API and takes considerable time depending on the length of the audio. If you just want to run the application immediately, leave the existing pre-generated artifacts in the `data/` directory.)*
 
