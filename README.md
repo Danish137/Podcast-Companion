@@ -24,7 +24,7 @@ Frontend (React/Vite) → FastAPI Backend → Conversational State Management �
 - Node.js 18+
 - An OpenRouter API Key
 - The supplied raw Fermi Podcast audio files (placed in `Podcast/`).
-  - *Note: To save you hours of API processing time, the generated JSON transcripts and vector database indexes are already included in the `data/` folder. They were generated directly from the raw audio using this system's built-in pipeline.*
+  - *Note: To save your processing time, the generated JSON transcripts and vector database indexes are already included in the `data/` folder. They were generated directly from the raw audio using this system's built-in pipeline.*
 
 ## Setup
 
@@ -55,7 +55,7 @@ cp .env.example .env
 ```
 Edit `.env` and configure your `OPENROUTER_API_KEY`.
 
-## Evaluator Instructions: Using Your Own Audio
+## Note on Using Your Own Audio
 This system complies with the assignment constraint to start directly from raw audio. It includes a built-in transcription pipeline (`src/transcribe.py`) that uses the Gemini 2.5 Flash model via OpenRouter to transcribe the audio and generate timestamps. 
 
 If you want to test the system with your own audio files (3 or any other number):
