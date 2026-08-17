@@ -55,14 +55,28 @@ cp .env.example .env
 ```
 Edit `.env` and configure your `OPENROUTER_API_KEY`.
 
-## Artifact generation
+## Evaluator Instructions: Using Your Own Audio
 This system complies with the assignment constraint to start directly from raw audio. It includes a built-in transcription pipeline (`src/transcribe.py`) that uses the Gemini 2.5 Flash model via OpenRouter to transcribe the audio and generate timestamps. 
 
-If you wish to regenerate the chunk index and transcripts from scratch from the raw audio, run:
+If you want to test the system with your own audio files (3 or any other number):
+1. Delete the pre-generated contents of the `data/` directory (except the folders themselves).
+2. Clear out the `Podcast/` directory and place your own `.mp3` podcast files there.
+3. Run the artifact pipeline sequentially to generate the transcripts, metadata, chunks, and vector index from scratch:
+
 ```bash
-python -m src.pipeline
+# 1. Transcribe the raw audio
+python -m src.transcribe
+
+# 2. Extract structured metadata from the transcripts
+python -m src.metadata
+
+# 3. Chunk the transcripts for retrieval
+python -m src.chunker
+
+# 4. Embed the chunks into the vector database
+python -m src.retrieval
 ```
-*(Warning: This sends audio to the OpenRouter API and takes considerable time. The pre-generated artifacts are already included in the repository for immediate reproducibility.)*
+*(Warning: The transcription step sends audio to the OpenRouter API and takes considerable time depending on the length of the audio. If you just want to run the application immediately, leave the existing pre-generated artifacts in the `data/` directory.)*
 
 ## Run
 To run the full stack (Frontend + Backend) with a single command, execute from the root directory:
