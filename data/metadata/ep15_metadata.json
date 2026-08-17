@@ -1,0 +1,31 @@
+{
+  "episode_id": "ep15",
+  "episode_title": "The Periodic Table, Mendeleev 1869",
+  "filename": "Great Papers 15 - The Periodic Table, Mendeleev 1869.mp3",
+  "duration_seconds": 1871.3585,
+  "segment_count": 69,
+  "paper_title": "The Periodic Law of the Chemical Elements",
+  "authors": [
+    "Dmitri Mendeleev"
+  ],
+  "publication_year": 1869,
+  "field": "Chemistry",
+  "subfield": "Inorganic Chemistry",
+  "key_concepts": [
+    "Periodic Table",
+    "Atomic Weight",
+    "Valence",
+    "Prediction of Elements",
+    "Atomic Number",
+    "Isotopes",
+    "Chemical Properties",
+    "Periodicity",
+    "Alkali Metals",
+    "Halogens"
+  ],
+  "summary": "The podcast discusses Dmitri Mendeleev's 1869 paper on the periodic table, highlighting his audacious predictions of undiscovered elements and his decision to prioritize chemical properties over atomic weight in certain cases. It also explores how later discoveries, particularly the concept of atomic number, validated his insights and connected his work to quantum mechanics.",
+  "disciplines": [
+    "Chemistry",
+    "Physics"
+  ]
+}

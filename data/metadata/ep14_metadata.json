@@ -1,0 +1,30 @@
+{
+  "episode_id": "ep14",
+  "episode_title": "Godel's Incompleteness Theorems, 1931",
+  "filename": "Great Papers 14 - Gödel_s Incompleteness Theorems, 1931.mp3",
+  "duration_seconds": 1938.545188,
+  "segment_count": 72,
+  "paper_title": "On Formally Undecidable Propositions of Principia Mathematica and Related Systems",
+  "authors": [
+    "Kurt Gödel"
+  ],
+  "publication_year": 1931,
+  "field": "Mathematics",
+  "subfield": "Mathematical Logic",
+  "key_concepts": [
+    "Incompleteness Theorem",
+    "Consistency",
+    "Completeness",
+    "Self-reference",
+    "Gödel numbering",
+    "Liar paradox",
+    "Russell's paradox",
+    "Formal systems",
+    "Undecidability",
+    "Axioms"
+  ],
+  "summary": "The podcast discusses Kurt Gödel's 1931 paper, which demonstrated that in any sufficiently powerful and consistent mathematical system, there will always be true statements that cannot be proven within that system. It explains how Gödel achieved this by creating a self-referential statement using a technique called Gödel numbering, effectively showing that mathematics cannot be both complete and consistent.",
+  "disciplines": [
+    "Mathematics"
+  ]
+}

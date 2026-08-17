@@ -1,0 +1,801 @@
+{
+  "episode_id": "ep01",
+  "filename": "Great Papers 01 - Einstein_s Special Relativity.mp3",
+  "title": "Einstein's Special Relativity",
+  "duration_seconds": 3134.011438,
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 30.0,
+      "text": "1905. A 26-year-old is examining patent applications at a desk in Bern, and in his spare hours, he writes a paper with the almost boring title, On the Electrodynamics of Moving Bodies. No new experiment, no new particle, barely any references. And by the time you finish reading it, space and time,",
+      "episode_id": "ep01",
+      "segment_index": 0
+    },
+    {
+      "start_time": 30.0,
+      "end_time": 60.0,
+      "text": "the two things everyone had assumed were the fixed, silent backdrop of everything, are neither fixed nor silent. George, I want to actually understand how a person talks themselves into that. What is Einstein even trying to fix when he sits down? He's trying to fix a crack that had been quietly widening in physics for about 40 years. And the beautiful thing is that the crack is not exotic.",
+      "episode_id": "ep01",
+      "segment_index": 1
+    },
+    {
+      "start_time": 60.0,
+      "end_time": 90.0,
+      "text": "It's sitting in the most successful theory of the century. So here's the whole plan for today. We're going to start with that crack, the electrodynamics of moving bodies, and see why it forced a choice. Then Einstein makes two assumptions, just two that sound almost modest, and we'll state them carefully. And then we spend most of our time watching those two assumptions detonate.",
+      "episode_id": "ep01",
+      "segment_index": 2
+    },
+    {
+      "start_time": 90.0,
+      "end_time": 120.0,
+      "text": "Simultaneity comes apart, moving clocks run slow, moving rulers shrink, and the speed of light becomes a wall that nothing can cross. Everything today comes off those two postulates. That's the promise. Two sentences in and the rest is consequence. Let's start with the crack then. What's broken? Nothing is broken in the sense of a wrong prediction.",
+      "episode_id": "ep01",
+      "segment_index": 3
+    },
+    {
+      "start_time": 120.0,
+      "end_time": 150.0,
+      "text": "That's what makes it subtle. By 1905, you have Maxwell's theory of electricity and magnetism, and it is spectacular. It unifies electricity, magnetism, and light into one set of equations, and out of those equations falls a specific number, the speed of light. The equations predict that light is a wave rippling through the electromagnetic field,",
+      "episode_id": "ep01",
+      "segment_index": 4
+    },
+    {
+      "start_time": 150.0,
+      "end_time": 180.0,
+      "text": "and they hand you its speed, a definite value, about 300,000 km every second. And here's the question that should make you uneasy. That speed is measured relative to what? Relative to whatever you're standing on, surely. Like the speed of a train is relative to the platform. That's exactly the intuition, and it's exactly the one that's about to break.",
+      "episode_id": "ep01",
+      "segment_index": 5
+    },
+    {
+      "start_time": 180.0,
+      "end_time": 210.0,
+      "text": "Think about sound. Sound is a wave in air, and it has a fixed speed relative to the air. If you run toward a source of sound, you meet the crests faster, so the sound comes at you quicker. If you run away, slower. The speed depends on your motion through the medium, the air. So everyone reasoned very sensibly that light must be the same.",
+      "episode_id": "ep01",
+      "segment_index": 6
+    },
+    {
+      "start_time": 210.0,
+      "end_time": 240.0,
+      "text": "A wave in some medium, and its speed of 300,000 km a second must be its speed relative to that medium. They even named the medium. They called it the luminiferous ether, the light-bearing ether. The ether. This is the thing that fills all of space, so light has something to wave in. That's the one. It has to fill everything because light crosses the empty space between the stars and us.",
+      "episode_id": "ep01",
+      "segment_index": 7
+    },
+    {
+      "start_time": 240.0,
+      "end_time": 270.0,
+      "text": "So the picture is, the whole universe is soaked in this invisible, weightless, perfectly still stuff, and light ripples through it at that fixed speed. And immediately that gives you a prediction you can test. The Earth is moving. It's whipping around the sun at about 30 km a second. So the Earth must be flying through the ether, and there must be an ether wind blowing past us.",
+      "episode_id": "ep01",
+      "segment_index": 8
+    },
+    {
+      "start_time": 270.0,
+      "end_time": 300.0,
+      "text": "Light traveling along the direction of that wind should come out at a slightly different speed than light traveling across it. Just like a swimmer going with the current versus across it. So you build an experiment sensitive enough to feel the wind, and I'm guessing since we're here, they didn't feel it. They didn't feel a thing. The famous version is the Michelson-Morley experiment, a couple of decades earlier,",
+      "episode_id": "ep01",
+      "segment_index": 9
+    },
+    {
+      "start_time": 300.0,
+      "end_time": 330.0,
+      "text": "and it was built precisely to detect that difference. Light sent along the motion versus across it, then compared. The expected shift was small, but well within reach of their instrument. And the result was nothing. No wind. Whichever way the Earth was moving, light came out at the same speed. People tried to patch it.",
+      "episode_id": "ep01",
+      "segment_index": 10
+    },
+    {
+      "start_time": 330.0,
+      "end_time": 360.0,
+      "text": "Maybe the ether gets dragged along by the Earth. Maybe moving objects physically contract by just the right amount to hide the effect. They were clever patches, but they were patches. Okay, but you said the ether wind wasn't even really Einstein's way in. What was? Right. And this is the part I love because it tells you how his mind worked.",
+      "episode_id": "ep01",
+      "segment_index": 11
+    },
+    {
+      "start_time": 300.0,
+      "end_time": 360.0,
+      "text": "He opens the paper not with the ether experiments, but with a piece of textbook physics that everybody could already do, and he points at an ugliness in it. It's the case of a magnet and a wire loop, a conductor. Here's the setup. You have a magnet and a loop of wire, and you move one relative to the other. That's how a generator works. Relative motion of magnet and coil drives a current.\n[000:30]\nNow, the physics of 1905 gave you two completely different stories for that one current, depending on which thing you called moving. Two stories for the same current? Walk me through both. Story one. The wire is at rest, and you move the magnet. A moving magnet means a changing magnetic field where the wire sits. And a changing magnetic field, by Faraday's law, creates an electric field.",
+      "episode_id": "ep01",
+      "segment_index": 12
+    },
+    {
+      "start_time": 360.0,
+      "end_time": 390.0,
+      "text": "That electric field pushes on the charges in the wire, and you get a current. So the cause in this story is a newly created electric field. Story two. Now hold the magnet still and move the wire instead. There's no changing magnetic field anymore. The field is just sitting there. So there's no induced electric field at all.",
+      "episode_id": "ep01",
+      "segment_index": 13
+    },
+    {
+      "start_time": 390.0,
+      "end_time": 420.0,
+      "text": "Instead, the charges in the moving wire are carried through the static magnetic field, and a charge moving through a magnetic field feels a force, the magnetic force. So this time, the cause is a magnetic force on moving charges. Two different causes, an electric field in one story, a magnetic force in the other. But the current that comes out",
+      "episode_id": "ep01",
+      "segment_index": 14
+    },
+    {
+      "start_time": 420.0,
+      "end_time": 450.0,
+      "text": "is identical. Depends only on the relative motion of magnet and wire, exactly the same in both cases. And Einstein's discomfort is precise. Nature clearly doesn't care which one is really moving. Only the relative motion matters, and the outcome is one and the same. So why does our theory insist on two utterly different mechanisms, depending on an arbitrary choice of who's standing still?",
+      "episode_id": "ep01",
+      "segment_index": 15
+    },
+    {
+      "start_time": 450.0,
+      "end_time": 480.0,
+      "text": "The asymmetry is in our description, not in nature. That, he says right at the top, together with the failure to detect any motion relative to the ether, suggests something bigger, that the very idea of absolute rest, an ether you could measure your motion against, is empty. There is no really moving and really still. So he takes the thing that keeps embarrassing everyone,",
+      "episode_id": "ep01",
+      "segment_index": 16
+    },
+    {
+      "start_time": 480.0,
+      "end_time": 510.0,
+      "text": "you can never detect absolute motion, and instead of treating it as a failure to be patched, he promotes it to a law. He promotes it to a principle. That's the whole move, and it's the first of his two postulates. Postulate one, the principle of relativity. The laws of physics are exactly the same in every inertial frame of reference. Let me unpack inertial frame.",
+      "episode_id": "ep01",
+      "segment_index": 17
+    },
+    {
+      "start_time": 510.0,
+      "end_time": 540.0,
+      "text": "It just means a point of view that's moving at constant velocity, not speeding up, not turning, no forces jostling you. A smooth train at constant speed, a ship gliding on still water, the lab floor. The principle says, do any experiment you like inside a sealed, smoothly moving cabin, and you cannot tell whether you're moving or at rest.",
+      "episode_id": "ep01",
+      "segment_index": 18
+    },
+    {
+      "start_time": 540.0,
+      "end_time": 570.0,
+      "text": "There's no experiment, mechanical, electrical, optical, anything that reveals an absolute speed. Motion at constant velocity has no signature. That part I can almost swallow because I've felt it. On a really smooth flight, coffee pours normally. You can't feel the 500 miles an hour. It feels like sitting still. You felt postulate one.",
+      "episode_id": "ep01",
+      "segment_index": 19
+    },
+    {
+      "start_time": 570.0,
+      "end_time": 600.0,
+      "text": "Galileo knew it from mechanics, ships and dropped balls. Einstein's claim is that it holds for absolutely everything, including electricity, magnetism, and light. And that including light is where the second postulate comes in, and it's the one that costs you your common sense. Postulate two, the constancy of the speed of light. Light travels through empty space at that one fixed speed,",
+      "episode_id": "ep01",
+      "segment_index": 20
+    },
+    {
+      "start_time": 600.0,
+      "end_time": 630.0,
+      "text": "C, and every inertial observer measures that same speed, regardless of how the source was moving when it emitted the light. Wait, let me make sure I have the full weight of that. If a spaceship flies toward me at half the speed of light and turns on a headlight, the light from that headlight reaches me at not one and a half times C, just C. Just C.",
+      "episode_id": "ep01",
+      "segment_index": 21
+    },
+    {
+      "start_time": 630.0,
+      "end_time": 660.0,
+      "text": "And if the ship is flying away and shines the light, still C. And if you yourself then start chasing that light beam at enormous speed, trying to catch up, you still measure it pulling away from you at the full C. It refuses to slow down relative to you.",
+      "episode_id": "ep01",
+      "segment_index": 22
+    },
+    {
+      "start_time": 600.0,
+      "end_time": 629.0,
+      "text": "you, no matter how hard you chase it. That is the postulate. And notice how violently it disagrees with the sound example or with any everyday object. If I throw a ball forward from a moving truck, the ball's speed over the ground is the truck speed plus the throw. Speeds add. Postulate two says light flatly does not play that game.",
+      "episode_id": "ep01",
+      "segment_index": 23
+    },
+    {
+      "start_time": 629.0,
+      "end_time": 659.0,
+      "text": "Look, that sounds not just strange, but impossible. Speeds add. That's not even physics, that's just counting. If I'm moving toward the light and the light is moving toward me, of course we close the gap faster. Everything in your body is screaming that, and you should trust that scream because following it all the way down is how we find what has to give.",
+      "episode_id": "ep01",
+      "segment_index": 24
+    },
+    {
+      "start_time": 659.0,
+      "end_time": 690.0,
+      "text": "So let's follow it. Speed is nothing but distance divided by time. How far the thing went divided by how long it took. If two observers moving relative to each other, both measure the same speed for the same light beam, the same distance over time, but they're in relative motion, then the only way out is that they must disagree about the distances and the times themselves.",
+      "episode_id": "ep01",
+      "segment_index": 25
+    },
+    {
+      "start_time": 690.0,
+      "end_time": 719.0,
+      "text": "If the ratio comes out the same, but the situation is different, the top and the bottom of the ratio, the space and the time must be flexible. That's the escape hatch. Space and time are what bend so that the speed of light doesn't have to. So, to keep light speed rigid, you make space and time negotiable. Where do you even start pulling on that thread?",
+      "episode_id": "ep01",
+      "segment_index": 26
+    },
+    {
+      "start_time": 719.0,
+      "end_time": 750.0,
+      "text": "You start with time, and specifically with a question that sounds too simple to matter. What does it mean for two things to happen at the same time? Einstein realized that before you can do any physics of moving bodies, you have to say, operationally, concretely, how you'd actually check whether two separated events are simultaneous. Not, they just are.",
+      "episode_id": "ep01",
+      "segment_index": 27
+    },
+    {
+      "start_time": 750.0,
+      "end_time": 780.0,
+      "text": "How would you measure it? I guess I look at two clocks in two places and see if they read the same. But that assumes the two clocks are already synchronized, which is the same problem one step back. Exactly the trap. And Einstein walks right into it and solves it with the only tool that has a guaranteed speed. Light. Here's how you synchronize two clocks sitting some distance apart.",
+      "episode_id": "ep01",
+      "segment_index": 28
+    },
+    {
+      "start_time": 780.0,
+      "end_time": 810.0,
+      "text": "You send a flash of light from clock A toward clock B. Note when it leaves and when it returns after bouncing back. Since light goes at the same speed both ways, you define the clocks as synchronized when the light takes exactly as long to go as to come back. You split the round trip down the middle. That's it. Two clocks are in sync when a light signal treats them even-handedly.",
+      "episode_id": "ep01",
+      "segment_index": 29
+    },
+    {
+      "start_time": 810.0,
+      "end_time": 839.0,
+      "text": "It's a clean physical definition. There's nothing to argue with. That does sound air tight. So where's the catch? The catch is hiding in the words at the same time, and it only jumps out when a second observer, moving relative to the first, watches the very same synchronization and does the same even-handed procedure with light. Let me give you the cleanest picture.",
+      "episode_id": "ep01",
+      "segment_index": 30
+    },
+    {
+      "start_time": 839.0,
+      "end_time": 869.0,
+      "text": "Put an observer exactly in the middle of a long train car and put a lamp there. At some moment, the lamp flashes, and the light races both ways toward the two ends of the car. For the person standing in the middle of the train, the light reaches the front end and the back end at the same instant. Equal distance, equal speed, so equal time.",
+      "episode_id": "ep01",
+      "segment_index": 31
+    },
+    {
+      "start_time": 869.0,
+      "end_time": 899.0,
+      "text": "Front and back, simultaneous. Everybody on the train agrees. Sure. Middle of the car, light goes both ways equally, hits both ends together, fine. Now watch the same flash from the platform as the train rushes past. From the platform, light still goes at C in both directions. That's the postulate. It's the same C for the platform observer.",
+      "episode_id": "ep01",
+      "segment_index": 32
+    },
+    {
+      "start_time": 899.0,
+      "end_time": 929.0,
+      "text": "But during the little time the light is traveling, the train is moving forward. So the back end of the car is rushing toward the point where the flash was emitted, and the front end is running away from it. The light going backward has less distance to cover because the back wall is coming to meet it. The light going forward has to chase the retreating front wall.",
+      "episode_id": "ep01",
+      "segment_index": 33
+    },
+    {
+      "start_time": 929.0,
+      "end_time": 959.0,
+      "text": "Same speed, but shorter trip one way and longer trip the other. So for the platform observer, the light hits the back of the car first and the front of the car later. Not simultaneous. Hold on. The exact same two events. Light hits the front, light hits the back. The person on the train says, same instant. The person on the platform says, back first, then front.",
+      "episode_id": "ep01",
+      "segment_index": 34
+    },
+    {
+      "start_time": 959.0,
+      "end_time": 989.0,
+      "text": "And you're telling me neither of them is wrong. Neither is wrong.",
+      "episode_id": "ep01",
+      "segment_index": 35
+    },
+    {
+      "start_time": 900.0,
+      "end_time": 930.0,
+      "text": "each did the same even-handed procedure with light. Each is a perfectly good inertial observer and postulate one says neither has a privileged view. They simply disagree about whether two separated events happened at the same time. Simultaneity, which felt like the most absolute, obvious thing in the world, turns out to depend on your motion.",
+      "episode_id": "ep01",
+      "segment_index": 36
+    },
+    {
+      "start_time": 930.0,
+      "end_time": 960.0,
+      "text": "There is no universal now slicing across the universe. Your now and mine tilt relative to each other once we're moving. This is the conceptual heart of the whole paper, and almost everything strange that follows is really just this one fact wearing different costumes. That's the sentence I want to sit with. Almost everything strange is this one fact in a costume.",
+      "episode_id": "ep01",
+      "segment_index": 37
+    },
+    {
+      "start_time": 960.0,
+      "end_time": 990.0,
+      "text": "Okay, give me the first costume. If people disagree about simultaneity, what does that do to a clock? It makes moving clocks run slow. And I can show you exactly why with the simplest clock you can imagine. A clock made of light itself. Picture two mirrors facing each other, one on the floor and one on the ceiling, a fixed distance apart with a single pulse of light bouncing straight up and down between them.",
+      "episode_id": "ep01",
+      "segment_index": 38
+    },
+    {
+      "start_time": 990.0,
+      "end_time": 1020.0,
+      "text": "Every round trip, up and back down, is one tick. That's a perfectly legitimate clock. In its own rest frame, one tick takes the time for light to go up and come back. Twice the mirror distance divided by C. Clean. A light clock. I like it because there's no gears to argue about. The tick rate is just light and distance. That's why it's the perfect probe.",
+      "episode_id": "ep01",
+      "segment_index": 39
+    },
+    {
+      "start_time": 1020.0,
+      "end_time": 1050.0,
+      "text": "Now, let's put that light clock on our train, moving past us with the mirrors oriented so the light bounces up and down across the direction of motion. You on the platform, watch it go by. What path does that light pulse trace out from your point of view? It leaves the bottom mirror, but by the time it reaches the top mirror, the whole clock has slid forward.",
+      "episode_id": "ep01",
+      "segment_index": 40
+    },
+    {
+      "start_time": 1050.0,
+      "end_time": 1080.0,
+      "text": "And by the time it comes back down, it's slid forward again. So from your seat on the platform, the light doesn't go straight up and down. It traces a long zigzag, a stretched out V, like a tent shape. Two diagonal legs instead of two vertical ones. And a diagonal is longer than straight up. A diagonal is unavoidably longer than the vertical.",
+      "episode_id": "ep01",
+      "segment_index": 41
+    },
+    {
+      "start_time": 1080.0,
+      "end_time": 1110.0,
+      "text": "The light has to cover more distance to complete one tick as you see it. But, and here's where postulate two lands the blow, that light is still traveling at C for you. You cannot say, well, it's going faster along the diagonal to keep up. It goes at exactly C, same as always. More distance at the same speed means more time.",
+      "episode_id": "ep01",
+      "segment_index": 42
+    },
+    {
+      "start_time": 1110.0,
+      "end_time": 1140.0,
+      "text": "So one tick of that moving clock takes longer, measured by you, than one tick takes for the person riding along with it. The moving clock ticks slower. Time itself, as read by that clock, is running slow from your point of view. And you can actually put a number, well, a factor on how much slower. You can, and it's the single most famous factor in the subject.",
+      "episode_id": "ep01",
+      "segment_index": 43
+    },
+    {
+      "start_time": 1140.0,
+      "end_time": 1170.0,
+      "text": "It gets the name gamma. If the clock moves at speed V, then gamma is one divided by the square root of the quantity 1 - V squared over C squared. Let me make that breathe. The ratio V over C is how fast you're going as a fraction of light speed. Square it, subtract it from one, take the square root, and flip it over.",
+      "episode_id": "ep01",
+      "segment_index": 44
+    },
+    {
+      "start_time": 1170.0,
+      "end_time": 1200.0,
+      "text": "When V is tiny compared to C, everyday speeds, V over C is nearly zero, so gamma is essentially one, and moving clocks tick at basically the normal rate. That's why you've never noticed this. But as V climbs towards C, that quantity under the square root shrinks toward zero, and gamma blows up toward infinity. At about 87% of the speed of light, gamma is two.",
+      "episode_id": "ep01",
+      "segment_index": 45
+    },
+    {
+      "start_time": 1200.0,
+      "end_time": 1230.0,
+      "text": "Moving clocks run at half speed. Push closer to C and they nearly freeze. So the moving clock's ticks are stretched by the factor gamma. Is this just light clocks being weird, or is it every clock? It has to be every clock, and that's forced by postulate one, the principle of relativity. Suppose only the light clock slowed down, and your wristwatch, or your heartbeat, or the decay of a radioactive atom didn't.",
+      "episode_id": "ep01",
+      "segment_index": 46
+    },
+    {
+      "start_time": 1230.0,
+      "end_time": 1260.0,
+      "text": "Then you could sit in your sealed cabin, compare the light clock against your pulse, notice them drifting apart, and announce, aha, I'm the one really moving. That would violate the principle that says you can't detect your own",
+      "episode_id": "ep01",
+      "segment_index": 47
+    },
+    {
+      "start_time": 1200.0,
+      "end_time": 1230.0,
+      "text": "uniform motion. So to keep the principle intact, everything that measures time must slow by the identical factor. The moving light clock, the moving wristwatch, the moving biological aging, the moving atoms decay, all stretched by gamma together. It's not that clocks malfunction. Time for that moving system genuinely passes more slowly.",
+      "episode_id": "ep01",
+      "segment_index": 48
+    },
+    {
+      "start_time": 1230.0,
+      "end_time": 1259.0,
+      "text": "I have to ask the obvious skeptic's question. Has anyone ever actually seen a moving clock run slow? Or is this a story we tell on trains that don't exist? It's measured constantly, and I'll give you the cleanest real case, particles called muons. A muon is a heavy cousin of the electron, and it's unstable. Left alone, it decays in about a couple of millionths of a second.",
+      "episode_id": "ep01",
+      "segment_index": 49
+    },
+    {
+      "start_time": 1259.0,
+      "end_time": 1290.0,
+      "text": "They're created high in the atmosphere when cosmic rays hit the air, and they come screaming down toward the ground at very close to the speed of light. Now do the bookkeeping the old way. Even at light speed, in a couple of millionths of a second, they should only make it a fraction of the way down before decaying. Almost none should reach the ground. But floods of them reach the ground. Why?",
+      "episode_id": "ep01",
+      "segment_index": 50
+    },
+    {
+      "start_time": 1290.0,
+      "end_time": 1320.0,
+      "text": "Because they're moving so fast that their internal decay clock is dilated, stretched by a large gamma. So from our point of view, they live far longer than their at rest lifetime, long enough to complete the trip. We don't just believe time dilation, we get rained on by the evidence. That's wonderful. The sky is running the experiment for free. All right, clocks stretch. You also promised me rulers shrink. Same idea.",
+      "episode_id": "ep01",
+      "segment_index": 51
+    },
+    {
+      "start_time": 1320.0,
+      "end_time": 1350.0,
+      "text": "Same idea, seen from the side. Let me get the length contraction from the muon we were just discussing, because it's a lovely consistency check. We on the ground explain the muon reaching us by saying its clock ran slow. But now ride along with the muon. In its own frame, its clock is perfectly normal. It lives its ordinary couple of millionths of a second, no dilation, because it's at rest relative to itself.",
+      "episode_id": "ep01",
+      "segment_index": 52
+    },
+    {
+      "start_time": 1350.0,
+      "end_time": 1380.0,
+      "text": "So how does it possibly cross all that atmosphere in such a short life? From the muon's point of view, the atmosphere is the thing that's moving, rushing up at it near light speed, and that whole thickness of atmosphere is contracted, squashed thin along the direction of motion. The distance it has to travel is shortened by exactly the factor gamma. Short enough to cross in its normal lifetime.",
+      "episode_id": "ep01",
+      "segment_index": 53
+    },
+    {
+      "start_time": 1380.0,
+      "end_time": 1410.0,
+      "text": "So one observer says, your clock slowed. The other says, your distance shrank. And they both correctly predict the muon hits the ground. They must both get the same physical outcome. The muon either reaches the ground or it doesn't, and everyone has to agree on that. What they don't have to agree on is the explanation in terms of space versus time. One frame spends the effect on time.",
+      "episode_id": "ep01",
+      "segment_index": 54
+    },
+    {
+      "start_time": 1410.0,
+      "end_time": 1440.0,
+      "text": "The other spends it on space, and it always balances. And that gives us the length contraction rule. An object in motion is shortened along its direction of travel by the factor gamma. A meter stick flying past you lengthwise is measured by you as shorter than a meter. Only along the motion, the dimensions across the motion are untouched. And again, the object isn't crushed or stressed.",
+      "episode_id": "ep01",
+      "segment_index": 55
+    },
+    {
+      "start_time": 1440.0,
+      "end_time": 1470.0,
+      "text": "Space itself, measured between those moving points, is what's compressed. Before we go on, can we make the simultaneity thing concrete? You keep saying, your now tilts relative to mine, and I believe it, but I want a handle on how much. Is there an actual rule? There is, and it's worth having, because it's the quantitative core of the whole paper. The piece history remembers as the Lorentz transformation.",
+      "episode_id": "ep01",
+      "segment_index": 56
+    },
+    {
+      "start_time": 1470.0,
+      "end_time": 1500.0,
+      "text": "Einstein derived it directly from the two postulates. It's just the dictionary that translates the where and when of an event from one frame to another. Take my frame and yours, moving at speed V relative to me. An event happens at some position and some time in my frame. To get its position in your frame, you don't simply subtract off how far you've traveled. You do that and then multiply the whole thing by gamma.",
+      "episode_id": "ep01",
+      "segment_index": 57
+    },
+    {
+      "start_time": 1500.0,
+      "end_time": 1530.0,
+      "text": "And to get its time in your frame, here's the shock. The time isn't just my time slowed down. It's my time, adjusted by a term that depends on where the event happened. Specifically, minus the event's position times V over C squared. The whole thing again scaled by gamma. Wait, stop on that. The time in your frame depends on the position of the event. Time depends on where something is.",
+      "episode_id": "ep01",
+      "segment_index": 58
+    },
+    {
+      "start_time": 1530.0,
+      "end_time": 1560.0,
+      "text": "That is relativity of simultaneity written as an equation, and it's the single",
+      "episode_id": "ep01",
+      "segment_index": 59
+    },
+    {
+      "start_time": 1500.0,
+      "end_time": 1530.0,
+      "text": "the most important term in the paper. Look at what it says. Two events that happen at the same time in my frame, but at different places, get different times in yours. Because that minus position times V over C squared piece is different for each of them. The further apart they are, the bigger the disagreement. Concretely, if you have a row of clocks, all synchronized in their own rest frame, and you go flying past them, they don't all read the same to you.",
+      "episode_id": "ep01",
+      "segment_index": 60
+    },
+    {
+      "start_time": 1530.0,
+      "end_time": 1560.0,
+      "text": "The ones further ahead in your direction of motion read earlier and earlier. People say it as a slogan, leading clocks lag. The clock out in front in the direction of motion is the one that's behind. And that offset, position times V over C squared, is exactly what makes each observer see the other's clocks as slow without contradiction, which is the knot I think you're about to pull on.",
+      "episode_id": "ep01",
+      "segment_index": 61
+    },
+    {
+      "start_time": 1560.0,
+      "end_time": 1590.0,
+      "text": "You read my mind, because that's precisely the thing that's been nagging me the whole time. And I suspect it's the classic trap. You keep saying the moving clock runs slow, but by the principle of relativity, the person on the train has every right to say they're at rest, and I'm the one moving. So they see my clock run slow. We each see the other's clock running slow. That's a contradiction. Both clocks can't be slower than each other.",
+      "episode_id": "ep01",
+      "segment_index": 62
+    },
+    {
+      "start_time": 1590.0,
+      "end_time": 1620.0,
+      "text": "This is the objection, and it is the exact place where people either give up or finally get it. So let's get it. You're right that each of us sees the other's clock run slow, and you're right that it sounds like a flat contradiction. The resolution is the thing we built at the very beginning, the relativity of simultaneity. The reason it's not a contradiction is that when I compare our clocks,",
+      "episode_id": "ep01",
+      "segment_index": 63
+    },
+    {
+      "start_time": 1620.0,
+      "end_time": 1650.0,
+      "text": "I have to decide which reading of your clock to hold up against which reading of mine. And that comparison depends on which distant events I call simultaneous. And you and I disagree about simultaneity. So when I line up your clock now against my clock now, I'm using my notion of now, which is tilted relative to yours. We are literally not comparing the same pairs of events.",
+      "episode_id": "ep01",
+      "segment_index": 64
+    },
+    {
+      "start_time": 1650.0,
+      "end_time": 1680.0,
+      "text": "So we never actually put the two clocks side by side and read them against a shared now, because there is no shared now. There's the key. As long as we're flying apart, every comparison is really each of us slicing the other's timeline with our own tilted sense of simultaneity, and both slices are self-consistent. The only way to get a genuine, no arguing, put them side by side comparison,",
+      "episode_id": "ep01",
+      "segment_index": 65
+    },
+    {
+      "start_time": 1680.0,
+      "end_time": 1710.0,
+      "text": "is to bring the clocks back together to one place. And to do that, at least one of you has to turn around. Turning around means accelerating, and accelerating breaks the symmetry. The one who turns is no longer just an inertial observer. That's the famous twin situation. The twin who journeys out and comes back has genuinely aged less. And the asymmetry enters precisely at the turnaround.",
+      "episode_id": "ep01",
+      "segment_index": 66
+    },
+    {
+      "start_time": 1710.0,
+      "end_time": 1740.0,
+      "text": "But as long as nobody turns around, each sees the other's clock slow is not a paradox. It's two consistent perspectives that never share a single now. You dropped the word twin, and I can't let it go, because that's the version that always breaks my brain. Spell it out. Where exactly does the symmetry break? Let's do it slowly, because it's the perfect stress test of everything we've built. Two twins.",
+      "episode_id": "ep01",
+      "segment_index": 67
+    },
+    {
+      "start_time": 1740.0,
+      "end_time": 1770.0,
+      "text": "One stays home on Earth, the other boards a ship, flies out to some distant star at close to the speed of light, turns around and comes home. When they reunite, the traveling twin is younger, genuinely, physically younger, fewer birthdays. Now the puzzle. During the trip, motion is relative, so why doesn't it work both ways? The home twin says, your clock ran slow, so you're younger.",
+      "episode_id": "ep01",
+      "segment_index": 68
+    },
+    {
+      "start_time": 1770.0,
+      "end_time": 1800.0,
+      "text": "But the traveling twin, feeling perfectly at rest in their own ship, watching Earth recede and return, wants to say the exact same thing about the home twin. If it's symmetric, they should each be younger than the other, which is nonsense when they stand face-to-face. Right, that's the crusher. They can't each be younger. So, who's actually right, and why isn't it a coin flip? The break is one word. Turn around.",
+      "episode_id": "ep01",
+      "segment_index": 69
+    },
+    {
+      "start_time": 1800.0,
+      "end_time": 1830.0,
+      "text": "The home twin stays in a single inertial frame the whole time. One steady point of view, start to finish. The traveling twin does not. To come back, they have to fire the engines, decelerate, and accelerate the other way. During that turnaround, they feel a force. They're pressed into the seat, and that's the tell.",
+      "episode_id": "ep01",
+      "segment_index": 70
+    },
+    {
+      "start_time": 1800.0,
+      "end_time": 1829.0,
+      "text": "acceleration is not relative. There's no ambiguity about who felt it. The traveling twin knows they turned around. The home twin never felt a thing. So the situation was never actually symmetric, and you're not allowed to run the each sees the other slow argument from the traveler's seat as if they were one steady inertial observer, because they weren't.",
+      "episode_id": "ep01",
+      "segment_index": 71
+    },
+    {
+      "start_time": 1829.0,
+      "end_time": 1859.0,
+      "text": "Okay, but I want more than acceleration breaks the tie. What actually happens to the traveler's picture of Earth during that turnaround? Because for most of the trip, they really are coasting. This is the beautiful part, and it's our simultaneity term doing the work. For most of the trip, the traveler is coasting. And yes, during the outbound coast, they see Earth's clock running slow.",
+      "episode_id": "ep01",
+      "segment_index": 72
+    },
+    {
+      "start_time": 1859.0,
+      "end_time": 1890.0,
+      "text": "And during the inbound coast, they again see Earth's clock running slow. If that were the whole story, they'd predict the home twin is younger. The wrong answer. What they're missing is the turnaround. Remember, leading clocks lag, and remember that the offset depends on distance. At the turnaround, the traveler swaps which direction is forward, and the Earth is now very far away.",
+      "episode_id": "ep01",
+      "segment_index": 73
+    },
+    {
+      "start_time": 1890.0,
+      "end_time": 1920.0,
+      "text": "That swap does something dramatic to their notion of what now on Earth means. Their line of simultaneity swings, and a huge span of Earth time that they'd been skipping over suddenly falls into their now. From the traveler's own accounting, Earth's clock races forward during the turnaround. Add it all up. Slow coast out, big jump at the turn, slow coast back,",
+      "episode_id": "ep01",
+      "segment_index": 74
+    },
+    {
+      "start_time": 1920.0,
+      "end_time": 1950.0,
+      "text": "and the traveler computes that the home twin aged more. Both twins now agree, and they agree with what the clocks read when they're standing together. So the missing time doesn't vanish, it's hiding in the moment the traveler flips around. And that flip is the thing only one of them experiences. Precisely. The asymmetry isn't smuggled in. It's the physical fact of who fired their engines.",
+      "episode_id": "ep01",
+      "segment_index": 75
+    },
+    {
+      "start_time": 1950.0,
+      "end_time": 1980.0,
+      "text": "And this is not a thought experiment anymore. It's been done with atomic clocks flown around the world on airliners, which come back reading a hair behind clocks that stayed on the ground by just the amount the theory predicts. Flying is very slightly time travel into the future. So the twin situation isn't a paradox at all. It's one of relativity's most down-to-earth confirmations that time is a road,",
+      "episode_id": "ep01",
+      "segment_index": 76
+    },
+    {
+      "start_time": 1980.0,
+      "end_time": 2010.0,
+      "text": "and different routes through it have different lengths. That genuinely unknots it for me. The symmetry is real, and it's only broken by whoever actually changes their motion. Okay, we've bent time and bent space. Somewhere in here, the speed of light becomes a wall. How does that fall out? It falls out of asking the most natural question left. How do velocities combine now?",
+      "episode_id": "ep01",
+      "segment_index": 77
+    },
+    {
+      "start_time": 2010.0,
+      "end_time": 2040.0,
+      "text": "We saw that light refuses to obey, speeds just add. But ordinary things, do they add? If I'm on a train doing half the speed of light, and I fire a ball forward, also at half the speed of light relative to the train, an outside observer sees the ball going, you'd say the whole speed of light, half plus half. Does it? By everything we just did, I'm now nervous to say yes, C.",
+      "episode_id": "ep01",
+      "segment_index": 78
+    },
+    {
+      "start_time": 2040.0,
+      "end_time": 2070.0,
+      "text": "Because if it were exactly C, that's fine. But if I fired something faster, I'd exceed C, and you've been building a wall. Your nervousness is correct. Once space and time bend by gamma, the rule for adding velocities changes. The new rule, to combine two speeds, say your speed and the ball's speed relative to you, you add them, but then you divide by a correction factor.",
+      "episode_id": "ep01",
+      "segment_index": 79
+    },
+    {
+      "start_time": 2070.0,
+      "end_time": 2100.0,
+      "text": "1 plus the product of the two speeds divided by C squared. Let me say it plainly with the half and half case. Ordinarily, you'd get one whole C, but you divide by 1 plus a half times a half, 1 plus a quarter, which is 1 and a quarter. So instead of the full C, you get the combined speed as 4/5 of C, less than C.",
+      "episode_id": "ep01",
+      "segment_index": 80
+    },
+    {
+      "start_time": 2100.0,
+      "end_time": 2130.0,
+      "text": "The correction always pulls the sum back below the speed of light. And if I push the input all the way up, fire light itself at C from my fast-moving train, then watch the rule do its job. You put in C for the ball's speed. On the top, you have your speed plus C. On the bottom, 1 plus your speed times C over C squared, which is 1 plus your speed over C.",
+      "episode_id": "ep01",
+      "segment_index": 81
+    },
+    {
+      "start_time": 2130.0,
+      "end_time": 2160.0,
+      "text": "Do the algebra, and the whole thing collapses back to exactly C. The speed of light plus any speed is still just the speed of light. That's postulate two, falling right out of the velocity rule.",
+      "episode_id": "ep01",
+      "segment_index": 82
+    },
+    {
+      "start_time": 2100.0,
+      "end_time": 2129.0,
+      "text": "as it must. And for anything moving slower than light, no matter how you stack speeds, you asymptotically approach C, but never reach it. The speed of light isn't a speed limit because of some engine's weakness. It's built into the geometry of how velocities combine. It is the seam of space and time. But that's a statement about adding up speeds, a bookkeeping rule. Let me be the stubborn engineer.",
+      "episode_id": "ep01",
+      "segment_index": 83
+    },
+    {
+      "start_time": 2129.0,
+      "end_time": 2159.0,
+      "text": "I don't care about your rule. I strap a big enough rocket to a ship and I just keep burning fuel. Every second I push, I go faster. What physically stops me from crossing C? This is the right pushback. And the answer is the other wall, the energy wall, and it comes out of the same postulates once you ask how momentum and energy have to work for fast things.",
+      "episode_id": "ep01",
+      "segment_index": 84
+    },
+    {
+      "start_time": 2159.0,
+      "end_time": 2190.0,
+      "text": "Here's the punch line first. As your ship goes faster, it gets harder and harder to speed up. Not because the rocket weakens, but because the ship's resistance to being pushed, its inertia, grows with speed. The faster you go, the more each additional shove buys you less speed. And that growth is governed by our friend Gamma again. As V climbs toward C, Gamma runs away toward infinity, and so does the energy you'd need",
+      "episode_id": "ep01",
+      "segment_index": 85
+    },
+    {
+      "start_time": 2190.0,
+      "end_time": 2220.0,
+      "text": "to squeeze out that last little bit of speed. So the finish line keeps costing more the closer I get. It costs unboundedly more. To actually reach C, a ship with mass would need infinite energy. The amount diverges as you approach the speed of light. There isn't that much energy in the universe, so it simply cannot be done. And notice how neatly this dovetails with the velocity addition rule.",
+      "episode_id": "ep01",
+      "segment_index": 86
+    },
+    {
+      "start_time": 2220.0,
+      "end_time": 2250.0,
+      "text": "One says you can never add speeds up past C. The other says you could never afford the energy to try. Kinematics and dynamics agree. And it flips around for light. A particle with no mass, like the photon, doesn't pay that price. In fact, it is required to travel at exactly C and can do nothing else. Massless means always at C. Massive means forever approaching, but never reaching.",
+      "episode_id": "ep01",
+      "segment_index": 87
+    },
+    {
+      "start_time": 2250.0,
+      "end_time": 2280.0,
+      "text": "The speed of light is the one boundary the universe draws in two independent inks and gets the same line. So nothing with mass ever gets to C and light, which has no mass, is stuck at exactly C for everyone. That's a strange kind of democracy. It's the most rigid democracy in physics. Every inertial observer, no exceptions, agrees on that one speed and disagrees about almost everything else.",
+      "episode_id": "ep01",
+      "segment_index": 88
+    },
+    {
+      "start_time": 2280.0,
+      "end_time": 2310.0,
+      "text": "lengths, durations, simultaneity. And now we can finally circle back and collect the debt from the beginning of the paper, because remember the title is on the electrodynamics of moving bodies. We've been doing kinematics, clocks and rulers. The second half of the paper is about what all this does to electricity and magnetism, and it pays off the magnet and conductor puzzle we opened with. Right, the two stories for one current.",
+      "episode_id": "ep01",
+      "segment_index": 89
+    },
+    {
+      "start_time": 2310.0,
+      "end_time": 2340.0,
+      "text": "The electric field story and the magnetic force story. How does relativity heal that? By revealing that the electric field and the magnetic field were never two separate things. They're two views of a single object, and which view you get depends on your motion. Take the magnet and conductor. In the frame where the wire sits still and the magnet moves, you genuinely see a changing magnetic field producing an electric field.",
+      "episode_id": "ep01",
+      "segment_index": 90
+    },
+    {
+      "start_time": 2340.0,
+      "end_time": 2370.0,
+      "text": "And that electric field pushes the charges. In the frame where the magnet sits still and the wire moves, you genuinely see only a static magnetic field, and the charges feel a magnetic force because they're moving through it. Same current. And Einstein shows that if you take Maxwell's equations and pass from one frame to the other, using the very transformations we've been building, the ones with gamma in them, the electric and magnetic fields mix into each other.",
+      "episode_id": "ep01",
+      "segment_index": 91
+    },
+    {
+      "start_time": 2370.0,
+      "end_time": 2400.0,
+      "text": "What one observer calls a pure magnetic field, another moving, calls a blend of electric and magnetic. They're components of one unified electromagnetic field, seen from different angles in spacetime. So the two different mechanisms were never two mechanisms. It was one field, and the split into electric and magnetic is just a point of view. Exactly that. The asymmetry that bothered Einstein in the first sentence",
+      "episode_id": "ep01",
+      "segment_index": 92
+    },
+    {
+      "start_time": 2400.0,
+      "end_time": 2430.0,
+      "text": "was an artifact of pretending there's a fact of the matter about who's moving. Once you accept there isn't, the two stories become one story told in two accents. Electricity and magnetism aren't just related, they are literally the same field.",
+      "episode_id": "ep01",
+      "segment_index": 93
+    },
+    {
+      "start_time": 2400.0,
+      "end_time": 2430.0,
+      "text": "carved up differently by observers in relative motion. And notice what Einstein did and didn't do here. He didn't modify Maxwell's equations to make this work. He kept them exactly in every frame. That was postulate one applied to electrodynamics, and he changed space and time instead, so that the equations could hold for everyone. He bent the stage to save the play. There's a phrase you used earlier that I keep coming back to. You didn't change the light, you changed the stage. That's really the whole thing, isn't it? That's the whole thing in nine words. Every other physicist facing the ether trouble was trying to change the light, or the matter, or invent a mechanism, a drag, a contraction, a substance. Einstein left light exactly as Maxwell described it, took its constant speed as sacred, and asked what space and time must be like for that to be consistent for everybody. The radical part isn't a new force. There's no new force in this paper at all. The radical part is that space and time stopped being the fixed, God's eye backdrop, and became flexible, observer dependent, and interwoven. Does any of this touch light we actually look at? Because so far the light has been signals on trains. What happens to real light, starlight when I'm moving? Two lovely things, and the paper works both out. The first is the Doppler effect for light. You know the everyday version with sound, a siren rises in pitch as it comes toward you, and drops as it goes away, because the waves get bunched up or stretched out. Light does the same. A source coming toward you has its waves crowded, shifted toward the blue, higher frequency. A source moving away is stretched toward the red. That's why we know distant galaxies are receding. Their light is red shifted. But relativity adds a twist that sound doesn't have. Because moving clocks run slow, the source's own vibration is time dilated too, and that folds the factor gamma into the shift. So the relativistic Doppler shift isn't quite the same formula as the sound one. It's not. And the cleanest place to see the difference is the strangest case. What if the source moves straight across your line of sight, neither toward you nor away, just sideways at the instant you catch it. For sound, purely sideways motion gives no pitch shift at all, because it's not closing or opening the distance. But for light, there's still a shift, a red shift, and it comes entirely from time dilation. It's called the transverse Doppler effect, and it's a direct, pure look at the moving clock running slow, with no back and forth motion muddying it. It's been measured. The second thing is aberration. The apparent positions of the stars shift depending on your motion. As the Earth moves, starlight seems to come at a slightly tilted angle, as if you're walking through vertical rain and it appears to slant. At high speed, the effect is dramatic. The stars ahead of you appear to crowd together toward the point you're heading for. So your motion doesn't just change the color of the sky, it rearranges where things appear to sit on it. We should mention the one equation everybody knows, because so far you have carefully not said it. Where does E equals mc squared live in all this? I've been holding it back on purpose, because there's a detail people usually get wrong. It is not in this paper. The June paper on the electrodynamics of moving bodies is the kinematics and the electrodynamics we've discussed. Then a few months later, in September of 1905, Einstein publishes a tiny follow-up, a three-page afterthought, really, with the title, as a question, does the inertia of a body depend on its energy content? And that little paper is where the most famous equation in the world is born. A three-page afterthought. What's the argument in it? It's gorgeous and short. He imagines a body sitting still that emits light, energy, equally in two opposite directions, so it doesn't recoil. It stays put. He asks how this looks from a moving frame, using the relativistic rules for how light's energy transforms, the ones he's just built. And when he balances the books, he finds that the body, having given off an amount of energy, has also lost a specific amount of mass. The energy divided by C squared. Emit energy, lose mass. Turn it around, and the statement is, the mass of a body is a measure of its energy content.",
+      "episode_id": "ep01",
+      "segment_index": 94
+    },
+    {
+      "start_time": 2700.0,
+      "end_time": 2729.0,
+      "text": "mass and energy are the same thing in different units, and the exchange rate between them is C squared. Written out, energy equals mass times the speed of light squared. And because C squared is an enormous number, a tiny bit of mass is a colossal amount of energy. A colossal amount. The speed of light squared is a huge conversion factor, so a sliver of mass carries staggering energy.",
+      "episode_id": "ep01",
+      "segment_index": 95
+    },
+    {
+      "start_time": 2729.0,
+      "end_time": 2760.0,
+      "text": "That single line is the accounting behind why the sun shines. It's converting a bit of its mass into sunlight every second. And behind nuclear energy, for better and worse. But I want to keep the emphasis where Einstein put it. This isn't a separate discovery bolted on. It's the direct bookkeeping consequence of taking the constant speed of light seriously and following it into how energy behaves for moving observers.",
+      "episode_id": "ep01",
+      "segment_index": 96
+    },
+    {
+      "start_time": 2760.0,
+      "end_time": 2790.0,
+      "text": "Same two postulates, one more consequence. So, let me try to say the whole arc back because I want to feel the shape of it. Einstein starts with a discomfort, one current, two stories, and a stubborn fact. You can't detect motion through the ether. He turns those into two postulates. Physics is the same for all steady observers, and light has one speed for all of them.",
+      "episode_id": "ep01",
+      "segment_index": 97
+    },
+    {
+      "start_time": 2790.0,
+      "end_time": 2820.0,
+      "text": "To keep light speed rigid, simultaneity has to become relative. There's no shared now. From that, moving clocks run slow and moving rulers shrink, both by the factor gamma, and each observer sees it happen to the other, with no contradiction because they never share a now. Velocities stop simply adding, which walls off the speed of light as uncrossable.",
+      "episode_id": "ep01",
+      "segment_index": 98
+    },
+    {
+      "start_time": 2820.0,
+      "end_time": 2850.0,
+      "text": "Electricity and magnetism merge into one field, seen from different motions, dissolving the original puzzle. And a few months later, the same logic squeezes out mass energy. Two sentences of assumption, and all of that is downstream. That's the arc, exactly. And the thing I'd want anyone to carry away is how little raw material it took.",
+      "episode_id": "ep01",
+      "segment_index": 99
+    },
+    {
+      "start_time": 2850.0,
+      "end_time": 2880.0,
+      "text": "No new particle, no new force, no new experiment of his own. Just two postulates and the refusal to look away from what they imply. The cost was our intuition that space and time are absolute and universal. The payoff was a universe that finally made consistent sense from every point of view. And it wasn't the end, it was a doorway.",
+      "episode_id": "ep01",
+      "segment_index": 100
+    },
+    {
+      "start_time": 2880.0,
+      "end_time": 2910.0,
+      "text": "A few years later, Herman Minkowski took Einstein's clocks and rulers and showed they fit together into a single four-dimensional geometry, spacetime, where space and time are just different directions in one fabric. And that reframing is exactly what let Einstein, a decade on, ask what happens when that fabric can curve, which is gravity, general relativity.",
+      "episode_id": "ep01",
+      "segment_index": 101
+    },
+    {
+      "start_time": 2910.0,
+      "end_time": 2939.0,
+      "text": "But that's another paper. Here's something that's bothering me on the way out, though. You've spent the whole hour telling me what observers disagree about, lengths, durations, whether things are simultaneous. Is there anything left that everybody agrees on, or is it disagreement all the way down? There is one thing, and it's the deepest idea in the whole subject. It's what Minkowski saw.",
+      "episode_id": "ep01",
+      "segment_index": 102
+    },
+    {
+      "start_time": 2939.0,
+      "end_time": 2969.0,
+      "text": "Observers disagree about the distance in space between two events, and they disagree about the lapse of time between them. But if you take the time between the events and the space between them and combine them in a particular way, roughly the time part squared minus the space part squared, with the speed of light setting the exchange rate, that specific combination comes out identical for everyone.",
+      "episode_id": "ep01",
+      "segment_index": 103
+    },
+    {
+      "start_time": 2969.0,
+      "end_time": 2999.0,
+      "text": "It's called the spacetime interval, and it is invariant. Every inertial observer, however they slice space and time separately, computes the same interval between the same two events. So, space and time individually are like shadows, but there's a real object casting them. That's exactly the right picture, and it's precisely how Minkowski put it.",
+      "episode_id": "ep01",
+      "segment_index": 104
+    },
+    {
+      "start_time": 2999.0,
+      "end_time": 3029.0,
+      "text": "Space by itself and time by itself fade to shadows, and only a union of the two stands as something real. Think of a stick in a room. You and I might disagree about how much of it points left, right, versus toward the wall, because we're facing different ways. Those are just our chosen axes. But we never disagree about the stick's actual length.",
+      "episode_id": "ep01",
+      "segment_index": 105
+    },
+    {
+      "start_time": 3029.0,
+      "end_time": 3059.0,
+      "text": "Relativity says space and time are like the left, right, and toward the wall of that stick. How much of the separation between two events is space and how much is time depends on your motion, your orientation.",
+      "episode_id": "ep01",
+      "segment_index": 106
+    },
+    {
+      "start_time": 3000.0,
+      "end_time": 3030.0,
+      "text": "orientation in spacetime, but the true separation, the interval is fixed. The disagreements you spent the hour worrying about are just different observers holding the same spacetime stick at different angles. That's the calm underneath all the strangeness. Not that nothing is absolute, but that the absolute thing lives in four dimensions, not three plus a separate one.",
+      "episode_id": "ep01",
+      "segment_index": 107
+    },
+    {
+      "start_time": 3030.0,
+      "end_time": 3060.0,
+      "text": "And the tie back to something you can hold, is any of this in daily life? Or is it all trains and muons? It's in your pocket. Satellite navigation, the system that tells your phone where you are, depends on clocks on satellites that are moving fast, thousands of kilometers up, orbiting the Earth. Because they're moving, the special relativity effect we spent all day on, makes their clocks tick slow relative to ours.",
+      "episode_id": "ep01",
+      "segment_index": 108
+    },
+    {
+      "start_time": 3060.0,
+      "end_time": 3090.0,
+      "text": "by a tiny but absolutely real amount. There's also a general relativity effect from them being higher in Earth's gravity, pulling the other way. But the point is, if engineers did not correct for these relativistic shifts, the position your phone reports would drift off by kilometers within a day. It works because we take Einstein's clocks seriously.",
+      "episode_id": "ep01",
+      "segment_index": 109
+    },
+    {
+      "start_time": 3090.0,
+      "end_time": 3120.0,
+      "text": "Every time your map finds you, it's quietly confirming that 1905 paper. So the patent clerk's spacetime paper is running silently every time we find our way home. Every single time. Two postulates written at a desk between patent applications and the fixed backdrop of the universe turned out to be a participant. Space stretches, time slows,",
+      "episode_id": "ep01",
+      "segment_index": 110
+    },
+    {
+      "start_time": 3120.0,
+      "end_time": 3150.0,
+      "text": "the two of them braid together, and the only thing that stays the same for everyone is a beam of light. That's where I'd leave it. Einstein didn't change the light, he changed the stage, and we've been living on the new one ever since. On the electrodynamics of moving bodies. Thanks for walking through it. Next time you glance at a clock, remember it only agrees with mine because we happen to be sitting still together.",
+      "episode_id": "ep01",
+      "segment_index": 111
+    },
+    {
+      "start_time": 3150.0,
+      "end_time": 3180.0,
+      "text": "And that agreement is a coincidence of our shared rest, not a law of the universe.",
+      "episode_id": "ep01",
+      "segment_index": 112
+    }
+  ],
+  "transcription_model": "google/gemini-2.5-flash",
+  "transcription_date": "2026-08-16T03:35:01.801926"
+}

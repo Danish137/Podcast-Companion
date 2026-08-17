@@ -1,0 +1,533 @@
+[
+  {
+    "episode_id": "ep01",
+    "episode_title": "Einstein's Special Relativity",
+    "filename": "Great Papers 01 - Einstein_s Special Relativity.mp3",
+    "duration_seconds": 3134.011438,
+    "segment_count": 113,
+    "paper_title": "On the Electrodynamics of Moving Bodies",
+    "authors": [
+      "Einstein"
+    ],
+    "publication_year": 1905,
+    "field": "Physics",
+    "subfield": "Special Relativity",
+    "key_concepts": [
+      "Electrodynamics",
+      "Maxwell's equations",
+      "Luminiferous ether",
+      "Michelson-Morley experiment",
+      "Principle of relativity",
+      "Constancy of the speed of light",
+      "Simultaneity",
+      "Time dilation",
+      "Lorentz factor (gamma)"
+    ],
+    "summary": "The podcast discusses Einstein's 1905 paper, \"On the Electrodynamics of Moving Bodies,\" focusing on how it addresses inconsistencies in classical physics, particularly regarding electromagnetism and the concept of the luminiferous ether. It explains Einstein's two postulatesâ€”the principle of relativity and the constancy of the speed of lightâ€”and how these lead to counter-intuitive consequences like the relativity of simultaneity and time dilation, using thought experiments such as the light clock.",
+    "disciplines": [
+      "Physics"
+    ]
+  },
+  {
+    "episode_id": "ep02",
+    "episode_title": "How Black Holes Radiate, Hawking 1975",
+    "filename": "Great Papers 02 - How Black Holes Radiate, Hawking 1975.mp3",
+    "duration_seconds": 2716.523125,
+    "segment_count": 113,
+    "paper_title": "Black hole explosions",
+    "authors": [
+      "Hawking"
+    ],
+    "publication_year": 1974,
+    "field": "Physics",
+    "subfield": "Quantum Gravity",
+    "key_concepts": [
+      "Black holes",
+      "Hawking radiation",
+      "Event horizon",
+      "Quantum vacuum",
+      "Thermodynamics",
+      "Entropy",
+      "Unruh effect",
+      "Bogoliubov transformation",
+      "Negative energy",
+      "Generalized second law"
+    ],
+    "summary": "The podcast discusses Hawking's 1974 paper, which initially aimed to debunk Bekenstein's idea that black holes have entropy and temperature. However, Hawking's calculations, incorporating quantum mechanics, unexpectedly led to the discovery that black holes radiate thermally, a phenomenon now known as Hawking radiation, and thus have a non-zero temperature and entropy.",
+    "disciplines": [
+      "Physics",
+      "Mathematics"
+    ]
+  },
+  {
+    "episode_id": "ep03",
+    "episode_title": "The Double Helix, Watson and Crick 1953",
+    "filename": "Great Papers 03 - The Double Helix, Watson and Crick 1953.mp3",
+    "duration_seconds": 2596.020375,
+    "segment_count": 105,
+    "paper_title": "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+    "authors": [
+      "James Watson",
+      "Francis Crick"
+    ],
+    "publication_year": 1953,
+    "field": "Biology",
+    "subfield": "Molecular Biology",
+    "key_concepts": [
+      "DNA structure",
+      "double helix",
+      "genetic material",
+      "base pairing",
+      "hydrogen bonds",
+      "Chargaff's rules",
+      "X-ray diffraction",
+      "model building",
+      "antiparallel strands",
+      "purines and pyrimidines"
+    ],
+    "summary": "The podcast discusses the 1953 paper by Watson and Crick that proposed the double helix structure of DNA. It highlights how this structure uniquely solved the problem of how genetic material could both store vast information and accurately copy itself, drawing on clues from chemistry, Chargaff's rules, and Rosalind Franklin's X-ray diffraction data.",
+    "disciplines": [
+      "Biology",
+      "Chemistry",
+      "Physics"
+    ]
+  },
+  {
+    "episode_id": "ep04",
+    "episode_title": "Shannon and the Birth of Information, 1948",
+    "filename": "Great Papers 04 - Shannon and the Birth of Information, 1948.mp3",
+    "duration_seconds": 2392.422125,
+    "segment_count": 88,
+    "paper_title": "A mathematical theory of communication",
+    "authors": [
+      "Claude Shannon"
+    ],
+    "publication_year": 1948,
+    "field": "Information Theory",
+    "subfield": "Communication Theory",
+    "key_concepts": [
+      "information",
+      "bit",
+      "entropy",
+      "redundancy",
+      "channel capacity",
+      "source coding theorem",
+      "noisy channel coding theorem",
+      "Landauer's principle",
+      "Maxwell's demon",
+      "compression"
+    ],
+    "summary": "The podcast discusses Claude Shannon's 1948 paper, which transformed the vague concept of information into a measurable, physical quantity. It explores how Shannon separated information from meaning, defined the 'bit' as its unit, and introduced 'entropy' to measure information content, ultimately demonstrating that perfect communication is possible even through noisy channels.",
+    "disciplines": [
+      "Information Theory",
+      "Mathematics",
+      "Physics",
+      "Engineering"
+    ]
+  },
+  {
+    "episode_id": "ep05",
+    "episode_title": "Attention Is All You Need, 2017",
+    "filename": "Great Papers 05 - Attention Is All You Need, 2017.mp3",
+    "duration_seconds": 2184.043938,
+    "segment_count": 71,
+    "paper_title": "Attention Is All You Need",
+    "authors": [],
+    "publication_year": 2017,
+    "field": "Computer Science",
+    "subfield": "Artificial Intelligence",
+    "key_concepts": [
+      "Transformer",
+      "Attention mechanism",
+      "Recurrent Neural Networks (RNNs)",
+      "Parallelism",
+      "Embeddings",
+      "Query-Key-Value model",
+      "Long-range dependencies",
+      "Machine Translation",
+      "Scaling"
+    ],
+    "summary": "The podcast discusses the 2017 paper \"Attention Is All You Need,\" which introduced the Transformer architecture, the foundation of modern AI models like GPT. It explains how the Transformer solved the limitations of previous recurrent neural networks by using an attention mechanism to handle long-range dependencies and enable massive parallelism, leading to unprecedented scalability in AI.",
+    "disciplines": [
+      "Computer Science",
+      "Artificial Intelligence",
+      "Linguistics"
+    ]
+  },
+  {
+    "episode_id": "ep06",
+    "episode_title": "General Relativity, Einstein 1915",
+    "filename": "Great Papers 06 - General Relativity, Einstein 1915.mp3",
+    "duration_seconds": 2028.040313,
+    "segment_count": 79,
+    "paper_title": "The Foundation of the General Theory of Relativity",
+    "authors": [
+      "Albert Einstein"
+    ],
+    "publication_year": 1915,
+    "field": "Physics",
+    "subfield": "General Relativity",
+    "key_concepts": [
+      "Equivalence Principle",
+      "Spacetime Curvature",
+      "Gravitational Time Dilation",
+      "Gravitational Redshift",
+      "Geodesics",
+      "Metric Tensor",
+      "Einstein Field Equations",
+      "Tidal Effects"
+    ],
+    "summary": "This podcast episode delves into Einstein's journey from special to general relativity, highlighting the two 'loose threads' of gravity and accelerated observers that special relativity couldn't explain. It focuses on the 'happiest thought' â€“ the equivalence principle â€“ and how it leads to the revolutionary idea that gravity is not a force but the curvature of spacetime, culminating in the Einstein field equations.",
+    "disciplines": [
+      "Physics",
+      "Mathematics"
+    ]
+  },
+  {
+    "episode_id": "ep07",
+    "episode_title": "On Computable Numbers, Turing 1936",
+    "filename": "Great Papers 07 - On Computable Numbers, Turing 1936.mp3",
+    "duration_seconds": 1982.300063,
+    "segment_count": 63,
+    "paper_title": "On Computable Numbers, with an Application to the Entscheidungsproblem",
+    "authors": [
+      "Alan Turing"
+    ],
+    "publication_year": 1936,
+    "field": "Mathematics",
+    "subfield": "Mathematical Logic",
+    "key_concepts": [
+      "Computable Numbers",
+      "Turing Machine",
+      "Entscheidungsproblem",
+      "Halting Problem",
+      "GÃ¶del's Incompleteness Theorem",
+      "Cantor's Diagonal Argument",
+      "Uncomputable Numbers",
+      "Mechanical Procedure",
+      "Busy Beaver Numbers",
+      "Universal Turing Machine"
+    ],
+    "summary": "The podcast discusses Alan Turing's 1936 paper, which introduced the concept of a universal computing machine (the Turing Machine) to answer a fundamental question in pure logic about the limits of mathematics. It explains how Turing used this imaginary machine to prove that some things can never be computed, thereby laying the theoretical groundwork for modern computers while also demonstrating inherent limitations to what any machine can know.",
+    "disciplines": [
+      "Mathematics",
+      "Computer Science",
+      "Logic"
+    ]
+  },
+  {
+    "episode_id": "ep08",
+    "episode_title": "Natural Selection, Darwin and Wallace 1858",
+    "filename": "Great Papers 08 - Natural Selection, Darwin and Wallace 1858.mp3",
+    "duration_seconds": 1993.115125,
+    "segment_count": 65,
+    "paper_title": "On the Tendency of Species to form Varieties; and on the Perpetuation of Varieties and Species by Natural Means of Selection",
+    "authors": [
+      "Charles Darwin",
+      "Alfred Russel Wallace"
+    ],
+    "publication_year": 1858,
+    "field": "Biology",
+    "subfield": "Evolutionary Biology",
+    "key_concepts": [
+      "natural selection",
+      "variation",
+      "heredity",
+      "overproduction",
+      "struggle for existence",
+      "deep time",
+      "adaptation",
+      "speciation",
+      "artificial selection",
+      "design without a designer"
+    ],
+    "summary": "The podcast discusses the 1858 joint paper by Darwin and Wallace, which was the first public announcement of the theory of natural selection. It details how both men independently arrived at the same idea, the core components of the theory, and the historical context and initial reception of their work.",
+    "disciplines": [
+      "Biology",
+      "Geology",
+      "Physics",
+      "Economics"
+    ]
+  },
+  {
+    "episode_id": "ep09",
+    "episode_title": "Bell's Theorem, 1964",
+    "filename": "Great Papers 09 - Bell_s Theorem, 1964.mp3",
+    "duration_seconds": 2040.318313,
+    "segment_count": 74,
+    "paper_title": "Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?",
+    "authors": [
+      "Albert Einstein",
+      "Boris Podolsky",
+      "Nathan Rosen"
+    ],
+    "publication_year": 1935,
+    "field": "Physics",
+    "subfield": "Quantum Mechanics",
+    "key_concepts": [
+      "entanglement",
+      "spooky action at a distance",
+      "hidden variables",
+      "local realism",
+      "Bell's theorem",
+      "Bell's inequality",
+      "quantum spin",
+      "wave function",
+      "superposition",
+      "GHZ experiment"
+    ],
+    "summary": "The podcast discusses the EPR paper, where Einstein and colleagues argued that quantum mechanics was incomplete due to the concept of entanglement and proposed 'hidden variables' as an explanation. It then explains how John Bell later transformed this philosophical debate into a testable experiment, demonstrating that local realism and quantum mechanics make measurably different predictions, ultimately proving Einstein's objection wrong.",
+    "disciplines": [
+      "Physics",
+      "Mathematics"
+    ]
+  },
+  {
+    "episode_id": "ep10",
+    "episode_title": "The Expanding Universe, Hubble 1929",
+    "filename": "Great Papers 10 - The Expanding Universe, Hubble 1929.mp3",
+    "duration_seconds": 1974.88175,
+    "segment_count": 66,
+    "paper_title": "A Relation between Distance and Radial Velocity among Extra-Galactic Nebulae",
+    "authors": [
+      "Edwin Hubble"
+    ],
+    "publication_year": 1929,
+    "field": "Astronomy",
+    "subfield": "Cosmology",
+    "key_concepts": [
+      "expanding universe",
+      "Hubble's Law",
+      "redshift",
+      "standard candles",
+      "Cepheid variables",
+      "island universes",
+      "cosmic distance ladder",
+      "period-luminosity relation"
+    ],
+    "summary": "The podcast discusses Edwin Hubble's 1929 paper, which presented evidence that galaxies are receding from us at a speed proportional to their distance, a relationship now known as Hubble's Law. This finding, built upon the work of Henrietta Leavitt and Vesto Slipher, demonstrated that the universe is expanding and that our Milky Way is just one of many galaxies, fundamentally changing our understanding of the cosmos.",
+    "disciplines": [
+      "Astronomy",
+      "Physics"
+    ]
+  },
+  {
+    "episode_id": "ep11",
+    "episode_title": "The Birth of the Quantum, Planck 1900",
+    "filename": "Great Papers 11 - The Birth of the Quantum, Planck 1900.mp3",
+    "duration_seconds": 1983.031813,
+    "segment_count": 73,
+    "paper_title": "On the Law of Distribution of Energy in the Normal Spectrum",
+    "authors": [
+      "Max Planck"
+    ],
+    "publication_year": 1900,
+    "field": "Physics",
+    "subfield": "Quantum Mechanics",
+    "key_concepts": [
+      "Black body radiation",
+      "Ultraviolet catastrophe",
+      "Equipartition theorem",
+      "Quantization of energy",
+      "Planck's constant",
+      "Wave-particle duality",
+      "Wien's displacement law",
+      "Planck's law",
+      "Correspondence principle",
+      "Oscillators"
+    ],
+    "summary": "The podcast discusses Max Planck's 1900 paper, which introduced the concept of energy quantization to explain black body radiation and resolve the ultraviolet catastrophe. Planck reluctantly proposed that energy is exchanged in discrete packets, or quanta, leading to his famous formula and the accidental birth of quantum mechanics, a theory he initially resisted.",
+    "disciplines": [
+      "Physics",
+      "Mathematics"
+    ]
+  },
+  {
+    "episode_id": "ep12",
+    "episode_title": "The Dirac Equation and Antimatter, 1928",
+    "filename": "Great Papers 12 - The Dirac Equation and Antimatter, 1928.mp3",
+    "duration_seconds": 1980.759125,
+    "segment_count": 76,
+    "paper_title": "The Quantum Theory of the Electron",
+    "authors": [
+      "Paul Dirac"
+    ],
+    "publication_year": 1928,
+    "field": "Physics",
+    "subfield": "Quantum Mechanics",
+    "key_concepts": [
+      "Dirac Equation",
+      "Special Relativity",
+      "Quantum Mechanics",
+      "Electron Spin",
+      "Antimatter",
+      "Negative Energy Solutions",
+      "Fine Structure",
+      "Klein-Gordon Equation",
+      "Matrices",
+      "Exclusion Principle"
+    ],
+    "summary": "The podcast discusses Paul Dirac's 1928 paper where he reconciled quantum mechanics and special relativity, leading to the Dirac Equation. This equation unexpectedly predicted electron spin and the existence of antimatter (specifically, the positron), which was later experimentally confirmed.",
+    "disciplines": [
+      "Physics",
+      "Mathematics"
+    ]
+  },
+  {
+    "episode_id": "ep13",
+    "episode_title": "How DNA Copies Itself, Meselson-Stahl 1958",
+    "filename": "Great Papers 13 - How DNA Copies Itself, Meselson-Stahl 1958.mp3",
+    "duration_seconds": 1961.951063,
+    "segment_count": 76,
+    "paper_title": "The Replication of DNA in Escherichia Coli",
+    "authors": [
+      "Matthew Meselson",
+      "Franklin Stahl"
+    ],
+    "publication_year": 1958,
+    "field": "Biology",
+    "subfield": "Molecular Biology",
+    "key_concepts": [
+      "DNA replication",
+      "Semi-conservative replication",
+      "Conservative replication",
+      "Dispersive replication",
+      "Density gradient centrifugation",
+      "Nitrogen isotopes (N14, N15)",
+      "E. coli",
+      "DNA density",
+      "Isotopic labeling",
+      "Molecular weighing"
+    ],
+    "summary": "The podcast discusses Meselson and Stahl's 1958 experiment, widely considered the 'most beautiful experiment in biology,' which definitively proved that DNA replication is semi-conservative. They achieved this by using nitrogen isotopes to label DNA and density gradient centrifugation to distinguish old from new DNA, elegantly ruling out conservative and dispersive replication models.",
+    "disciplines": [
+      "Biology",
+      "Chemistry",
+      "Physics"
+    ]
+  },
+  {
+    "episode_id": "ep14",
+    "episode_title": "Godel's Incompleteness Theorems, 1931",
+    "filename": "Great Papers 14 - GoÌˆdel_s Incompleteness Theorems, 1931.mp3",
+    "duration_seconds": 1938.545188,
+    "segment_count": 72,
+    "paper_title": "On Formally Undecidable Propositions of Principia Mathematica and Related Systems",
+    "authors": [
+      "Kurt GÃ¶del"
+    ],
+    "publication_year": 1931,
+    "field": "Mathematics",
+    "subfield": "Mathematical Logic",
+    "key_concepts": [
+      "Incompleteness Theorem",
+      "Consistency",
+      "Completeness",
+      "Self-reference",
+      "GÃ¶del numbering",
+      "Liar paradox",
+      "Russell's paradox",
+      "Formal systems",
+      "Undecidability",
+      "Axioms"
+    ],
+    "summary": "The podcast discusses Kurt GÃ¶del's 1931 paper, which demonstrated that in any sufficiently powerful and consistent mathematical system, there will always be true statements that cannot be proven within that system. It explains how GÃ¶del achieved this by creating a self-referential statement using a technique called GÃ¶del numbering, effectively showing that mathematics cannot be both complete and consistent.",
+    "disciplines": [
+      "Mathematics"
+    ]
+  },
+  {
+    "episode_id": "ep15",
+    "episode_title": "The Periodic Table, Mendeleev 1869",
+    "filename": "Great Papers 15 - The Periodic Table, Mendeleev 1869.mp3",
+    "duration_seconds": 1871.3585,
+    "segment_count": 69,
+    "paper_title": "The Periodic Law of the Chemical Elements",
+    "authors": [
+      "Dmitri Mendeleev"
+    ],
+    "publication_year": 1869,
+    "field": "Chemistry",
+    "subfield": "Inorganic Chemistry",
+    "key_concepts": [
+      "Periodic Table",
+      "Atomic Weight",
+      "Valence",
+      "Prediction of Elements",
+      "Atomic Number",
+      "Isotopes",
+      "Chemical Properties",
+      "Periodicity",
+      "Alkali Metals",
+      "Halogens"
+    ],
+    "summary": "The podcast discusses Dmitri Mendeleev's 1869 paper on the periodic table, highlighting his audacious predictions of undiscovered elements and his decision to prioritize chemical properties over atomic weight in certain cases. It also explores how later discoveries, particularly the concept of atomic number, validated his insights and connected his work to quantum mechanics.",
+    "disciplines": [
+      "Chemistry",
+      "Physics"
+    ]
+  },
+  {
+    "episode_id": "ep16",
+    "episode_title": "Nash Equilibrium and Game Theory, 1950",
+    "filename": "Great Papers 16 - Nash Equilibrium and Game Theory, 1950.mp3",
+    "duration_seconds": 1951.920188,
+    "segment_count": 64,
+    "paper_title": "Equilibrium Points in N-Person Games",
+    "authors": [
+      "John Nash"
+    ],
+    "publication_year": 1950,
+    "field": "Mathematics",
+    "subfield": "Game Theory",
+    "key_concepts": [
+      "Nash equilibrium",
+      "Game theory",
+      "Non-cooperative games",
+      "Prisoner's dilemma",
+      "Fixed-point theorem",
+      "Minimax theorem",
+      "Focal point",
+      "Price of anarchy",
+      "Repeated games",
+      "Evolutionary stable strategy"
+    ],
+    "summary": "The podcast discusses John Nash's 1950 paper, which introduced the concept of Nash equilibrium as a solution for non-cooperative games, generalizing von Neumann's earlier work. It highlights how this idea, initially dismissed, became foundational across various fields, and explores its implications through examples like the prisoner's dilemma, showing how individually rational choices can lead to collectively suboptimal outcomes.",
+    "disciplines": [
+      "Mathematics",
+      "Economics",
+      "Biology",
+      "Political Science",
+      "Computer Science"
+    ]
+  },
+  {
+    "episode_id": "ep99",
+    "episode_title": "Test",
+    "filename": "Great Papers 99 - Test.mp3",
+    "duration_seconds": 5.0,
+    "segment_count": 2,
+    "paper_title": "Observation of a new particle in the search for the Standard Model Higgs Boson with the ATLAS Detector at the LHC",
+    "authors": [
+      "ATLAS collaboration"
+    ],
+    "publication_year": 2012,
+    "field": "Physics",
+    "subfield": "Particle Physics",
+    "key_concepts": [
+      "Higgs Boson",
+      "Standard Model",
+      "ATLAS Detector",
+      "LHC",
+      "particle discovery",
+      "particle physics",
+      "fundamental particles",
+      "mass generation",
+      "quantum field theory"
+    ],
+    "summary": "This podcast episode discusses the 2012 paper by the ATLAS collaboration, which announced the discovery of the Higgs Boson. The hosts emphasize the significance of this discovery for the Standard Model of particle physics and the understanding of how fundamental particles acquire mass.",
+    "disciplines": [
+      "Physics"
+    ]
+  }
+]

@@ -1,0 +1,493 @@
+{
+  "episode_id": "ep15",
+  "filename": "Great Papers 15 - The Periodic Table, Mendeleev 1869.mp3",
+  "title": "The Periodic Table, Mendeleev 1869",
+  "duration_seconds": 1871.3585,
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 30.0,
+      "text": "There's an object hanging on the wall of essentially every science classroom on Earth, that colored grid of boxes, hydrogen up in the corner, the long rows, the funny bulge at the bottom, the periodic table. Most of us learned to read it or dreaded it, and never once asked where it came from or why it has that peculiar shape.",
+      "episode_id": "ep15",
+      "segment_index": 0
+    },
+    {
+      "start_time": 30.0,
+      "end_time": 59.0,
+      "text": "George, it comes from a single stroke of insight by a Russian chemist named Dmitri Mendeleev in 1869. And the thing I find astonishing is that he built it before anyone knew atoms had any internal structure at all. No electrons, no protons, nothing. So what did he actually see? He saw an order hiding inside a mess.",
+      "episode_id": "ep15",
+      "segment_index": 1
+    },
+    {
+      "start_time": 59.0,
+      "end_time": 90.0,
+      "text": "And then he did something with that order, so bold that it's really the heart of the story. So here's where we're going today. First, the mess, because in 1869, chemistry was genuinely a pile of disconnected facts, and you need to feel how disorganized it was to appreciate what he did. Then the insight, the single pattern Mendeleev spotted that led all those facts snap into a grid.",
+      "episode_id": "ep15",
+      "segment_index": 2
+    },
+    {
+      "start_time": 90.0,
+      "end_time": 120.0,
+      "text": "Then the audacious part, the move that turned a tidy chart into one of the great predictive triumphs in science. He left empty boxes in his table and told the world what would eventually fill them. And then the deepest twist of all, the one that connects this straight back to our quantum episodes, the reason his table works at all is a piece of physics he could not possibly have known.",
+      "episode_id": "ep15",
+      "segment_index": 3
+    },
+    {
+      "start_time": 120.0,
+      "end_time": 150.0,
+      "text": "And yet he read its shadow right off the chemistry. A chemist, decades early, accidentally drawing a map of quantum mechanics. What even led Mendeleev to attack this problem? Was he hunting for a grand law of nature? Something much more mundane, which I love. He was writing a textbook. He was a chemistry professor putting together a book to teach the subject.",
+      "episode_id": "ep15",
+      "segment_index": 4
+    },
+    {
+      "start_time": 150.0,
+      "end_time": 180.0,
+      "text": "Later famous as his principles of chemistry, and he ran into a very practical teacher's problem. In what order do you present 60 odd elements to students? Is there a natural logical sequence or do you just list them arbitrarily? That pedagogical itch, how do I organize this material so it makes sense, is what drove him to keep asking whether the elements had an inherent order.",
+      "episode_id": "ep15",
+      "segment_index": 5
+    },
+    {
+      "start_time": 180.0,
+      "end_time": 210.0,
+      "text": "And there's a famous story, which he may have embellished, that the final arrangement came to him in a dream, that he saw the whole table laid out, woke, and scribbled it down. Whether or not the dream is literal, the truth underneath it is that he'd been obsessively shuffling those element cards for a long, long time. Sometimes the deepest laws of nature get discovered because someone was trying to write a decent chapter for undergraduates.",
+      "episode_id": "ep15",
+      "segment_index": 6
+    },
+    {
+      "start_time": 210.0,
+      "end_time": 240.0,
+      "text": "Let's start with the mess. What did chemistry actually look like in the 1860s? Picture a collection of about 60 odd known elements, the pure substances, the ones you can't break down chemically. Hydrogen, oxygen, iron, gold, sulfur, and so on. Chemists had isolated them, and they'd measured for each a number called its atomic weight.",
+      "episode_id": "ep15",
+      "segment_index": 7
+    },
+    {
+      "start_time": 240.0,
+      "end_time": 270.0,
+      "text": "Essentially, how heavy its atoms are relative to the lightest, hydrogen. So you had this list of 60 something elements, each with a weight and a bundle of known behaviors. This one's a reactive metal. This one's a choking gas. This one bonds with oxygen in a particular ratio. But there was no organizing principle. It was like having 60 jigsaw pieces with no picture on the box.",
+      "episode_id": "ep15",
+      "segment_index": 8
+    },
+    {
+      "start_time": 270.0,
+      "end_time": 300.0,
+      "text": "A heap of individual facts that students simply had to memorize one by one. There were faint hints that some order existed. One chemist, Dobriner, had noticed that elements sometimes came in triads of three with related properties. Another, Newlands, noticed that if you lined them up by weight, something seemed to repeat every eighth element.",
+      "episode_id": "ep15",
+      "segment_index": 9
+    },
+    {
+      "start_time": 300.0,
+      "end_time": 330.0,
+      "text": "He called it the law of octaves, and he was actually laughed at for it. One colleague sneering whether he'd tried arranging the elements alphabetically. So there were whispers of a pattern, but nothing that held together. Practical question, how did they even measure atomic weight if they had no idea what was inside an atom or whether atoms were real? They didn't need to see inside.",
+      "episode_id": "ep15",
+      "segment_index": 10
+    },
+    {
+      "start_time": 330.0,
+      "end_time": 360.0,
+      "text": "They measured it from the outside, from how substances combine. If you know that a fixed mass of one element always reacts with a fixed mass of another, you can work out the relative weights of their atoms, all referred to the lightest, hydrogen, as the unit. But, and this matters for the story, there had been real confusion about these numbers for decades.",
+      "episode_id": "ep15",
+      "segment_index": 11
+    },
+    {
+      "start_time": 300.0,
+      "end_time": 330.0,
+      "text": "decades because people mixed up a few different notions of weight and got inconsistent values. That mess got cleaned up right before Mendeleev's work, largely by an Italian chemist named Cannizzaro, who, around 1860, at a big international gathering of chemists at Karlsruhe, laid out a clear, consistent way to assign atomic weights.",
+      "episode_id": "ep15",
+      "segment_index": 12
+    },
+    {
+      "start_time": 330.0,
+      "end_time": 360.0,
+      "text": "Mendeleev was at that period in his career absorbing exactly this, and it gave him something essential, a reliable, agreed upon set of atomic weights to order the elements by. Without Cannizzaro's cleanup, the weights would have been too muddled for any pattern to shine through. So the periodic table rests on someone first getting the ruler right. So people sensed there was rhythm in there somewhere, but nobody could make it work across the whole set.",
+      "episode_id": "ep15",
+      "segment_index": 13
+    },
+    {
+      "start_time": 360.0,
+      "end_time": 390.0,
+      "text": "What did Mendeleev do differently? He took the pattern seriously and pushed it all the way through. And he did it with a very hands-on method. The story, and it's at least partly true, is that he wrote each element on a card with its weight and its properties and laid them out like a game of solitaire, shuffling them around, looking for the arrangement that made everything line up. And here's the pattern he locked onto.",
+      "episode_id": "ep15",
+      "segment_index": 14
+    },
+    {
+      "start_time": 390.0,
+      "end_time": 420.0,
+      "text": "Take the elements and lay them in a row in order of increasing atomic weight, lightest to heaviest. As you walk along that row, the chemical properties change, but they don't change randomly, and they don't change once and settle. They change and then they come back. You'll pass a very reactive soft metal, then a series of other elements, and then further along, you hit another very reactive soft metal that behaves remarkably like the first.",
+      "episode_id": "ep15",
+      "segment_index": 15
+    },
+    {
+      "start_time": 420.0,
+      "end_time": 450.0,
+      "text": "Keep going and the whole cycle of behaviors repeats again. The properties are periodic. They recur at regular intervals as the weight climbs. Give me a concrete example of one of these recurring families, so I can feel the repetition. Take the softest, most violent metals, lithium, then further along sodium, then further still potassium. These are metals so soft you can cut them with a knife, and so reactive that a lump of sodium or potassium dropped in water,",
+      "episode_id": "ep15",
+      "segment_index": 16
+    },
+    {
+      "start_time": 450.0,
+      "end_time": 480.0,
+      "text": "fizz, skitter, and can burst into flame. They're chemical near twins, and they show up at regular intervals as you climb the weights. So they stack into a single column, the alkali metals. Now jump to almost the opposite temperament. Fluorine, chlorine, bromine, iodine, the halogens. These are reactive non-metals, corrosive, colored, that desperately want to grab a partner's electron.",
+      "episode_id": "ep15",
+      "segment_index": 17
+    },
+    {
+      "start_time": 480.0,
+      "end_time": 510.0,
+      "text": "Chlorine is the choking green gas, iodine the dark violet solid, but chemically they're a family, and they too recur at regular intervals, stacking into their own column. That's the periodicity made vivid. Sodium and potassium sit several elements apart by weight, yet behave like siblings. And Mendeleev's grid put siblings in the same column on purpose. Once you notice that the reactive soft metals keep coming back, and the corrosive non-metals keep coming back,",
+      "episode_id": "ep15",
+      "segment_index": 18
+    },
+    {
+      "start_time": 510.0,
+      "end_time": 540.0,
+      "text": "the whole idea of arranging them into repeating rows becomes irresistible. Periodic, like a rhythm, a repeating beat as you go up in weight. Exactly like a beat. And once you see that, the table designs itself, because if the properties repeat, you shouldn't lay the elements in one long row. You should start a new row each time the cycle comes back around and stack the rows so that elements at the same point in the cycle sit one above another.",
+      "episode_id": "ep15",
+      "segment_index": 19
+    },
+    {
+      "start_time": 540.0,
+      "end_time": 570.0,
+      "text": "So you break the long sequence into rows and line them up vertically, and now every column contains elements that behave alike. The soft reactive metals all in one column, the choking greenish reactive gases all in another, and so on. The horizontal rows are called periods. The vertical columns are called groups, and a group is a family of chemical cousins. That grid is the periodic table.",
+      "episode_id": "ep15",
+      "segment_index": 20
+    },
+    {
+      "start_time": 570.0,
+      "end_time": 600.0,
+      "text": "And the underlying statement, which Mendeleev elevated to a law, is simple to say. The properties of the elements are a periodic function of their atomic weight. Order them by weight, and the behavior beats out a repeating rhythm. What properties, concretely, was he lining up? Behaves alike sounds a bit soft. How do you make that precise enough to build a grid? He had some sharp numerical handles, and the most important was valence, the combining ratio.",
+      "episode_id": "ep15",
+      "segment_index": 21
+    },
+    {
+      "start_time": 600.0,
+      "end_time": 630.0,
+      "text": "Valence is basically how many partners an atom grabs when it bonds. How many atoms of hydrogen or of oxygen one atom of the element will",
+      "episode_id": "ep15",
+      "segment_index": 22
+    },
+    {
+      "start_time": 600.0,
+      "end_time": 660.0,
+      "text": "joins with. Some elements combine one to one, some hold two partners, some three or four. That combining capacity is a hard number, not a vibe, and it's a fingerprint of an element's chemistry. And crucially, valence recurs periodically, right alongside the softer properties. As you march up the weights, the combining ratio rises, falls, and resets in the same beat.\n[000:30] Elements that land in the same column tend to share the same valence, the same combining ratio. So when Mendeleev lined up his columns, he wasn't just eyeballing, this one seems reactive. He was matching precise combining ratios and the formulas elements make with oxygen and hydrogen. And here's a teaser we'll cash shortly. That valence, the number of bonds an atom forms, turns out to be a direct read out of how many electrons it has in its outer shell.",
+      "episode_id": "ep15",
+      "segment_index": 23
+    },
+    {
+      "start_time": 660.0,
+      "end_time": 690.0,
+      "text": "He was tabulating a quantum property without knowing it. Okay, but so far this is a really elegant filing system, a great way to organize what's known. You keep promising something bolder. Where does it get audacious? Here. When Mendeleev laid out his cards by weight and forced the columns to hold chemical families, he ran into a problem. And how he handled it is what makes him immortal. Sometimes, to keep a column chemically consistent,",
+      "episode_id": "ep15",
+      "segment_index": 24
+    },
+    {
+      "start_time": 690.0,
+      "end_time": 720.0,
+      "text": "the next element by weight simply did not fit. Its properties belonged to a different family. A lesser organizer would have fudged it, shoved the element in anyway, or bent the rules to keep the table full and tidy. Mendeleev did the opposite. He left the seat empty. He put a gap in his table, a blank box, and declared that the gap was not a floor in the scheme, but a prediction. There exists an element not yet discovered that belongs in this seat.",
+      "episode_id": "ep15",
+      "segment_index": 25
+    },
+    {
+      "start_time": 720.0,
+      "end_time": 750.0,
+      "text": "And then he went further than anyone had dared. He used the pattern, the properties of the neighbors above, below and beside the gap to predict in quantitative detail what that missing element would be like when someone finally found it. Wait, he predicted the properties of elements that didn't exist yet. How specific are we talking? Strikingly specific. For one gap, sitting just below aluminum in his table, he predicted an undiscovered element.",
+      "episode_id": "ep15",
+      "segment_index": 26
+    },
+    {
+      "start_time": 750.0,
+      "end_time": 780.0,
+      "text": "He called Eka aluminum. Eka being roughly the one beyond. And he forecast its atomic weight, that it would be a soft metal, its approximate density, how it would combine with oxygen, even that it would be hard to melt. He did the same for a gap belowboron, Eka boron, and a gap below silicon, Eka silicon, each with a detailed dossier of predicted properties. He was in effect, writing want ads for elements nobody had ever seen,",
+      "episode_id": "ep15",
+      "segment_index": 27
+    },
+    {
+      "start_time": 780.0,
+      "end_time": 810.0,
+      "text": "describing the tenant before the room was even known to exist. It was a colossal bet on his pattern being real and deep, not a coincidence. And this is the part where the universe either humiliates him or crowns him. What happened? It crowned him, and fairly quickly, which is why the table conquered chemistry. Within about 15 years, all three of those predicted elements were discovered. A French chemist isolated a new metal and named it Gallium.",
+      "episode_id": "ep15",
+      "segment_index": 28
+    },
+    {
+      "start_time": 810.0,
+      "end_time": 840.0,
+      "text": "And its properties matched Mendeleev's Eka aluminum almost point for point. In fact, Mendeleev, reading the first report from afar, corrected the discoverer on the metal's density and turned out to be right. Then came Scandium, which fit his Eka boron. Then Germanium, which matched Eka silicon so precisely, weight, density, the way it bonded, that it read like he'd examined it in advance. Three predictions, three hits,",
+      "episode_id": "ep15",
+      "segment_index": 29
+    },
+    {
+      "start_time": 840.0,
+      "end_time": 870.0,
+      "text": "each an element pulled out of the ground years later that behaved exactly as the empty box had foretold. That's the moment the periodic table stopped being one chemist's clever filing scheme and became something everyone had to take seriously. A law of nature with the power to predict the unknown. You glossed the Gallium story, and it sounds too good to skip. Mendeleev correcting the man who actually discovered the element from another country. Tell it properly.",
+      "episode_id": "ep15",
+      "segment_index": 30
+    },
+    {
+      "start_time": 870.0,
+      "end_time": 900.0,
+      "text": "It's one of the great moments in the history of science, so let's savor it. Gallium was discovered by a French chemist, Lecock de Bois Baudran, who isolated this new metal, and among other things, measured its density and published the value. Now, Baudran had the actual metal in his lab, in his hand. Mendeleev, back in Russia, had never seen a speck of it, but he had his table, and his table",
+      "episode_id": "ep15",
+      "segment_index": 31
+    },
+    {
+      "start_time": 900.0,
+      "end_time": 929.0,
+      "text": "empty seat for Eka aluminum came with a predicted density. And the reported French value didn't match his prediction. So Mendeleev wrote, in effect, to a man holding the element he himself had never touched, and told him, your density measurement is wrong. This element should be denser than you report. Go check your sample.",
+      "episode_id": "ep15",
+      "segment_index": 32
+    },
+    {
+      "start_time": 929.0,
+      "end_time": 960.0,
+      "text": "Boisbaudran was understandably not thrilled to be corrected long distance about a metal he discovered. But he remeasured with a purer sample of the gallium, and the density came out higher, right about where Mendeleev's table had insisted it should be. Sit with that. A man who had never laid eyes on the substance corrected the man holding it, using nothing but a pattern in a grid.",
+      "episode_id": "ep15",
+      "segment_index": 33
+    },
+    {
+      "start_time": 960.0,
+      "end_time": 990.0,
+      "text": "That is the moment chemists realized the periodic table wasn't merely describing the elements. It was, in a sense, dictating to them. That's the same move we've seen again and again in this series. Trust the pattern, predict the unseen, watch it show up. Einstein's bending starlight, Dirac's anti-matter. It's exactly that move in chemistry, and it's why this belongs in the same company.",
+      "episode_id": "ep15",
+      "segment_index": 34
+    },
+    {
+      "start_time": 990.0,
+      "end_time": 1020.0,
+      "text": "A theory that only organizes what you already know is useful. A theory that tells you what you'll find when you go looking in specific numbers and is then proven right. That's a theory that has caught hold of something real about the world. And there's a second piece of Mendeleev's audacity worth telling because it's the same instinct.",
+      "episode_id": "ep15",
+      "segment_index": 35
+    },
+    {
+      "start_time": 1020.0,
+      "end_time": 1050.0,
+      "text": "In a few spots, ordering strictly by atomic weight put an element in the wrong chemical family. The weights said one order, but the chemistry clearly demanded another. The most famous case, by weight, tellurium and iodine fall in one order, but their chemical behavior insisted on the reverse. Mendeleev trusted the chemistry and swapped them, placing them against their measured weights.",
+      "episode_id": "ep15",
+      "segment_index": 36
+    },
+    {
+      "start_time": 1050.0,
+      "end_time": 1080.0,
+      "text": "He essentially declared that the weights, in those cases, must be misleading, and that his pattern knew better. That's a gutsy thing to do, to say the measured numbers are wrong because your table says so. Was he just lucky that it worked out? It wasn't luck, though he couldn't have known why he was right. And this is where the story starts reaching toward the deeper physics.",
+      "episode_id": "ep15",
+      "segment_index": 37
+    },
+    {
+      "start_time": 1080.0,
+      "end_time": 1110.0,
+      "text": "For decades, those swaps looked like blemishes, little inconsistencies. The resolution came only in 1913 from a young physicist named Henry Moseley, who was probing atoms with X-rays. Moseley found that the true thing that orders the elements is not their weight at all. It's a whole number he could measure, which we now call the atomic number.",
+      "episode_id": "ep15",
+      "segment_index": 38
+    },
+    {
+      "start_time": 1110.0,
+      "end_time": 1140.0,
+      "text": "The number of protons in the nucleus, the count of positive charges at the atom's core. And when you order the elements by atomic number, instead of atomic weight, every one of Mendeleev's troublesome swaps clicks into place automatically. Tellurium really does come before iodine by atomic number, even though it's heavier.",
+      "episode_id": "ep15",
+      "segment_index": 39
+    },
+    {
+      "start_time": 1140.0,
+      "end_time": 1169.0,
+      "text": "Mendeleev had been right to trust the chemistry because the chemistry was secretly tracking atomic number, the real quantity, while atomic weight was just a usually reliable stand-in for it. He'd been reading the correct order off the behavior without knowing what the correct order actually counted. But why was atomic weight ever out of step with atomic number in the first place?",
+      "episode_id": "ep15",
+      "segment_index": 40
+    },
+    {
+      "start_time": 1169.0,
+      "end_time": 1199.0,
+      "text": "Most of the time, they rise together. What makes them occasionally disagree? Because atomic weight is an average, and averages can be lumpy. Here's the thing nobody knew in Mendeleev's day. It turns out most elements aren't made of identical atoms. They're a mixture of isotopes, atoms with the same number of protons, so the same atomic number and the same chemistry, but different numbers of neutrons, and therefore different weights.",
+      "episode_id": "ep15",
+      "segment_index": 41
+    },
+    {
+      "start_time": 1199.0,
+      "end_time": 1229.0,
+      "text": "Chlorine, for instance, is a blend of a lighter and a heavier kind of chlorine atom. The atomic weight you measure is the average over that mixture, weighted by how common each isotope is. So the weight of an element depends not just on its proton count, but on the accident of which isotopes it happens to have, and in what proportions.",
+      "episode_id": "ep15",
+      "segment_index": 42
+    },
+    {
+      "start_time": 1229.0,
+      "end_time": 1259.0,
+      "text": "And that's exactly how an element like tellurium can end up heavier than iodine, even though it has fewer protons. Tellurium simply happens to carry more heavy isotopes. Atomic number, the proton count, is a clean whole number identity that never lies. Atomic weight is a slightly lumpy average that usually tracks it, but occasionally stumbles.",
+      "episode_id": "ep15",
+      "segment_index": 43
+    },
+    {
+      "start_time": 1259.0,
+      "end_time": 1289.0,
+      "text": "Mendeleev caught those stumbles purely by chemical instinct, swapping the elements to where their behavior said they belonged.",
+      "episode_id": "ep15",
+      "segment_index": 44
+    },
+    {
+      "start_time": 1200.0,
+      "end_time": 1230.0,
+      "text": "decades before anyone had heard of an isotope or a proton. So, this brings us to the question I've been sitting on the whole episode. Why? Why on earth should chemical properties repeat in a rhythm as you go up in atomic number? What's making the beat? And the answer is the beautiful twist, because Mendeleev had no access to it. It's pure quantum mechanics, and it wouldn't be understood for another 50 plus years, well into the era of our",
+      "episode_id": "ep15",
+      "segment_index": 45
+    },
+    {
+      "start_time": 1230.0,
+      "end_time": 1260.0,
+      "text": "Planck and spin episodes. Here's the picture. An atom has its nucleus, and around it, a number of electrons equal to the atomic number. But those electrons are not arranged in a formless cloud. They occupy a structure of shells, layers, and here's the crucial rule from quantum mechanics. Each shell can hold only a limited number of electrons before it's full. That, only so many per shell, comes directly from the Pauli exclusion",
+      "episode_id": "ep15",
+      "segment_index": 46
+    },
+    {
+      "start_time": 1260.0,
+      "end_time": 1290.0,
+      "text": "principle we met in the spin episode. The rule that no two electrons can occupy the very same quantum state, which forces them to stack up in successive shells rather than all piling into the lowest one. And the chemistry of an atom, how it bonds, how reactive it is, is governed almost entirely by the electrons in its outermost shell, the valence electrons. So, the outer electrons do the chemistry, and I think I see where this is going. The rhythm is about the outer shell.",
+      "episode_id": "ep15",
+      "segment_index": 47
+    },
+    {
+      "start_time": 1290.0,
+      "end_time": 1320.0,
+      "text": "That's the whole secret. As you add electrons one at a time, going up in atomic number, you're filling a shell gradually, and an atom's chemistry depends on how many electrons are in that outer shell. So an element with one lone electron in its outer shell is a soft, reactive metal. That's sodium, potassium. Keep adding elements until that shell fills up completely, and you get an element that's supremely unreactive, chemically aloof, a noble gas.",
+      "episode_id": "ep15",
+      "segment_index": 48
+    },
+    {
+      "start_time": 1320.0,
+      "end_time": 1350.0,
+      "text": "And then the next electron has to start a brand new outer shell all over again with a single lone electron, and you're back to a soft, reactive metal. The count of outer electrons resets and climbs, resets and climbs. That is the beat. The periods of Mendeleev's table are exactly the fillings of successive electron shells. The groups, the columns, are elements that share the same number of outer electrons, and therefore the same chemistry.",
+      "episode_id": "ep15",
+      "segment_index": 49
+    },
+    {
+      "start_time": 1350.0,
+      "end_time": 1380.0,
+      "text": "His rhythm of properties is the rhythm of shells filling. So the periodic table is a direct picture of the quantum structure of the atom, and Mendeleev drew it half a century before quantum mechanics existed, reading its shape off nothing but the way substances react in a beaker. So the noble gases are unreactive because their outer shell is already full, and everyone else is reacting to try to get there. That's exactly it, and it's one of the most powerful single ideas in all of chemistry.",
+      "episode_id": "ep15",
+      "segment_index": 50
+    },
+    {
+      "start_time": 1380.0,
+      "end_time": 1410.0,
+      "text": "A full outer shell is the stable, contented state. An atom with a filled outer shell has no incentive to gain or shed electrons, so it just sits there, aloof. The noble gases are born that way, already full, which is precisely why they barely react with anything. And the reason every other element behaves the way it does is that it's chasing that same full shell contentment. A sodium atom has one lonely electron rattling around in its outer shell. It would love to be rid of it, so it readily gives it away.",
+      "episode_id": "ep15",
+      "segment_index": 51
+    },
+    {
+      "start_time": 1410.0,
+      "end_time": 1440.0,
+      "text": "A chlorine atom is one electron short of a full shell. It desperately wants one more, so it grabs. Put them together, and sodium hands its spare electron to chlorine. Both end up with full shells, and they snap into table salt. That drive toward a filled outer shell, often called the octet rule for the common case where a full shell holds eight, sits behind an enormous fraction of all chemical bonding. And it's why Mendeleev's columns predict how elements combine.",
+      "episode_id": "ep15",
+      "segment_index": 52
+    },
+    {
+      "start_time": 1440.0,
+      "end_time": 1470.0,
+      "text": "An element's column tells you how many outer electrons it has, which tells you what it will do to reach a full shell. His groups are underneath a map of atoms chasing full shells. That genuinely gives me chills. That the shape of that chart on the classroom wall is quantum mechanics showing through. Even the weird bulge at the bottom, presumably. Even the bulge. That's a place where a particular larger kind of shell is filling, which is why those rows are so long and get pulled out separately to keep the chart from becoming absurdly wide.",
+      "episode_id": "ep15",
+      "segment_index": 53
+    },
+    {
+      "start_time": 1470.0,
+      "end_time": 1500.0,
+      "text": "Every structural quirk of the table's shape, the short first rows, the long middle rows, the detached block at the bottom,",
+      "episode_id": "ep15",
+      "segment_index": 54
+    },
+    {
+      "start_time": 1500.0,
+      "end_time": 1530.0,
+      "text": "is a fingerprint of the rules for how electron shells fill, which is to say, of quantum mechanics and the exclusion principle. And there's a lovely coda about a whole missing column. In Mendeleev's day, the noble gases, helium, neon, argon, and the rest, were completely unknown. They're so unreactive that they'd escaped detection entirely. An entire chemical family invisible.",
+      "episode_id": "ep15",
+      "segment_index": 55
+    },
+    {
+      "start_time": 1530.0,
+      "end_time": 1560.0,
+      "text": "When they were finally discovered, around the end of the century, the natural fear was that they'd wreck the table. Instead, they slid in perfectly as a brand new column at the far right, exactly the shell is now full, chemically content, elements. As though the table had been holding a seat for them all along. A whole family nobody knew existed, and the pattern absorbed them without a hiccup.",
+      "episode_id": "ep15",
+      "segment_index": 56
+    },
+    {
+      "start_time": 1560.0,
+      "end_time": 1599.0,
+      "text": "That's how you know a classification has found something true. How much has the table grown since Mendeleev? Is it finished? Or is that predict the empty seat game still being played? It's still being played right now at the far edge. Mendeleev worked with about 60 elements. Today, the table has more than 118, and the heaviest of those don't exist in nature at all. They're synthetic, built one atom at a time by smashing lighter nuclei together in accelerators.",
+      "episode_id": "ep15",
+      "segment_index": 57
+    },
+    {
+      "start_time": 1599.0,
+      "end_time": 1630.0,
+      "text": "And many of them survive for only a fraction of a second before falling apart. They are quite literally manufactured to order to fill the next boxes the pattern predicts. So Mendeleev's move, there's an empty seat here, an element belongs in it, is still the guiding logic at the frontier. Except now, filling the seat means creating an element that has to be forced into existence in a lab.",
+      "episode_id": "ep15",
+      "segment_index": 58
+    },
+    {
+      "start_time": 1630.0,
+      "end_time": 1660.0,
+      "text": "Physicists even talk about a predicted island of stability, a region of super heavy elements that the patterns of nuclear structure suggest might last much longer than their neighbors. Another empty seat the theory is pointing at that experimenters are trying to reach. So the table is still open at its bottom edge, still predicting, still being extended by people trusting the pattern to tell them what to hunt for.",
+      "episode_id": "ep15",
+      "segment_index": 59
+    },
+    {
+      "start_time": 1660.0,
+      "end_time": 1694.0,
+      "text": "150 years on, we're still playing Mendeleev's game. Let's also be fair about the history. Was Mendeleev completely alone in this, or were others circling the same idea? Others were circling it, and it's only right to say so. A German chemist, Lothar Meyer, arrived at a very similar periodic arrangement at almost the same time, working independently. Big ideas often ripen in several minds at once when the moment is ready.",
+      "episode_id": "ep15",
+      "segment_index": 60
+    },
+    {
+      "start_time": 1694.0,
+      "end_time": 1724.0,
+      "text": "But there's a clear reason Mendeleev's name is the one on the table, and it's precisely the boldness we've been talking about. Meyer largely organized what was known. Mendeleev staked out the gaps and made detailed falsifiable predictions about elements that didn't exist yet, and publicly bet his scheme on them, and then reality paid out. He didn't just arrange the furniture. He pointed at the empty spaces and described the guests who hadn't arrived.",
+      "episode_id": "ep15",
+      "segment_index": 61
+    },
+    {
+      "start_time": 1724.0,
+      "end_time": 1757.0,
+      "text": "That willingness to let the pattern overrule the current data, to predict rather than merely catalog, is what elevated his version from a good chart to a law of nature. Nice footnote before we close. Is he honored on the very table he built? He is, and fittingly. One of the synthetic elements, element 101, made atom by atom in the lab, out in exactly the manufactured reaches we were just talking about, is named Mendelevium in his honor.",
+      "episode_id": "ep15",
+      "segment_index": 62
+    },
+    {
+      "start_time": 1757.0,
+      "end_time": 1787.0,
+      "text": "So his name literally occupies a box in the table he created, sitting among the predicted, forced into existence elements he would have relish. He became a giant of Russian science in his lifetime, and there's an often told irony. He never won a Nobel Prize. He was nominated late in life, and through some mix of committee politics and rivalry, missed out, dying not long after.",
+      "episode_id": "ep15",
+      "segment_index": 63
+    },
+    {
+      "start_time": 1787.0,
+      "end_time": 1820.0,
+      "text": "But the honor that has outlasted any medal is this. A century and a half later, every chemist alive still thinks inside his grid. Every student on Earth learns from a chart he first sketched, and his name is permanently stamped on one of its squares. Not a bad legacy for a professor who set out originally just to organize the chapters of a textbook. So, bring it home. What did Mendeleev really discover if he didn't know about electrons or protons or shells?",
+      "episode_id": "ep15",
+      "segment_index": 64
+    },
+    {
+      "start_time": 1820.0,
+      "end_time": 1850.0,
+      "text": "He discovered that the elements are not a random inventory, that beneath the chaos of chemistry, there's a deep repeating order, and that",
+      "episode_id": "ep15",
+      "segment_index": 65
+    },
+    {
+      "start_time": 1800.0,
+      "end_time": 1830.0,
+      "text": "The order is powerful enough to predict what hasn't been found. He caught the melody without knowing the instrument. The repeating rhythm he heard in the properties of substances turned out to be, note for note, the rhythm of electrons filling quantum shells. A fact from a physics that wouldn't exist for two more generations. So the periodic table is one of the most remarkable acts of pattern reading in the history of science.",
+      "episode_id": "ep15",
+      "segment_index": 66
+    },
+    {
+      "start_time": 1830.0,
+      "end_time": 1860.0,
+      "text": "A man laying out cards on a table, trusting the beat enough to leave chairs empty for guests he described in advance. And in doing so, sketching the architecture of the quantum atom, decades before anyone knew atoms had an architecture. Every chemistry classroom on Earth hangs a diagram of quantum mechanics on its wall, drawn by someone who never knew that's what it was. A jumble of 60 elements,",
+      "episode_id": "ep15",
+      "segment_index": 67
+    },
+    {
+      "start_time": 1860.0,
+      "end_time": 1890.0,
+      "text": "one repeating beat, and a handful of empty chairs that got filled exactly as foretold. And the whole thing turns out to be quantum mechanics seen in a mirror, decades early. Thank you, George. A real pleasure. Mind the gaps.",
+      "episode_id": "ep15",
+      "segment_index": 68
+    }
+  ],
+  "transcription_model": "google/gemini-2.5-flash",
+  "transcription_date": "2026-08-16T04:04:08.164422"
+}

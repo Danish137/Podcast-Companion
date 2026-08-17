@@ -1,0 +1,33 @@
+{
+  "episode_id": "ep04",
+  "episode_title": "Shannon and the Birth of Information, 1948",
+  "filename": "Great Papers 04 - Shannon and the Birth of Information, 1948.mp3",
+  "duration_seconds": 2392.422125,
+  "segment_count": 88,
+  "paper_title": "A mathematical theory of communication",
+  "authors": [
+    "Claude Shannon"
+  ],
+  "publication_year": 1948,
+  "field": "Information Theory",
+  "subfield": "Communication Theory",
+  "key_concepts": [
+    "information",
+    "bit",
+    "entropy",
+    "redundancy",
+    "channel capacity",
+    "source coding theorem",
+    "noisy channel coding theorem",
+    "Landauer's principle",
+    "Maxwell's demon",
+    "compression"
+  ],
+  "summary": "The podcast discusses Claude Shannon's 1948 paper, which transformed the vague concept of information into a measurable, physical quantity. It explores how Shannon separated information from meaning, defined the 'bit' as its unit, and introduced 'entropy' to measure information content, ultimately demonstrating that perfect communication is possible even through noisy channels.",
+  "disciplines": [
+    "Information Theory",
+    "Mathematics",
+    "Physics",
+    "Engineering"
+  ]
+}

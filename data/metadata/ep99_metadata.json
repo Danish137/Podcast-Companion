@@ -1,0 +1,29 @@
+{
+  "episode_id": "ep99",
+  "episode_title": "Test",
+  "filename": "Great Papers 99 - Test.mp3",
+  "duration_seconds": 5.0,
+  "segment_count": 2,
+  "paper_title": "Observation of a new particle in the search for the Standard Model Higgs Boson with the ATLAS Detector at the LHC",
+  "authors": [
+    "ATLAS collaboration"
+  ],
+  "publication_year": 2012,
+  "field": "Physics",
+  "subfield": "Particle Physics",
+  "key_concepts": [
+    "Higgs Boson",
+    "Standard Model",
+    "ATLAS Detector",
+    "LHC",
+    "particle discovery",
+    "particle physics",
+    "fundamental particles",
+    "mass generation",
+    "quantum field theory"
+  ],
+  "summary": "This podcast episode discusses the 2012 paper by the ATLAS collaboration, which announced the discovery of the Higgs Boson. The hosts emphasize the significance of this discovery for the Standard Model of particle physics and the understanding of how fundamental particles acquire mass.",
+  "disciplines": [
+    "Physics"
+  ]
+}

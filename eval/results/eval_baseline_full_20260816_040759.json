@@ -1,0 +1,156 @@
+[
+  {
+    "case_id": "C01",
+    "question": "What is the core idea of special relativity?",
+    "detected_intent": "EXPLAIN",
+    "expected_intent": "EXPLAIN",
+    "response": "The core idea of special relativity is that space and time are flexible, bending so that the speed of light doesn't have to [Einstein's Special Relativity, 11:30]. It posits that the speed of light is constant for all observers, regardless of their relative motion [Einstein's Special Relativity, 11:30, 38:00]. This means that while observers moving relative to each other will disagree about distances, times, lengths, durations, and simultaneity, they will always agree on the speed of light [Einstein's Special Relativity, 11:30, 38:00]. Essentially, Einstein \"changed the stage\" by showing that space stretches and time slows, and these two braid together, with the speed of light being the only constant [Einstein's Special Relativity, 52:00].",
+    "citations": [
+      "Einstein's Special Relativity, 11:30",
+      "Einstein's Special Relativity, 11:30, 38:00",
+      "Einstein's Special Relativity, 11:30, 38:00",
+      "Einstein's Special Relativity, 52:00"
+    ],
+    "evidence_retrieved": 5,
+    "status": "success",
+    "time_ms": 4895
+  },
+  {
+    "case_id": "C02",
+    "question": "How do black holes radiate according to Hawking?",
+    "detected_intent": "EXPLAIN",
+    "expected_intent": "EXPLAIN",
+    "response": "According to Hawking, black holes radiate due to the interplay of general relativity and quantum field theory at the event horizon [How Black Holes Radiate, Hawking 1975, 44:00]. This radiation, known as Hawking radiation, arises from the quantum vacuum near the black hole's one-way surface [How Black Holes Radiate, Hawking 1975, 01:30].\n\nHere's a breakdown of how it works:\n\n*   **The Horizon and Quantum Vacuum:** The essential ingredient is the presence of a horizon, a one-way surface where waves cannot return [How Black Holes Radiate, Hawking 1975, 29:57]. Hawking's work brought together the classical black hole (from general relativity) with the quantum vacuum [How Black Holes Radiate, Hawking 1975, 01:30].\n*   **Surface Gravity and Temperature:** The temperature of a black hole is directly proportional to its surface gravity, which is essentially the acceleration an observer would feel hovering just outside the horizon [How Black Holes Radiate, Hawking 1975, 20:59]. This concept connects to the Unruh effect, where an accelerating observer feels a temperature proportional to their acceleration [How Black Holes Radiate, Hawking 1975, 22:30].\n*   **Thermal Glow:** The interaction of the quantum vacuum at this horizon leads to a \"perfect thermal glow\" [How Black Holes Radiate, Hawking 1975, 01:30]. This radiation is scorching hot at the horizon but becomes red-shifted and cooled as it leaks out to infinity, appearing as a faint whisper by the time it reaches us [How Black Holes Radiate, Hawking 1975, 22:30].\n*   **Consequences:** This radiation means black holes are not perfectly black and eternal, but rather \"gray and mortal\" [How Black Holes Radiate, Hawking 1975, 01:30]. They have a genuine thermodynamics and can even evaporate [How Black Holes Radiate, Hawking 1975, 01:30].\n\nIt's important to note that while a small black hole is a \"fierce hot object,\" a large black hole is \"barely warmer than absolute zero\" [How Black Holes Radiate, Hawking 1975, 20:59]. For example, a black hole a few times the mass of the sun has a Hawking temperature of well under a millionth of a degree above absolute zero, making it far colder than the cosmic microwave background [How Black Holes Radiate, Hawking 1975, 22:30].",
+    "citations": [
+      "How Black Holes Radiate, Hawking 1975, 44:00",
+      "How Black Holes Radiate, Hawking 1975, 01:30",
+      "How Black Holes Radiate, Hawking 1975, 29:57",
+      "How Black Holes Radiate, Hawking 1975, 01:30",
+      "How Black Holes Radiate, Hawking 1975, 20:59",
+      "How Black Holes Radiate, Hawking 1975, 22:30",
+      "How Black Holes Radiate, Hawking 1975, 01:30",
+      "How Black Holes Radiate, Hawking 1975, 22:30",
+      "How Black Holes Radiate, Hawking 1975, 01:30",
+      "How Black Holes Radiate, Hawking 1975, 01:30",
+      "How Black Holes Radiate, Hawking 1975, 20:59",
+      "How Black Holes Radiate, Hawking 1975, 22:30"
+    ],
+    "evidence_retrieved": 5,
+    "status": "success",
+    "time_ms": 5116
+  },
+  {
+    "case_id": "C03",
+    "question": "Which episodes should I listen to if I'm interested in biology and evolution?",
+    "detected_intent": "DISCOVER",
+    "expected_intent": "DISCOVER",
+    "response": "If you're interested in biology and evolution, I recommend the following episode:\n\n*   **Natural Selection, Darwin and Wallace 1858**: This episode directly covers the foundational concepts of evolution, including natural selection, variation, heredity, adaptation, and speciation, which are central to understanding how life on Earth has developed.",
+    "citations": [],
+    "evidence_retrieved": 0,
+    "status": "success",
+    "time_ms": 2682
+  },
+  {
+    "case_id": "C04",
+    "question": "Are there any papers from before 1900?",
+    "detected_intent": "DISCOVER",
+    "expected_intent": "DISCOVER",
+    "response": "Yes, there is one episode from before 1900:\n\n*   **Natural Selection, Darwin and Wallace 1858**: This episode discusses the paper \"On the Tendency of Species to form Varieties; and on the Perpetuation of Varieties and Species by Natural Means of Selection,\" which was published in 1858.",
+    "citations": [],
+    "evidence_retrieved": 0,
+    "status": "success",
+    "time_ms": 2570
+  },
+  {
+    "case_id": "C05",
+    "question": "How do the ideas of information in Shannon's paper compare to the physical reality described by Einstein?",
+    "detected_intent": "COMPARE",
+    "expected_intent": "COMPARE",
+    "response": "That's a really interesting question, and it highlights two foundational shifts in how we understand the world!\n\nBased on the provided podcast evidence, Shannon's work on information and Einstein's work on physical reality are discussed as separate, though both profoundly impactful, intellectual achievements.\n\nHere's what the podcast evidence tells us about each:\n\n**Shannon's Ideas on Information:**\n*   Shannon's 1948 paper, \"A mathematical theory of communication,\" transformed the vague concept of \"information\" into a precise, measurable, physical quantity with a unit, much like length or mass [Shannon and the Birth of Information, 1948, 00:00-01:30].\n*   He essentially \"invented what the thing even was\" before measuring it [Shannon and the Birth of Information, 1948, 00:00-01:30].\n*   A crucial aspect of his theory is the deliberate separation of \"information\" from \"meaning.\" For Shannon, the fundamental problem of communication is reproducing a message faithfully, regardless of its semantic content. The telephone system, for example, doesn't care about the meaning of a conversation; its job is to reproduce the symbols [Shannon and the Birth of Information, 1948, 04:30-06:00].\n*   His work laid the groundwork for modern digital communication, including concepts like channel capacity, data compression (entropy floor), and error-correcting codes, which are fundamental to technologies like Wi-Fi, the internet, and even space probes [Shannon and the Birth of Information, 1948, 32:30-34:00].\n*   Remarkably, Shannon also had an earlier foundational idea: his master's thesis showed that electrical switching circuits could carry out Boolean logic, forming the theoretical bedrock for all digital circuits [Shannon and the Birth of Information, 1948, 32:30-34:00].\n\n**Einstein's Ideas on Physical Reality (Special Relativity):**\n*   Einstein's 1905 paper, \"On the Electrodynamics of Moving Bodies,\" fundamentally changed our understanding of space and time, which were previously considered fixed and silent backdrops [Einstein's Special Relativity, 00:00-01:30].\n*   He achieved this by making two \"modest\" assumptions that, when detonated, revealed that space stretches and time slows, and that these two are braided together. The only constant is the speed of light [Einstein's Special Relativity, 52:00-53:00].\n*   His work led to the Lorentz transformation, which is a \"dictionary\" that translates the \"where and when\" of an event between different frames of reference. A key consequence is the relativity of simultaneity, meaning that time itself depends on the position of an event [Einstein's Special Relativity, 24:30-26:00].\n*   The podcast notes that every time a map finds you, it's \"quietly confirming that 1905 paper\" [Einstein's Special Relativity, 52:00-53:00].\n\n**Comparison:**\n\nWhile both Shannon and Einstein revolutionized their respective fields by providing new frameworks for understanding fundamental concepts, the podcast evidence does not directly compare their ideas or suggest a direct relationship between Shannon's concept of information and Einstein's description of physical reality.\n\nShannon's work is about quantifying and transmitting *information* (symbols, messages) independent of their meaning, creating the foundation for digital communication. Einstein's work is about the fundamental nature of *space, time, and motion* in the physical universe. They operate on different conceptual levels, though both have had immense practical and theoretical consequences.\n\nI couldn't find enough evidence in the supplied episodes to draw a direct comparison or connection between Shannon's definition of information and Einstein's description of physical reality.",
+    "citations": [
+      "Shannon and the Birth of Information, 1948, 00:00-01:30",
+      "Shannon and the Birth of Information, 1948, 00:00-01:30",
+      "Shannon and the Birth of Information, 1948, 04:30-06:00",
+      "Shannon and the Birth of Information, 1948, 32:30-34:00",
+      "Shannon and the Birth of Information, 1948, 32:30-34:00",
+      "Einstein's Special Relativity, 00:00-01:30",
+      "Einstein's Special Relativity, 52:00-53:00",
+      "Einstein's Special Relativity, 24:30-26:00",
+      "Einstein's Special Relativity, 52:00-53:00"
+    ],
+    "evidence_retrieved": 9,
+    "status": "success",
+    "time_ms": 7593
+  },
+  {
+    "case_id": "C06",
+    "question": "What is the difference between how Darwin viewed change over time versus how Planck viewed energy?",
+    "detected_intent": "COMPARE",
+    "expected_intent": "COMPARE",
+    "response": "That's a great question that highlights the different approaches these two giants of science took!\n\nBased on the podcast evidence, here's the key difference:\n\nDarwin viewed change over time as a **gradual, continuous process**, built \"grain by grain\" over \"enormous stretches of time\" and \"millions of generations\" through a \"slow sieve\" [Natural Selection, Darwin and Wallace 1858, 14:00]. He needed the Earth to be \"staggeringly old, hundreds of millions of years at least\" for his mechanism to work [Natural Selection, Darwin and Wallace 1858, 14:00].\n\nIn contrast, Planck, though initially reluctant, found that energy comes in **discrete packets or \"coins\"** [The Birth of the Quantum, Planck 1900, 2:30]. He introduced this idea as a \"mathematical device, a formal trick\" and \"an act of desperation\" to get his formula to work, and he \"did not believe the quantum was real\" [The Birth of the Quantum, Planck 1900, 20:30]. He spent years trying to make his own discovery \"go away\" and reconcile it with \"good, continuous classical physics\" [The Birth of the Quantum, Planck 1900, 20:30]. The podcast emphasizes that \"the graininess is real. Energy really does come in coins. The world really is quantized at its root\" [The Birth of the Quantum, Planck 1900, 2:00].\n\nSo, Darwin's theory relied on continuous, incremental change, while Planck's groundbreaking work, despite his initial discomfort, revealed a fundamental discreteness in energy.",
+    "citations": [
+      "Natural Selection, Darwin and Wallace 1858, 14:00",
+      "Natural Selection, Darwin and Wallace 1858, 14:00",
+      "The Birth of the Quantum, Planck 1900, 2:30",
+      "The Birth of the Quantum, Planck 1900, 20:30",
+      "The Birth of the Quantum, Planck 1900, 20:30",
+      "The Birth of the Quantum, Planck 1900, 2:00"
+    ],
+    "evidence_retrieved": 9,
+    "status": "success",
+    "time_ms": 5181
+  },
+  {
+    "case_id": "C07",
+    "question": "I don't understand the train example.",
+    "detected_intent": "EXPLAIN",
+    "expected_intent": "EXPLAIN",
+    "response": "No problem, let's break down that train example!\n\nIn the train example, Einstein uses a thought experiment to illustrate the relativity of simultaneity. Imagine a flash of light goes off in the middle of a train car.\n\n*   **For someone on the train:** They see the light hit the front and back of the car at the exact same time because they are moving with the train. The light travels an equal distance to both ends [Einstein's Special Relativity, 14:59].\n*   **For someone on the platform watching the train go by:** They also see the light travel at speed C in both directions. However, because the train is moving forward, the back of the car is moving towards where the flash occurred, and the front of the car is moving away from it. This means the light going backward has a shorter distance to cover, and the light going forward has to \"chase\" the retreating front wall. So, the observer on the platform sees the light hit the back of the car first and the front of the car later [Einstein's Special Relativity, 14:59].\n\nThe key takeaway is that both observers are correct, even though they disagree on whether the events (light hitting the front and back of the car) happened simultaneously. This shows that simultaneity isn't absolute; it depends on your motion [Einstein's Special Relativity, 15:00]. This concept, the relativity of simultaneity, is a core idea in special relativity [Einstein's Special Relativity, 15:00].",
+    "citations": [
+      "Einstein's Special Relativity, 14:59",
+      "Einstein's Special Relativity, 14:59",
+      "Einstein's Special Relativity, 15:00",
+      "Einstein's Special Relativity, 15:00"
+    ],
+    "evidence_retrieved": 5,
+    "status": "success",
+    "time_ms": 3984
+  },
+  {
+    "case_id": "C08",
+    "question": "What does 'discrete' mean in that context?",
+    "detected_intent": "EXPLAIN",
+    "expected_intent": "EXPLAIN",
+    "response": "In the context of Planck's proposal, 'discrete' means that energy comes in distinct, separate packets, much like coins, rather than being a continuous fluid like water [The Birth of the Quantum, Planck 1900, 15:30]. You can only have whole units of these energy packets, not fractions [The Birth of the Quantum, Planck 1900, 15:30]. The word \"quantum\" itself means a discrete amount [The Birth of the Quantum, Planck 1900, 15:30].",
+    "citations": [
+      "The Birth of the Quantum, Planck 1900, 15:30",
+      "The Birth of the Quantum, Planck 1900, 15:30",
+      "The Birth of the Quantum, Planck 1900, 15:30"
+    ],
+    "evidence_retrieved": 5,
+    "status": "success",
+    "time_ms": 3434
+  },
+  {
+    "case_id": "C09",
+    "question": "Explain string theory and how many dimensions it requires.",
+    "detected_intent": "EXPLAIN",
+    "expected_intent": "UNSUPPORTED",
+    "response": "I couldn't find enough evidence of that in the supplied episodes, so I don't want to invent an answer.",
+    "citations": [],
+    "evidence_retrieved": 5,
+    "status": "success",
+    "time_ms": 2510
+  },
+  {
+    "case_id": "C10",
+    "question": "Who won the World Series in 2024?",
+    "detected_intent": "UNSUPPORTED",
+    "expected_intent": "UNSUPPORTED",
+    "response": "I couldn't find enough evidence of that in the supplied episodes, so I don't want to invent an answer.",
+    "citations": [],
+    "evidence_retrieved": 0,
+    "status": "success",
+    "time_ms": 1613
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "episode_id": "ep01",
+  "episode_title": "Einstein's Special Relativity",
+  "filename": "Great Papers 01 - Einstein_s Special Relativity.mp3",
+  "duration_seconds": 3134.011438,
+  "segment_count": 113,
+  "paper_title": "On the Electrodynamics of Moving Bodies",
+  "authors": [
+    "Einstein"
+  ],
+  "publication_year": 1905,
+  "field": "Physics",
+  "subfield": "Special Relativity",
+  "key_concepts": [
+    "Electrodynamics",
+    "Maxwell's equations",
+    "Luminiferous ether",
+    "Michelson-Morley experiment",
+    "Principle of relativity",
+    "Constancy of the speed of light",
+    "Simultaneity",
+    "Time dilation",
+    "Lorentz factor (gamma)"
+  ],
+  "summary": "The podcast discusses Einstein's 1905 paper, \"On the Electrodynamics of Moving Bodies,\" focusing on how it addresses inconsistencies in classical physics, particularly regarding electromagnetism and the concept of the luminiferous ether. It explains Einstein's two postulates—the principle of relativity and the constancy of the speed of light—and how these lead to counter-intuitive consequences like the relativity of simultaneity and time dilation, using thought experiments such as the light clock.",
+  "disciplines": [
+    "Physics"
+  ]
+}

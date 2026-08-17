@@ -1,0 +1,29 @@
+{
+  "episode_id": "ep10",
+  "episode_title": "The Expanding Universe, Hubble 1929",
+  "filename": "Great Papers 10 - The Expanding Universe, Hubble 1929.mp3",
+  "duration_seconds": 1974.88175,
+  "segment_count": 66,
+  "paper_title": "A Relation between Distance and Radial Velocity among Extra-Galactic Nebulae",
+  "authors": [
+    "Edwin Hubble"
+  ],
+  "publication_year": 1929,
+  "field": "Astronomy",
+  "subfield": "Cosmology",
+  "key_concepts": [
+    "expanding universe",
+    "Hubble's Law",
+    "redshift",
+    "standard candles",
+    "Cepheid variables",
+    "island universes",
+    "cosmic distance ladder",
+    "period-luminosity relation"
+  ],
+  "summary": "The podcast discusses Edwin Hubble's 1929 paper, which presented evidence that galaxies are receding from us at a speed proportional to their distance, a relationship now known as Hubble's Law. This finding, built upon the work of Henrietta Leavitt and Vesto Slipher, demonstrated that the universe is expanding and that our Milky Way is just one of many galaxies, fundamentally changing our understanding of the cosmos.",
+  "disciplines": [
+    "Astronomy",
+    "Physics"
+  ]
+}

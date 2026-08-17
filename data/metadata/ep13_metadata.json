@@ -1,0 +1,33 @@
+{
+  "episode_id": "ep13",
+  "episode_title": "How DNA Copies Itself, Meselson-Stahl 1958",
+  "filename": "Great Papers 13 - How DNA Copies Itself, Meselson-Stahl 1958.mp3",
+  "duration_seconds": 1961.951063,
+  "segment_count": 76,
+  "paper_title": "The Replication of DNA in Escherichia Coli",
+  "authors": [
+    "Matthew Meselson",
+    "Franklin Stahl"
+  ],
+  "publication_year": 1958,
+  "field": "Biology",
+  "subfield": "Molecular Biology",
+  "key_concepts": [
+    "DNA replication",
+    "Semi-conservative replication",
+    "Conservative replication",
+    "Dispersive replication",
+    "Density gradient centrifugation",
+    "Nitrogen isotopes (N14, N15)",
+    "E. coli",
+    "DNA density",
+    "Isotopic labeling",
+    "Molecular weighing"
+  ],
+  "summary": "The podcast discusses Meselson and Stahl's 1958 experiment, widely considered the 'most beautiful experiment in biology,' which definitively proved that DNA replication is semi-conservative. They achieved this by using nitrogen isotopes to label DNA and density gradient centrifugation to distinguish old from new DNA, elegantly ruling out conservative and dispersive replication models.",
+  "disciplines": [
+    "Biology",
+    "Chemistry",
+    "Physics"
+  ]
+}

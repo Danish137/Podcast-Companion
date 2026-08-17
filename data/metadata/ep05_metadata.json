@@ -1,0 +1,29 @@
+{
+  "episode_id": "ep05",
+  "episode_title": "Attention Is All You Need, 2017",
+  "filename": "Great Papers 05 - Attention Is All You Need, 2017.mp3",
+  "duration_seconds": 2184.043938,
+  "segment_count": 71,
+  "paper_title": "Attention Is All You Need",
+  "authors": [],
+  "publication_year": 2017,
+  "field": "Computer Science",
+  "subfield": "Artificial Intelligence",
+  "key_concepts": [
+    "Transformer",
+    "Attention mechanism",
+    "Recurrent Neural Networks (RNNs)",
+    "Parallelism",
+    "Embeddings",
+    "Query-Key-Value model",
+    "Long-range dependencies",
+    "Machine Translation",
+    "Scaling"
+  ],
+  "summary": "The podcast discusses the 2017 paper \"Attention Is All You Need,\" which introduced the Transformer architecture, the foundation of modern AI models like GPT. It explains how the Transformer solved the limitations of previous recurrent neural networks by using an attention mechanism to handle long-range dependencies and enable massive parallelism, leading to unprecedented scalability in AI.",
+  "disciplines": [
+    "Computer Science",
+    "Artificial Intelligence",
+    "Linguistics"
+  ]
+}

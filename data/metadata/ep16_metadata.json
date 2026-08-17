@@ -1,0 +1,34 @@
+{
+  "episode_id": "ep16",
+  "episode_title": "Nash Equilibrium and Game Theory, 1950",
+  "filename": "Great Papers 16 - Nash Equilibrium and Game Theory, 1950.mp3",
+  "duration_seconds": 1951.920188,
+  "segment_count": 64,
+  "paper_title": "Equilibrium Points in N-Person Games",
+  "authors": [
+    "John Nash"
+  ],
+  "publication_year": 1950,
+  "field": "Mathematics",
+  "subfield": "Game Theory",
+  "key_concepts": [
+    "Nash equilibrium",
+    "Game theory",
+    "Non-cooperative games",
+    "Prisoner's dilemma",
+    "Fixed-point theorem",
+    "Minimax theorem",
+    "Focal point",
+    "Price of anarchy",
+    "Repeated games",
+    "Evolutionary stable strategy"
+  ],
+  "summary": "The podcast discusses John Nash's 1950 paper, which introduced the concept of Nash equilibrium as a solution for non-cooperative games, generalizing von Neumann's earlier work. It highlights how this idea, initially dismissed, became foundational across various fields, and explores its implications through examples like the prisoner's dilemma, showing how individually rational choices can lead to collectively suboptimal outcomes.",
+  "disciplines": [
+    "Mathematics",
+    "Economics",
+    "Biology",
+    "Political Science",
+    "Computer Science"
+  ]
+}

@@ -1,0 +1,124 @@
+[
+  {
+    "case_id": "C01",
+    "question": "What is the core idea of special relativity?",
+    "detected_intent": "EXPLAIN",
+    "expected_intent": "EXPLAIN",
+    "response": "The core idea of special relativity is that the speed of light is constant for all inertial observers, regardless of their relative motion or the motion of the light source [Einstein's Special Relativity, 09:30-11:00]. To maintain this constancy, space and time themselves must be flexible and \"bend\" [Einstein's Special Relativity, 11:30-13:00]. This means that observers moving relative to each other will disagree about lengths, durations, and simultaneity [Einstein's Special Relativity, 38:00-39:30].\n\nEssentially, Einstein didn't change the light, but rather the \"stage\" \u2013 space and time \u2013 which are now understood to be intertwined and dynamic [Einstein's Special Relativity, 52:00-53:00]. This concept is so fundamental that it's quietly confirmed every time you use a GPS [Einstein's Special Relativity, 52:00-53:00].",
+    "citations": [
+      "Einstein's Special Relativity, 09:30-11:00",
+      "Einstein's Special Relativity, 11:30-13:00",
+      "Einstein's Special Relativity, 38:00-39:30",
+      "Einstein's Special Relativity, 52:00-53:00",
+      "Einstein's Special Relativity, 52:00-53:00"
+    ],
+    "evidence_retrieved": 5,
+    "status": "success",
+    "time_ms": 10923
+  },
+  {
+    "case_id": "C02",
+    "question": "How do black holes radiate according to Hawking?",
+    "detected_intent": "EXPLAIN",
+    "expected_intent": "EXPLAIN",
+    "response": "I couldn't find enough evidence of that in the supplied episodes, so I don't want to invent an answer.",
+    "citations": [],
+    "evidence_retrieved": 5,
+    "status": "success",
+    "time_ms": 15747
+  },
+  {
+    "case_id": "C03",
+    "question": "Which episodes should I listen to if I'm interested in biology and evolution?",
+    "detected_intent": "DISCOVER",
+    "expected_intent": "DISCOVER",
+    "response": "The current podcast collection does not contain episodes related to biology or evolution.",
+    "citations": [],
+    "evidence_retrieved": 0,
+    "status": "success",
+    "time_ms": 3042
+  },
+  {
+    "case_id": "C04",
+    "question": "Are there any papers from before 1900?",
+    "detected_intent": "DISCOVER",
+    "expected_intent": "DISCOVER",
+    "response": "I'm sorry, but based on the available episodes, there are no papers from before 1900. The earliest paper in the collection is \"On the Electrodynamics of Moving Bodies\" from 1905.",
+    "citations": [],
+    "evidence_retrieved": 0,
+    "status": "success",
+    "time_ms": 3583
+  },
+  {
+    "case_id": "C05",
+    "question": "How do the ideas of information in Shannon's paper compare to the physical reality described by Einstein?",
+    "detected_intent": "COMPARE",
+    "expected_intent": "COMPARE",
+    "response": "I couldn't find enough evidence of that in the supplied episodes, so I don't want to invent an answer. The provided transcripts discuss Einstein's Special Relativity but do not mention Shannon's paper or the concept of information in that context.",
+    "citations": [],
+    "evidence_retrieved": 3,
+    "status": "success",
+    "time_ms": 3588
+  },
+  {
+    "case_id": "C06",
+    "question": "What is the difference between how Darwin viewed change over time versus how Planck viewed energy?",
+    "detected_intent": "COMPARE",
+    "expected_intent": "COMPARE",
+    "response": "I couldn't find enough evidence of that in the supplied episodes, so I don't want to invent an answer.",
+    "citations": [],
+    "evidence_retrieved": 3,
+    "status": "success",
+    "time_ms": 4526
+  },
+  {
+    "case_id": "C07",
+    "question": "I don't understand the train example.",
+    "detected_intent": "EXPLAIN",
+    "expected_intent": "EXPLAIN",
+    "response": "No problem, let's break down that train example!\n\nIn the train example, Einstein uses a thought experiment to illustrate the relativity of simultaneity. Imagine a flash of light goes off in the middle of a train car.\n\n*   **For someone on the train:** They see the light hit the front and back of the car at the exact same time because they are moving with the train. The light travels an equal distance to both ends [Einstein's Special Relativity, 14:59].\n*   **For someone on the platform watching the train go by:** They also see the light travel at speed C in both directions, because that's a fundamental postulate of special relativity [Einstein's Special Relativity, 14:59]. However, while the light is traveling, the train itself is moving forward. This means the back of the car is moving *towards* where the flash occurred, and the front of the car is moving *away* from it. So, the light going to the back has a shorter distance to cover, and the light going to the front has a longer distance to cover as it \"chases\" the retreating wall. Therefore, the person on the platform sees the light hit the back of the car first and the front of the car later [Einstein's Special Relativity, 14:59].\n\nThe key takeaway is that both observers are correct, even though they disagree about whether the two events (light hitting the front and back of the car) happened simultaneously. This shows that simultaneity is not absolute; it depends on your motion [Einstein's Special Relativity, 15:00]. This concept, the relativity of simultaneity, is the \"conceptual heart\" of special relativity, and many other strange effects, like time dilation, stem from it [Einstein's Special Relativity, 15:00].",
+    "citations": [
+      "Einstein's Special Relativity, 14:59",
+      "Einstein's Special Relativity, 14:59",
+      "Einstein's Special Relativity, 14:59",
+      "Einstein's Special Relativity, 15:00",
+      "Einstein's Special Relativity, 15:00"
+    ],
+    "evidence_retrieved": 5,
+    "status": "success",
+    "time_ms": 5471
+  },
+  {
+    "case_id": "C08",
+    "question": "What does 'discrete' mean in that context?",
+    "detected_intent": "EXPLAIN",
+    "expected_intent": "EXPLAIN",
+    "response": "I couldn't find enough evidence of that in the supplied episodes, so I don't want to invent an answer.",
+    "citations": [],
+    "evidence_retrieved": 5,
+    "status": "success",
+    "time_ms": 3295
+  },
+  {
+    "case_id": "C09",
+    "question": "Explain string theory and how many dimensions it requires.",
+    "detected_intent": "EXPLAIN",
+    "expected_intent": "UNSUPPORTED",
+    "response": "I couldn't find enough evidence of that in the supplied episodes, so I don't want to invent an answer. The provided transcripts focus on Einstein's Special Relativity and its foundational concepts, not on string theory or its dimensional requirements.",
+    "citations": [],
+    "evidence_retrieved": 5,
+    "status": "success",
+    "time_ms": 4058
+  },
+  {
+    "case_id": "C10",
+    "question": "Who won the World Series in 2024?",
+    "detected_intent": "UNSUPPORTED",
+    "expected_intent": "UNSUPPORTED",
+    "response": "I couldn't find enough evidence of that in the supplied episodes, so I don't want to invent an answer.",
+    "citations": [],
+    "evidence_retrieved": 0,
+    "status": "success",
+    "time_ms": 13239
+  }
+]

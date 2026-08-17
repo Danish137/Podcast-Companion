@@ -1,0 +1,31 @@
+{
+  "episode_id": "ep12",
+  "episode_title": "The Dirac Equation and Antimatter, 1928",
+  "filename": "Great Papers 12 - The Dirac Equation and Antimatter, 1928.mp3",
+  "duration_seconds": 1980.759125,
+  "segment_count": 76,
+  "paper_title": "The Quantum Theory of the Electron",
+  "authors": [
+    "Paul Dirac"
+  ],
+  "publication_year": 1928,
+  "field": "Physics",
+  "subfield": "Quantum Mechanics",
+  "key_concepts": [
+    "Dirac Equation",
+    "Special Relativity",
+    "Quantum Mechanics",
+    "Electron Spin",
+    "Antimatter",
+    "Negative Energy Solutions",
+    "Fine Structure",
+    "Klein-Gordon Equation",
+    "Matrices",
+    "Exclusion Principle"
+  ],
+  "summary": "The podcast discusses Paul Dirac's 1928 paper where he reconciled quantum mechanics and special relativity, leading to the Dirac Equation. This equation unexpectedly predicted electron spin and the existence of antimatter (specifically, the positron), which was later experimentally confirmed.",
+  "disciplines": [
+    "Physics",
+    "Mathematics"
+  ]
+}

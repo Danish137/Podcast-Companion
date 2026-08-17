@@ -1,0 +1,29 @@
+{
+  "episode_id": "ep06",
+  "episode_title": "General Relativity, Einstein 1915",
+  "filename": "Great Papers 06 - General Relativity, Einstein 1915.mp3",
+  "duration_seconds": 2028.040313,
+  "segment_count": 79,
+  "paper_title": "The Foundation of the General Theory of Relativity",
+  "authors": [
+    "Albert Einstein"
+  ],
+  "publication_year": 1915,
+  "field": "Physics",
+  "subfield": "General Relativity",
+  "key_concepts": [
+    "Equivalence Principle",
+    "Spacetime Curvature",
+    "Gravitational Time Dilation",
+    "Gravitational Redshift",
+    "Geodesics",
+    "Metric Tensor",
+    "Einstein Field Equations",
+    "Tidal Effects"
+  ],
+  "summary": "This podcast episode delves into Einstein's journey from special to general relativity, highlighting the two 'loose threads' of gravity and accelerated observers that special relativity couldn't explain. It focuses on the 'happiest thought' – the equivalence principle – and how it leads to the revolutionary idea that gravity is not a force but the curvature of spacetime, culminating in the Einstein field equations.",
+  "disciplines": [
+    "Physics",
+    "Mathematics"
+  ]
+}

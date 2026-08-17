@@ -1,0 +1,33 @@
+{
+  "episode_id": "ep09",
+  "episode_title": "Bell's Theorem, 1964",
+  "filename": "Great Papers 09 - Bell_s Theorem, 1964.mp3",
+  "duration_seconds": 2040.318313,
+  "segment_count": 74,
+  "paper_title": "Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?",
+  "authors": [
+    "Albert Einstein",
+    "Boris Podolsky",
+    "Nathan Rosen"
+  ],
+  "publication_year": 1935,
+  "field": "Physics",
+  "subfield": "Quantum Mechanics",
+  "key_concepts": [
+    "entanglement",
+    "spooky action at a distance",
+    "hidden variables",
+    "local realism",
+    "Bell's theorem",
+    "Bell's inequality",
+    "quantum spin",
+    "wave function",
+    "superposition",
+    "GHZ experiment"
+  ],
+  "summary": "The podcast discusses the EPR paper, where Einstein and colleagues argued that quantum mechanics was incomplete due to the concept of entanglement and proposed 'hidden variables' as an explanation. It then explains how John Bell later transformed this philosophical debate into a testable experiment, demonstrating that local realism and quantum mechanics make measurably different predictions, ultimately proving Einstein's objection wrong.",
+  "disciplines": [
+    "Physics",
+    "Mathematics"
+  ]
+}

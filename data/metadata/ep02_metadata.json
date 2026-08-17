@@ -1,0 +1,31 @@
+{
+  "episode_id": "ep02",
+  "episode_title": "How Black Holes Radiate, Hawking 1975",
+  "filename": "Great Papers 02 - How Black Holes Radiate, Hawking 1975.mp3",
+  "duration_seconds": 2716.523125,
+  "segment_count": 113,
+  "paper_title": "Black hole explosions",
+  "authors": [
+    "Hawking"
+  ],
+  "publication_year": 1974,
+  "field": "Physics",
+  "subfield": "Quantum Gravity",
+  "key_concepts": [
+    "Black holes",
+    "Hawking radiation",
+    "Event horizon",
+    "Quantum vacuum",
+    "Thermodynamics",
+    "Entropy",
+    "Unruh effect",
+    "Bogoliubov transformation",
+    "Negative energy",
+    "Generalized second law"
+  ],
+  "summary": "The podcast discusses Hawking's 1974 paper, which initially aimed to debunk Bekenstein's idea that black holes have entropy and temperature. However, Hawking's calculations, incorporating quantum mechanics, unexpectedly led to the discovery that black holes radiate thermally, a phenomenon now known as Hawking radiation, and thus have a non-zero temperature and entropy.",
+  "disciplines": [
+    "Physics",
+    "Mathematics"
+  ]
+}

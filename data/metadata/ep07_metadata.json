@@ -1,0 +1,32 @@
+{
+  "episode_id": "ep07",
+  "episode_title": "On Computable Numbers, Turing 1936",
+  "filename": "Great Papers 07 - On Computable Numbers, Turing 1936.mp3",
+  "duration_seconds": 1982.300063,
+  "segment_count": 63,
+  "paper_title": "On Computable Numbers, with an Application to the Entscheidungsproblem",
+  "authors": [
+    "Alan Turing"
+  ],
+  "publication_year": 1936,
+  "field": "Mathematics",
+  "subfield": "Mathematical Logic",
+  "key_concepts": [
+    "Computable Numbers",
+    "Turing Machine",
+    "Entscheidungsproblem",
+    "Halting Problem",
+    "Gödel's Incompleteness Theorem",
+    "Cantor's Diagonal Argument",
+    "Uncomputable Numbers",
+    "Mechanical Procedure",
+    "Busy Beaver Numbers",
+    "Universal Turing Machine"
+  ],
+  "summary": "The podcast discusses Alan Turing's 1936 paper, which introduced the concept of a universal computing machine (the Turing Machine) to answer a fundamental question in pure logic about the limits of mathematics. It explains how Turing used this imaginary machine to prove that some things can never be computed, thereby laying the theoretical groundwork for modern computers while also demonstrating inherent limitations to what any machine can know.",
+  "disciplines": [
+    "Mathematics",
+    "Computer Science",
+    "Logic"
+  ]
+}

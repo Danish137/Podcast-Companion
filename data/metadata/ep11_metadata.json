@@ -1,0 +1,31 @@
+{
+  "episode_id": "ep11",
+  "episode_title": "The Birth of the Quantum, Planck 1900",
+  "filename": "Great Papers 11 - The Birth of the Quantum, Planck 1900.mp3",
+  "duration_seconds": 1983.031813,
+  "segment_count": 73,
+  "paper_title": "On the Law of Distribution of Energy in the Normal Spectrum",
+  "authors": [
+    "Max Planck"
+  ],
+  "publication_year": 1900,
+  "field": "Physics",
+  "subfield": "Quantum Mechanics",
+  "key_concepts": [
+    "Black body radiation",
+    "Ultraviolet catastrophe",
+    "Equipartition theorem",
+    "Quantization of energy",
+    "Planck's constant",
+    "Wave-particle duality",
+    "Wien's displacement law",
+    "Planck's law",
+    "Correspondence principle",
+    "Oscillators"
+  ],
+  "summary": "The podcast discusses Max Planck's 1900 paper, which introduced the concept of energy quantization to explain black body radiation and resolve the ultraviolet catastrophe. Planck reluctantly proposed that energy is exchanged in discrete packets, or quanta, leading to his famous formula and the accidental birth of quantum mechanics, a theory he initially resisted.",
+  "disciplines": [
+    "Physics",
+    "Mathematics"
+  ]
+}

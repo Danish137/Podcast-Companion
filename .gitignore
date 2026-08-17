@@ -12,12 +12,12 @@ build/
 venv/
 env/
 
-# Data artifacts (generated, not source)
-data/transcripts/
-data/chunks/
-data/index/
-data/metadata/
-eval/results/
+# Data artifacts (generated, but checked into git for reproducibility per assignment instructions)
+# data/transcripts/
+# data/chunks/
+# data/index/
+# data/metadata/
+# eval/results/
 
 # IDE
 .cursor/
@@ -32,4 +32,4 @@ Thumbs.db
 # Podcast/*.mp3
 
 # Gemini
-.gemini/
+.cursor/

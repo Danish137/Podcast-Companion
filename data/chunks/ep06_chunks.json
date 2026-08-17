@@ -1,0 +1,252 @@
+[
+  {
+    "chunk_id": "ep06_chunk_000",
+    "episode_id": "ep06",
+    "episode_title": "General Relativity, Einstein 1915",
+    "start_time": 0.0,
+    "end_time": 90.0,
+    "text": "Last time we left Einstein at a kind of summit. Special relativity had fused space and time into one thing, spacetime, and the price of admission was a single stubborn rule. Nothing outruns light. And right at the end, I said there was a loose thread, that this beautiful new picture had a hole in it exactly where you'd least expect, in the most familiar force there is, gravity. So, let me just start there, George. Special relativity is done. It works, it's gorgeous. What's wrong with it? What's wrong is that it quietly excludes the two things that are most obvious about the everyday world. And it takes Einstein another decade to fix it. So, here's the whole arc for today. We start with a loose thread, actually, two loose threads that special relativity leaves dangling. Then Einstein has a single idea, one he later called the happiest thought of his life, and it's almost embarrassingly simple. A person falling off a roof feels no gravity. We're going to take that one sentence and just squeeze it, and out will come bending light, slowing clocks, and finally the punch line of the entire theory, that gravity is not a force at all.",
+    "word_count": 203,
+    "duration_seconds": 90.0
+  },
+  {
+    "chunk_id": "ep06_chunk_001",
+    "episode_id": "ep06",
+    "episode_title": "General Relativity, Einstein 1915",
+    "start_time": 90.0,
+    "end_time": 180.0,
+    "text": "Then Einstein has a single idea, one he later called the happiest thought of his life, and it's almost embarrassingly simple. A person falling off a roof feels no gravity. We're going to take that one sentence and just squeeze it, and out will come bending light, slowing clocks, and finally the punch line of the entire theory, that gravity is not a force at all. It's the shape of space and time. And then we get to watch the universe agree with him three separate times. That's the promise. One falling person, and the rest is consequence. Okay, but before we fall off any roofs, the two loose threads, what are they? The first is gravity itself, and it's a genuine contradiction, not a gap. Think about Newton's law of gravity. It's one of the most successful equations ever written. Every mass pulls on every other mass instantly across any distance with a force that falls off as the square of the separation. And that word instantly is the problem. In Newton's world, if the sun were to suddenly vanish, the Earth would feel it let go at the very same instant. The pull disappears everywhere at once. But special relativity just told us, nothing, no signal, no influence travels faster than light. Sunlight takes about eight minutes to reach us. So, which is it? Does the Earth swing free the instant the sun disappears, or eight minutes later? Newton says instant. Relativity says impossible.",
+    "word_count": 246,
+    "duration_seconds": 90.0
+  },
+  {
+    "chunk_id": "ep06_chunk_002",
+    "episode_id": "ep06",
+    "episode_title": "General Relativity, Einstein 1915",
+    "start_time": 180.0,
+    "end_time": 270.0,
+    "text": "The pull disappears everywhere at once. But special relativity just told us, nothing, no signal, no influence travels faster than light. Sunlight takes about eight minutes to reach us. So, which is it? Does the Earth swing free the instant the sun disappears, or eight minutes later? Newton says instant. Relativity says impossible. So, gravity, as Newton wrote it, is illegal under the new rules. Flatly illegal. It's action at a distance with no travel time, and relativity has outlawed exactly that. So, gravity has to be rebuilt from scratch to obey the speed limit. That's thread one. Thread two is subtler, and it bothered Einstein philosophically. Special relativity gives a privileged status to a particular kind of observer, the ones moving at constant velocity, coasting, no acceleration. Those are called inertial observers, and the whole theory is written for them. The laws look the same for everyone coasting. But the moment you accelerate, you hit the gas, you spin, you feel pushed back in your seat, you're outside the club. The theory has nothing to say about you, and Einstein found that arbitrary. Why should the universe care whether you're coasting or accelerating? He wanted a relativity that worked for everyone, accelerated or not. Hence the name he was reaching for, the general theory, as opposed to the special one that only handled the special case of coasting. And I have a feeling these two threads are secretly the same thread.",
+    "word_count": 242,
+    "duration_seconds": 90.0
+  },
+  {
+    "chunk_id": "ep06_chunk_003",
+    "episode_id": "ep06",
+    "episode_title": "General Relativity, Einstein 1915",
+    "start_time": 270.0,
+    "end_time": 360.0,
+    "text": "The theory has nothing to say about you, and Einstein found that arbitrary. Why should the universe care whether you're coasting or accelerating? He wanted a relativity that worked for everyone, accelerated or not. Hence the name he was reaching for, the general theory, as opposed to the special one that only handled the special case of coasting. And I have a feeling these two threads are secretly the same thread. They are exactly the same thread, and seeing that they're the same is the entire move. Here's where the happiest thought comes in. Einstein said the idea came to him around 1907, sitting in the patent office, and it was this. If a person falls freely, say they step off a rooftop, during the fall, they feel no gravity at all. They feel weightless. Now, he couldn't ethically run that experiment, but you've seen it. Astronauts on the space station float, not because there's no gravity up there. Gravity at that altitude is nearly as strong as on the ground, but because they're in free fall, endlessly falling around the Earth, and falling freely, they feel nothing. No weight, no down. Right, that always trips people up. The astronauts aren't beyond gravity's reach, they're falling. They're falling, and falling erases the sensation of gravity completely. So, Einstein turns that around into a principle. If falling cancels gravity, then gravity and acceleration must be at bottom the same thing.",
+    "word_count": 239,
+    "duration_seconds": 90.0
+  },
+  {
+    "chunk_id": "ep06_chunk_004",
+    "episode_id": "ep06",
+    "episode_title": "General Relativity, Einstein 1915",
+    "start_time": 300.0,
+    "end_time": 390.0,
+    "text": "The astronauts aren't beyond gravity's reach, they're falling. They're falling, and falling erases the sensation of gravity completely. So, Einstein turns that around into a principle. If falling cancels gravity, then gravity and acceleration must be at bottom the same thing. because you can create the feeling of gravity by accelerating, and you can cancel it by falling. Let me make that concrete with his own thought experiment, the famous elevator. Imagine you're in a sealed box, no windows, and you feel your normal weight, feet pressed to the floor. Question, are you standing in a building on Earth with gravity pulling you down, or are you deep in empty space, far from any planet, in a rocket accelerating upward, so the floor is rushing up to meet you and pressing on your feet. Einstein's claim is that no experiment you can do inside that sealed box can tell the two apart. None, I feel like I could figure it out. Drop a ball, weigh myself, something. Try it. That's the fun. You drop a ball. On Earth, gravity pulls it to the floor, it accelerates downward. In the rocket, gravity isn't touching the ball at all. But the floor is accelerating upward to meet it. So from your point of view inside, the ball drops to the floor exactly the same way. You weigh yourself. Same reading because the scale is being pushed against your feet identically in both cases. Every mechanical experiment gives the same answer. This is the equivalence principle. A uniform gravitational field is completely equivalent to an accelerating frame.",
+    "word_count": 264,
+    "duration_seconds": 90.0
+  },
+  {
+    "chunk_id": "ep06_chunk_005",
+    "episode_id": "ep06",
+    "episode_title": "General Relativity, Einstein 1915",
+    "start_time": 390.0,
+    "end_time": 510.0,
+    "text": "But the floor is accelerating upward to meet it. So from your point of view inside, the ball drops to the floor exactly the same way. You weigh yourself. Same reading because the scale is being pushed against your feet identically in both cases. Every mechanical experiment gives the same answer. This is the equivalence principle. A uniform gravitational field is completely equivalent to an accelerating frame. And notice this quietly solves thread two. The thing that made accelerated observers special was that they felt a force. But that force is now just gravity in disguise, so accelerated observers aren't exotic anymore. They're on the same footing as everyone else. Okay, that's a lovely piece of unification, but it feels like a philosophical mood so far. You promised me bending light and slowing clocks fall out of this. How? This is the part that turns the mood into physics, and it's my favorite move in all of it. We're going to take that sealed box, and instead of dropping a ball, we're going to shine a flashlight across it, and we're going to insist the equivalence principle holds, no matter what we do inside. Picture the accelerating rocket first, because that case is easy. You shine a laser horizontally from the left wall straight across toward the right wall. Light takes a tiny sliver of time to cross. During that sliver, the rocket has accelerated upward. The walls have moved up a hair. So the beam, which was aimed dead level, lands on the right wall a tiny bit lower than where it started. From inside, you see the beam bend downward, curving toward the floor. Because the room moved up underneath the light while it was in flight. Exactly. In the accelerating rocket, light visibly bends. Now here's the hammer. The equivalence principle says you cannot tell the rocket from a room sitting in gravity. So if light bends in the rocket, light must bend in gravity too, by exactly the same amount. There's no wiggle room. If gravity behaved any differently, you'd have found your experiment to tell the boxes two situations apart, and the principle would be dead.",
+    "word_count": 361,
+    "duration_seconds": 120.0
+  },
+  {
+    "chunk_id": "ep06_chunk_006",
+    "episode_id": "ep06",
+    "episode_title": "General Relativity, Einstein 1915",
+    "start_time": 510.0,
+    "end_time": 629.0,
+    "text": "In the accelerating rocket, light visibly bends. Now here's the hammer. The equivalence principle says you cannot tell the rocket from a room sitting in gravity. So if light bends in the rocket, light must bend in gravity too, by exactly the same amount. There's no wiggle room. If gravity behaved any differently, you'd have found your experiment to tell the boxes two situations apart, and the principle would be dead. So Einstein concludes, years before he has the full theory, that gravity bends light. A ray of starlight grazing the sun should be deflected. Hold on to that. It becomes one of the three great tests, and it's the one that makes him famous. That's genuinely startling, that you can get a real, testable prediction, light bends near the sun, out of a thought about a sealed elevator. And there's a second one hiding in the same box, about time. Let's do clocks. Put one clock on the floor of the rocket and one on the ceiling, and have the floor clock send a light pulse up to the ceiling every tick. The rocket is accelerating upward the whole time. So while each pulse is traveling up, the ceiling is speeding up, racing away from the light coming at it. The ceiling is effectively running from the signal, so the pulses arrive stretched out. They come in slower than they left. The ceiling sees the floor clock ticking slow. Now translate through equivalence. The floor is the bottom of a gravitational field, deep in the well. The ceiling is higher up, weaker gravity. Conclusion, a clock deep in a gravitational field runs slow compared to a clock higher up. So, time literally runs at different rates at my feet and at my head, because my feet are microscopically deeper in Earth's gravity. Microscopically, yes. And it's been measured over height differences of less than a meter. Your head ages very slightly faster than your feet. This is gravitational time dilation, and its close cousin is gravitational",
+    "word_count": 337,
+    "duration_seconds": 119.0
+  },
+  {
+    "chunk_id": "ep06_chunk_007",
+    "episode_id": "ep06",
+    "episode_title": "General Relativity, Einstein 1915",
+    "start_time": 600.0,
+    "end_time": 690.0,
+    "text": "The ceiling sees the floor clock ticking slow. Now translate through equivalence. The floor is the bottom of a gravitational field, deep in the well. The ceiling is higher up, weaker gravity. Conclusion, a clock deep in a gravitational field runs slow compared to a clock higher up. So, time literally runs at different rates at my feet and at my head, because my feet are microscopically deeper in Earth's gravity. Microscopically, yes. And it's been measured over height differences of less than a meter. Your head ages very slightly faster than your feet. This is gravitational time dilation, and its close cousin is gravitational gravitational red shift. Light climbing out of a gravitational well loses energy, which for light means its frequency drops. It reddens. Climb out of a strong field and you redden. That's the red shift. And again, we got it purely from the equivalence principle before writing down a single equation of the real theory. So now Einstein is standing here with two hard predictions and a nagging thought. What kind of thing is gravity, really? If falling makes it vanish and accelerating makes it appear. And that's the doorway to the big idea. I'm ready. What is gravity really? Here's the logic that forces the answer. Notice something strange about free fall that we've been leaning on. Everyone falls the same way. Galileo's old point. Drop a feather and a hammer in a vacuum and they hit the ground together. Heavy things, light things, a planet, a photon, they all follow the same falling path, regardless of what they're made of or how much they weigh. Now, think about how unusual that is.",
+    "word_count": 278,
+    "duration_seconds": 90.0
+  },
+  {
+    "chunk_id": "ep06_chunk_008",
+    "episode_id": "ep06",
+    "episode_title": "General Relativity, Einstein 1915",
+    "start_time": 690.0,
+    "end_time": 780.0,
+    "text": "Everyone falls the same way. Galileo's old point. Drop a feather and a hammer in a vacuum and they hit the ground together. Heavy things, light things, a planet, a photon, they all follow the same falling path, regardless of what they're made of or how much they weigh. Now, think about how unusual that is. The electric force doesn't do that. A heavier charge, a different charge responds differently. But gravity, everything, absolutely everything takes the identical trajectory through a given region. When a force ignores every property of the object and moves everything the same way, Einstein realized you should stop thinking of it as a force acting on the object at all. You should think of it as a property of the arena of spacetime itself. The falling paths are the same for everyone because they're not really responses to a force. They're just the natural grooves of a curved spacetime, and everything follows the grooves. Okay, say that again slowly, because that's the pivot of the whole thing. Gravity is not a force, it's It's curvature. Here's the full picture. In special relativity, spacetime was flat, a rigid, featureless stage, the same everywhere, and things moved in straight lines unless a force pushed them. Einstein's leap is to let the stage bend. Mass and energy warp the spacetime around them, give it curvature. And then objects in free fall aren't being pulled by anything.",
+    "word_count": 238,
+    "duration_seconds": 90.0
+  },
+  {
+    "chunk_id": "ep06_chunk_009",
+    "episode_id": "ep06",
+    "episode_title": "General Relativity, Einstein 1915",
+    "start_time": 780.0,
+    "end_time": 870.0,
+    "text": "It's curvature. Here's the full picture. In special relativity, spacetime was flat, a rigid, featureless stage, the same everywhere, and things moved in straight lines unless a force pushed them. Einstein's leap is to let the stage bend. Mass and energy warp the spacetime around them, give it curvature. And then objects in free fall aren't being pulled by anything. They're simply coasting, moving as straight as they possibly can, but through a curved geometry. On a curved surface, the straightest possible path isn't what you draw with a ruler on flat paper. It's a curve. We even have a word for those straightest possible paths, geodesics. The Earth isn't held in its orbit by a rope of force reaching out to the sun. The sun has curved the spacetime around it, and the Earth is just following the straightest available path through that valley, which happens to close back on itself into an orbit. The image everyone reaches for is the bowling ball on a rubber sheet, the marble circling the dent. Is that the right picture, or is that a lie we tell beginners? It's about half right, and the half that's wrong is worth saying out loud, because it's the half that actually matters. What the rubber sheet gets right, mass makes a dip and things roll around the dip. What it gets wrong and badly is two things. First, it's cheating. The marble rolls into the dip because of real gravity pulling it down onto the sheet, so it's explaining gravity using gravity. Second, and more important, the rubber sheet only bends space. It leaves out time entirely.",
+    "word_count": 272,
+    "duration_seconds": 90.0
+  },
+  {
+    "chunk_id": "ep06_chunk_010",
+    "episode_id": "ep06",
+    "episode_title": "General Relativity, Einstein 1915",
+    "start_time": 870.0,
+    "end_time": 960.0,
+    "text": "What the rubber sheet gets right, mass makes a dip and things roll around the dip. What it gets wrong and badly is two things. First, it's cheating. The marble rolls into the dip because of real gravity pulling it down onto the sheet, so it's explaining gravity using gravity. Second, and more important, the rubber sheet only bends space. It leaves out time entirely. And here's the thing that surprises people. For slow-moving objects like planets and falling apples, almost all of the gravity you feel comes from the curvature of time, not space. The reason an apple falls off a branch is mainly that time itself is running very slightly slower nearer the ground, and the apple's straightest path through that warped time bends it downward. So the sheet is a useful cartoon, but the real curvature is a curvature of four-dimensional spacetime, with time doing most of the heavy lifting. That's a genuinely different picture than I've ever had. The apple falls because time is bent, not just space. All right. So how do you turn spacetime bends into actual equations? What does Einstein have to invent? He needs two pieces of machinery, and I'll keep them in plain language. The first is a way to describe the shape of spacetime at every point. How curved is it here? How curved over there? The object that does that is called the metric. Think of the metric as the local ruler and clock. At each point in spacetime, it tells you how to measure real distances and real times. And crucially, that ruler changes from",
+    "word_count": 267,
+    "duration_seconds": 90.0
+  },
+  {
+    "chunk_id": "ep06_chunk_011",
+    "episode_id": "ep06",
+    "episode_title": "General Relativity, Einstein 1915",
+    "start_time": 900.0,
+    "end_time": 990.0,
+    "text": "The first is a way to describe the shape of spacetime at every point. How curved is it here? How curved over there? The object that does that is called the metric. Think of the metric as the local ruler and clock. At each point in spacetime, it tells you how to measure real distances and real times. And crucially, that ruler changes from place to place. In flat spacetime, the ruler is the same everywhere. In curved spacetime, it varies, and that variation is the gravity. The metric plays exactly the role that the gravitational potential played in Newton's theory. It's the field. So the first job is, solve for the metric, and you know the geometry, and you know how everything falls. So, the metric is the thing you're solving for, the way in old physics you solved for a force field. Right, it's the unknown. And the second piece of machinery is curvature, a precise mathematical measure built out of how the metric changes from point to point, of how bent the geometry actually is. And here I have to make good on a promise, the caveat about the equivalence principle. Remember I said falling cancels gravity. That's only true locally in a small enough region. Because if you and I are both falling toward the earth from far apart, we're each falling toward the center, so our paths are very slightly converging. Over a big enough region, two freely falling objects drift toward each other, and no amount of, we're just falling, we feel nothing, can hide that.",
+    "word_count": 262,
+    "duration_seconds": 90.0
+  },
+  {
+    "chunk_id": "ep06_chunk_012",
+    "episode_id": "ep06",
+    "episode_title": "General Relativity, Einstein 1915",
+    "start_time": 990.0,
+    "end_time": 1109.0,
+    "text": "Remember I said falling cancels gravity. That's only true locally in a small enough region. Because if you and I are both falling toward the earth from far apart, we're each falling toward the center, so our paths are very slightly converging. Over a big enough region, two freely falling objects drift toward each other, and no amount of, we're just falling, we feel nothing, can hide that. That drift, that convergence of falling paths is the true fingerprint of curvature. It's called the tidal effect, and it's literally what raises the ocean tides. Uniform gravity you can cancel by falling. Real curvature you can't. And curvature is what the equations are really about. Good, I'm glad you closed that loop because just fall and gravity disappears sounded too good. So, we've got the metric, the varying ruler, and curvature built from it. Now the famous equation, lay it on me. The Einstein field equations. And you can say the whole thing in one English sentence before we touch a symbol, courtesy of the physicist John Wheeler. Matter tells spacetime how to curve, and spacetime tells matter how to move. That's the entire theory in 12 words. The equation is just that sentence made exact. Written out, it's often given as G mu new equals 8 pi G over C to the fourth times T mu new. Let me unpack each side because it's very clean. The left side, G mu new, is the curvature. It's built from the metric and describes precisely how spacetime is bent at that point. The right side, T mu new, describes all the matter and energy sitting at that point. And the two are set equal. Curvature on the left equals matter and energy on the right. Geometry equals stuff. What are all the little mu new subscripts doing? That's the part that always looks intimidating.",
+    "word_count": 312,
+    "duration_seconds": 119.0
+  },
+  {
+    "chunk_id": "ep06_chunk_013",
+    "episode_id": "ep06",
+    "episode_title": "General Relativity, Einstein 1915",
+    "start_time": 1109.0,
+    "end_time": 1200.0,
+    "text": "It's built from the metric and describes precisely how spacetime is bent at that point. The right side, T mu new, describes all the matter and energy sitting at that point. And the two are set equal. Curvature on the left equals matter and energy on the right. Geometry equals stuff. What are all the little mu new subscripts doing? That's the part that always looks intimidating. They're bookkeeping, and they're actually telling you something physical. Spacetime has four directions, three of space, one of time. So at each point, there are several ways things can be curved, and several ways matter can flow. Along each direction and in combinations. The mu and new are just labels running over those directions. So the single equation you see is really a compact package of several equations. One for each combination of directions, all bundled together. When physicists say tensor, that's all they mean. An organized table of components that keeps track of every direction at once. You don't need to compute them today. You just need to hear the sentence underneath. How matter is arranged here determines how geometry curves here. And that constant out front, 8 pi G over C to the fourth. What's living in there? Two things, and both are meaningful. The G is Newton's gravitational constant, the same one from the old law. It sets how strongly matter curves spacetime, and it's a tiny number, which is why you need something as massive as a planet or a star to make noticeable curvature.",
+    "word_count": 256,
+    "duration_seconds": 91.0
+  },
+  {
+    "chunk_id": "ep06_chunk_014",
+    "episode_id": "ep06",
+    "episode_title": "General Relativity, Einstein 1915",
+    "start_time": 1200.0,
+    "end_time": 1259.0,
+    "text": "How matter is arranged here determines how geometry curves here. And that constant out front, 8 pi G over C to the fourth. What's living in there? Two things, and both are meaningful. The G is Newton's gravitational constant, the same one from the old law. It sets how strongly matter curves spacetime, and it's a tiny number, which is why you need something as massive as a planet or a star to make noticeable curvature. And the C to the fourth in the denominator, C being the speed of light, raised to the fourth power, is an enormous number, which makes the whole constant fantastically small. That's the mathematical statement of the fact that spacetime is incredibly stiff. It takes a stupendous amount of mass and energy to bend it even a little. The sun, with a million Earth's worth of mass, bends the passing starlight by an angle you need a careful astronomer to detect. Spacetime does not give easily. Let's talk about the right hand side more, the T, the matter term. You keep saying matter and energy, not just mass. Does that matter? It matters enormously, and it's a direct inheritance from special relativity. That T is called the stress energy tensor, and the whole point is that it's not just mass, it's everything that can gravitate. Energy gravitates because from the last episode, we know energy and mass are the same currency. E equals mc squared. Momentum gravitates, pressure gravitates. The pressure inside a star actually adds to its gravity. Even a beam of pure light, which has no mass at all, has energy and momentum, so it curves spacetime and it responds to curvature. This is a real break from Newton, where only mass pulls. In Einstein's theory, the source of gravity is the entire inventory of energy and momentum and pressure at a point. Everything that is anything gravitates. So, the theory is built",
+    "word_count": 321,
+    "duration_seconds": 59.0
+  },
+  {
+    "chunk_id": "ep06_chunk_015",
+    "episode_id": "ep06",
+    "episode_title": "General Relativity, Einstein 1915",
+    "start_time": 1259.0,
+    "end_time": 1350.0,
+    "text": "Even a beam of pure light, which has no mass at all, has energy and momentum, so it curves spacetime and it responds to curvature. This is a real break from Newton, where only mass pulls. In Einstein's theory, the source of gravity is the entire inventory of energy and momentum and pressure at a point. Everything that is anything gravitates. So, the theory is built two postulates worth of physical thinking, some serious geometry, one master equation. But a beautiful equation that predicts nothing is just decoration. How does the universe weigh in? You promised me three tests. Three tests, and they have a lovely narrative shape, because the first one isn't a prediction of something new. It's the resolution of an old crime that had gone cold for decades. The planet Mercury. Mercury's orbit is an ellipse, and that ellipse slowly rotates. The whole oval creeps around the sun over time, so the point of closest approach, called the perihelion, shifts a little each orbit. Now, most of that shift, Newton explains beautifully. It's the tug of all the other planets. But when astronomers added up every known pull, there was a leftover. A tiny residual, about 43 arc seconds per century, that nothing in Newton's universe could account for. 43 arc seconds per century. Put that in human terms. How big is that? It's minute. An arc second is 13600th of a degree, and this is 43 of them, accumulated over 100 years. It is the width of a small coin seen from kilometers away.",
+    "word_count": 258,
+    "duration_seconds": 91.0
+  },
+  {
+    "chunk_id": "ep06_chunk_016",
+    "episode_id": "ep06",
+    "episode_title": "General Relativity, Einstein 1915",
+    "start_time": 1350.0,
+    "end_time": 1440.0,
+    "text": "A tiny residual, about 43 arc seconds per century, that nothing in Newton's universe could account for. 43 arc seconds per century. Put that in human terms. How big is that? It's minute. An arc second is 13600th of a degree, and this is 43 of them, accumulated over 100 years. It is the width of a small coin seen from kilometers away. But it was rock solid. The measurement was good, and the discrepancy would not go away. People were so sure Newton was right that they invented a whole new planet to fix it. An unseen world closer to the sun than Mercury. They named it Vulcan, and they went looking. It wasn't there. So this 43 arc seconds sat as an open embarrassment for about half a century. Now here's Einstein in November of 1915. He takes his brand new field equations, works out how Mercury should move through the spacetime curved by the sun. A slightly different curvature than Newton's, because time is warped too. And out comes the extra procession. 43 arc seconds per century. No fudging, no free parameters, no invented planet. The number falls out of the geometry. And that's a retrodiction, technically. The number was already known, he explained it, rather than predicting it fresh. Exactly right. And it's worth being precise about that, because it's a different kind of triumph than a fresh prediction. The 43 arc seconds was sitting there, measured, unexplained for 50 years. Einstein didn't foresee it. He accounted for it exactly with a theory built for entirely other reasons.",
+    "word_count": 262,
+    "duration_seconds": 90.0
+  },
+  {
+    "chunk_id": "ep06_chunk_017",
+    "episode_id": "ep06",
+    "episode_title": "General Relativity, Einstein 1915",
+    "start_time": 1440.0,
+    "end_time": 1530.0,
+    "text": "And that's a retrodiction, technically. The number was already known, he explained it, rather than predicting it fresh. Exactly right. And it's worth being precise about that, because it's a different kind of triumph than a fresh prediction. The 43 arc seconds was sitting there, measured, unexplained for 50 years. Einstein didn't foresee it. He accounted for it exactly with a theory built for entirely other reasons. He wrote later that when he saw the number come out right, he had heart palpitations for days. But you're correct that a skeptic could say, well, you knew the answer you were shooting for, which is why the second test is the one that truly silenced the room, because that one, nobody knew the answer in advance. It was a genuine prediction of something no one had ever measured. The bending of the starlight. Back to the elevator. Back to the elevator, now grown up. We said gravity bends light. So a star whose light just grazes the edge of the sun on its way to us should appear slightly shifted from its true position, because its light got deflected as it skimmed the sun's curved spacetime. Einstein calculated the angle, and here's a detail that's easy to miss, but is the whole ball game. A crude argument that just treats light as a falling particle in Newtonian gravity, also predicts some bending. But Einstein's full theory, with time curvature included, predicts exactly twice that amount. So the two theories make different, specific numerical predictions. Newton's half, Einstein's double. Nature was going to have to pick a side. And you can't normally see a star right next to the sun. The sun's a blinding disc. So,",
+    "word_count": 284,
+    "duration_seconds": 90.0
+  },
+  {
+    "chunk_id": "ep06_chunk_018",
+    "episode_id": "ep06",
+    "episode_title": "General Relativity, Einstein 1915",
+    "start_time": 1500.0,
+    "end_time": 1619.0,
+    "text": "also predicts some bending. But Einstein's full theory, with time curvature included, predicts exactly twice that amount. So the two theories make different, specific numerical predictions. Newton's half, Einstein's double. Nature was going to have to pick a side. And you can't normally see a star right next to the sun. The sun's a blinding disc. So, How do you ever measure this? You wait for the moon to turn the sun off. A total solar eclipse. The moon slides in front of the sun, the sky goes dark in the middle of the day, and for a couple of minutes, you can photograph the stars sitting right next to the sun's rim. You compare their positions during the eclipse to their positions at night, months later, when the sun is elsewhere. If Einstein's right, the stars near the rim will look nudged outward by his predicted angle. This is what Arthur Eddington set out to test. In 1919, just after the First World War, he mounted expeditions to two spots along the eclipse path, an island off West Africa and a town in Brazil, and photographed the eclipse. And the answer? The starlight bent, and it bent by Einstein's amount, the full deflection, the double value, not Newton's half. When the results were announced at a joint meeting in London that November, it became front-page news around the world. The headline in the Times of London was about a revolution in science, a new theory of the universe. Newtonian ideas overthrown. Einstein, essentially unknown to the public the day before, woke up the most famous scientist alive. A prediction pulled out of pure geometry about starlight you can only see when the moon blocks the sun, came true. That's the moment general relativity stopped being one man's idea and became the world's.",
+    "word_count": 303,
+    "duration_seconds": 119.0
+  },
+  {
+    "chunk_id": "ep06_chunk_019",
+    "episode_id": "ep06",
+    "episode_title": "General Relativity, Einstein 1915",
+    "start_time": 1619.0,
+    "end_time": 1709.0,
+    "text": "Newtonian ideas overthrown. Einstein, essentially unknown to the public the day before, woke up the most famous scientist alive. A prediction pulled out of pure geometry about starlight you can only see when the moon blocks the sun, came true. That's the moment general relativity stopped being one man's idea and became the world's. That's a good day at the office. And the third test, you mentioned red shift earlier, the clocks. The third is the gravitational red shift, the slowing of clocks deep in a field, and it's the slowest to be pinned down because it's the hardest to measure. The effect is so tiny near Earth. It finally got a clean, direct confirmation in an experiment by Pound and Rebka, who sent light up a tower just a few tens of meters and measured the minuscule reddening as the light climbed out of Earth's gravitational well. The frequency dropped by exactly the predicted sliver. Three for three. The perihelion, the light bending, the red shift, the three classic tests, and general relativity passed all of them. And it has kept passing every test thrown at it for a century, often in regimes Einstein never dreamed of. Let's spend the last stretch there. The regimes he never dreamed of, because these equations turned out to contain a lot more than three tests. What else was hiding inside them? An astonishing amount, and much of it Einstein was uneasy about. Start with black holes. Within months of the field equations appearing, a physicist named Carl Schwarzschild, working remarkably",
+    "word_count": 258,
+    "duration_seconds": 90.0
+  },
+  {
+    "chunk_id": "ep06_chunk_020",
+    "episode_id": "ep06",
+    "episode_title": "General Relativity, Einstein 1915",
+    "start_time": 1709.0,
+    "end_time": 1799.0,
+    "text": "Einstein never dreamed of. Let's spend the last stretch there. The regimes he never dreamed of, because these equations turned out to contain a lot more than three tests. What else was hiding inside them? An astonishing amount, and much of it Einstein was uneasy about. Start with black holes. Within months of the field equations appearing, a physicist named Carl Schwarzschild, working remarkably from the trenches of the First World War, found an exact solution for the spacetime around a single spherical mass. And that solution had something disturbing in it. If you compressed enough mass into a small enough region, the curvature would run away, and there'd be a surface, a boundary, past which not even light could climb back out. A one-way membrane in spacetime. That's the event horizon of a black hole, and it's the very object we spent a whole episode on, where Hawking later showed those horizons glow. Black holes are not an add-on to general relativity. They're sitting inside the equations from the first year. And gravitational waves, that's the LIGO thing, the detection everyone celebrated. That's the one, and it's the purest possible confirmation. Einstein realized in 1916 that if spacetime can bend, it can also ripple, that if you violently shake a great mass, waves of curvature should spread outward at the speed of light, literally stretching and squeezing space as they pass. He predicted them, and then he doubted for years that they were real or ever detectable because they're so faint.",
+    "word_count": 252,
+    "duration_seconds": 90.0
+  },
+  {
+    "chunk_id": "ep06_chunk_021",
+    "episode_id": "ep06",
+    "episode_title": "General Relativity, Einstein 1915",
+    "start_time": 1799.0,
+    "end_time": 1830.0,
+    "text": "Einstein realized in 1916 that if spacetime can bend, it can also ripple, that if you violently shake a great mass, waves of curvature should spread outward at the speed of light, literally stretching and squeezing space as they pass. He predicted them, and then he doubted for years that they were real or ever detectable because they're so faint. It took a century. In 2015, the LIGO detectors caught the ripple from two black holes spiraling together and merging over a billion light years away. The signal stretched and squeezed the detector's arms by a fraction of the width of a proton, and it matched the waveform the equations predicted with eerie precision. A prediction made in 1916, confirmed 100 years later from colliding black holes, objects that were themselves predictions of the same equations. The theory kept being right about things its own author doubted. You also promised me this connects to the two other episodes in this series, the black holes we've done and the expanding universe we're going to do. It's the hinge for both. The Hawking episode lives entirely inside the horizons these equations produce. And the Hubble episode we're heading toward, the discovery that the universe is expanding, is general relativity applied to everything at once. If you take the field equations and feed in not a star, but the whole cosmos, matter spread everywhere, the equations refuse to sit still. They insist the universe must be either expanding or contracting. A static universe isn't a stable solution.",
+    "word_count": 254,
+    "duration_seconds": 31.0
+  },
+  {
+    "chunk_id": "ep06_chunk_022",
+    "episode_id": "ep06",
+    "episode_title": "General Relativity, Einstein 1915",
+    "start_time": 1830.0,
+    "end_time": 1920.0,
+    "text": "And the Hubble episode we're heading toward, the discovery that the universe is expanding, is general relativity applied to everything at once. If you take the field equations and feed in not a star, but the whole cosmos, matter spread everywhere, the equations refuse to sit still. They insist the universe must be either expanding or contracting. A static universe isn't a stable solution. Einstein himself hated that at first and jammed an extra term into the equations to force the universe to hold still. Then Hubble looked through a telescope and found the galaxies flying apart. The universe was expanding exactly as the untouched equations had wanted all along. That extra fudge term has a modern afterlife too, in dark energy, but that's a story for another day. And the one everyday place all of this actually touches a normal person's life, you said GPS. GPS is the one you carry in your pocket. The system works by satellites broadcasting extremely precise time signals. Your phone triangulates its position from the tiny differences in arrival times. But those satellite clocks are higher up in Earth's gravitational well than you are. weaker gravity. So by gravitational time dilation, they tick faster than clocks on the ground. There's also a special relativity effect from their speed pulling the other way, but the gravitational one wins. If the system ignored general relativity, the clocks would drift and your position would be wrong, and the error would pile up to something like kilometers per day.",
+    "word_count": 252,
+    "duration_seconds": 90.0
+  },
+  {
+    "chunk_id": "ep06_chunk_023",
+    "episode_id": "ep06",
+    "episode_title": "General Relativity, Einstein 1915",
+    "start_time": 1920.0,
+    "end_time": 2010.0,
+    "text": "weaker gravity. So by gravitational time dilation, they tick faster than clocks on the ground. There's also a special relativity effect from their speed pulling the other way, but the gravitational one wins. If the system ignored general relativity, the clocks would drift and your position would be wrong, and the error would pile up to something like kilometers per day. So every navigation satellite has Einstein's correction built into it, applied continuously. Every time your phone finds you on a map, it's quietly using the fact that time runs slower at your feet than in orbit. That still gets me. A thought about a falling elevator in 1907 is now running silently inside a billion phones. So, where does the story end? Or does it not end? It doesn't end. That's the fair place to close. General relativity is, as far as we can measure, exactly right. 100 years of tests from Mercury to LIGO, and it has never cracked. But we know it can't be the final word, and the reason is the ghost from our other episodes, quantum mechanics. General relativity describes gravity as smooth, continuous, curved geometry. Quantum mechanics describes everything else, matter, light, forces, as grainy, probabilistic, jittery. And in the two places where gravity gets extreme, the center of a black hole and the very first instant of the universe, you need both theories at once, and they refuse to speak to each other.",
+    "word_count": 240,
+    "duration_seconds": 90.0
+  },
+  {
+    "chunk_id": "ep06_chunk_024",
+    "episode_id": "ep06",
+    "episode_title": "General Relativity, Einstein 1915",
+    "start_time": 2010.0,
+    "end_time": 2070.0,
+    "text": "General relativity describes gravity as smooth, continuous, curved geometry. Quantum mechanics describes everything else, matter, light, forces, as grainy, probabilistic, jittery. And in the two places where gravity gets extreme, the center of a black hole and the very first instant of the universe, you need both theories at once, and they refuse to speak to each other. The equations start spitting out infinities. So there's a hole at the very bottom of physics, exactly where these two triumphs are supposed to meet. A theory of quantum gravity that nobody yet has. Einstein spent his last 30 years looking for the unification and didn't find it. It's still open, which is a fitting place to leave him. The man who rebuilt gravity out of a falling person, handing us a problem we still haven't solved. Gravity is not a force. It's the shape of spacetime. And everything just follows the grooves. Matter tells spacetime how to curve, spacetime tells matter how to move, and the universe signed off on it three times over. Thank you, George. A pleasure. Fall freely.",
+    "word_count": 180,
+    "duration_seconds": 60.0
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "episode_id": "ep03",
+  "episode_title": "The Double Helix, Watson and Crick 1953",
+  "filename": "Great Papers 03 - The Double Helix, Watson and Crick 1953.mp3",
+  "duration_seconds": 2596.020375,
+  "segment_count": 105,
+  "paper_title": "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+  "authors": [
+    "James Watson",
+    "Francis Crick"
+  ],
+  "publication_year": 1953,
+  "field": "Biology",
+  "subfield": "Molecular Biology",
+  "key_concepts": [
+    "DNA structure",
+    "double helix",
+    "genetic material",
+    "base pairing",
+    "hydrogen bonds",
+    "Chargaff's rules",
+    "X-ray diffraction",
+    "model building",
+    "antiparallel strands",
+    "purines and pyrimidines"
+  ],
+  "summary": "The podcast discusses the 1953 paper by Watson and Crick that proposed the double helix structure of DNA. It highlights how this structure uniquely solved the problem of how genetic material could both store vast information and accurately copy itself, drawing on clues from chemistry, Chargaff's rules, and Rosalind Franklin's X-ray diffraction data.",
+  "disciplines": [
+    "Biology",
+    "Chemistry",
+    "Physics"
+  ]
+}
