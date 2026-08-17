@@ -62,7 +62,7 @@ Edit `.env` and configure your `OPENROUTER_API_KEY`.
 This system complies with the assignment constraint to start directly from raw audio. It includes a built-in transcription pipeline (`src/transcribe.py`) that uses the Gemini 2.5 Flash model via OpenRouter to transcribe the audio and generate timestamps. 
 
 If you want to test the system with your own audio files (3 or any other number):
-1. Delete the pre-generated contents of the `data/` directory (except the folders themselves).
+1. **CRITICAL:** You MUST delete the pre-generated contents of the `data/` directory (transcripts, chunks, metadata, and the chroma_db folder). If you do not delete the old data, the system will mix the previous 16 podcasts' evidence with your new audio, leading to completely incorrect outputs and timestamp mismatches!
 2. Clear out the `Podcast/` directory and place your own `.mp3` podcast files there.
 3. Run the artifact pipeline sequentially to generate the transcripts, metadata, chunks, and vector index from scratch:
 
