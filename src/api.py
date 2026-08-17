@@ -65,19 +65,21 @@ async def chat(request: ChatRequest):
         
         # Map last retrieved evidence to structured sources
         sources = []
-        for evidence in state.last_retrieved_evidence:
-            # Extract first 200 chars of text as excerpt
-            excerpt = evidence.get("text", "")
-            if len(excerpt) > 200:
-                excerpt = excerpt[:200] + "..."
-            
-            sources.append(SourceEvidence(
-                episode_id=evidence["episode_id"],
-                episode_title=evidence["episode_title"],
-                start_time=evidence["start_time"],
-                end_time=evidence["end_time"],
-                excerpt=excerpt if excerpt else None
-            ))
+        # Suppress sources if the response is an explicit refusal
+        if "I couldn't find enough evidence" not in response_text:
+            for evidence in state.last_retrieved_evidence:
+                # Extract first 200 chars of text as excerpt
+                excerpt = evidence.get("text", "")
+                if len(excerpt) > 200:
+                    excerpt = excerpt[:200] + "..."
+                
+                sources.append(SourceEvidence(
+                    episode_id=evidence["episode_id"],
+                    episode_title=evidence["episode_title"],
+                    start_time=evidence["start_time"],
+                    end_time=evidence["end_time"],
+                    excerpt=excerpt if excerpt else None
+                ))
         
         return ChatResponse(
             response=response_text,

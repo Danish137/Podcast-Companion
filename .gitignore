@@ -29,7 +29,7 @@ env/
 Thumbs.db
 
 # Podcast audio (large files, tracked separately)
-# Podcast/*.mp3
+Podcast/*.mp3
 
 # Gemini
 .cursor/
