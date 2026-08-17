@@ -33,3 +33,28 @@ Thumbs.db
 
 # Gemini
 .cursor/
+
+# Internal planning and scratch files (do not submit)
+AGENTS.md
+ARCHITECTURE.md
+DECISIONS.md
+DEVELOPMENT_PROTOCOL.md
+EVALUATION.md
+FERMI_COMPANION_FINAL_FRONTEND_DEVELOPMENT_DIRECTIVE.md
+FRONTEND_ASSESSMENT.md
+Fermi Companion — Full Cross-IDE Frontend Handoff & Development Prompt.md
+Fermi_Podcast_Companion_Work_Trial.pdf
+IMPLEMENTATION_PLAN.md
+PROJECT_SPEC.md
+SESSION_HANDOFF_PROMPT.md
+STATUS.md
+baseline.json
+temp_improved.json
+llm_debug.txt
+test_abcd.txt
+test_api.py
+test_audio.py
+test_results.txt
+transcript.jsonl
+transcript_full.jsonl
+.kiro/
