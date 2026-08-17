@@ -3,6 +3,8 @@
 ## What it is
 The Fermi Podcast Companion is an interactive, conversation-first study tool designed to help learners deeply understand ideas from long-form podcasts. It uses retrieval-augmented generation to answer questions directly from the audio transcripts, allowing users to ask natural follow-ups and instantly verify the AI's claims by listening to the exact source audio.
 
+📺 **[Watch the Demo Video](https://www.loom.com/share/990ba09fd2204f0ea068ba68463f115e)**
+
 ## Core experience
 The core workflow is **Ask → Understand → Verify → Listen/Explore**. Instead of browsing a static episode catalogue, the user interacts conversationally. When a question is asked, the system retrieves relevant transcript evidence, generates a grounded explanation, and provides precise timestamps. The user can then click the source cards to immediately listen to that exact moment in the podcast, ensuring the AI's answers are verifiable and trustworthy.
 
