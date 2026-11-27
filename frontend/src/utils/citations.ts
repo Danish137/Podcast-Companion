@@ -3,12 +3,32 @@ import { shortTitle } from './format';
 
 /**
  * Citations in answers look like "[Episode Title, 14:30]". Titles can contain
- * commas ("How Black Holes Radiate, Hawking 1975") and the model sometimes
- * writes ranges or several timestamps in one bracket. Mirrors CITATION_PATTERN
- * in src/companion.py.
+ * commas ("How Black Holes Radiate, Hawking 1975"), and the model sometimes
+ * writes ranges, several timestamps, or several "Title, MM:SS" pairs in one
+ * bracket. Mirrors parse_citations in src/companion.py.
  */
-const CITATION =
-  /\[([^[\]]+?),\s*(\d{1,3}:\d{2}(?:\s*[-–]\s*\d{1,3}:\d{2})?(?:\s*,\s*\d{1,3}:\d{2}(?:\s*[-–]\s*\d{1,3}:\d{2})?)*)\]/g;
+const BRACKET = /\[([^[\]]+)\]/g;
+const TIME_TOKEN = /^\d{1,3}:\d{2}(?:\s*[-–]\s*\d{1,3}:\d{2})?$/;
+
+/** Split a bracket's inside into (title, seconds) pairs; null if it isn't a citation. */
+function parseBracket(inner: string): { title: string; seconds: number }[] | null {
+  const pairs: { title: string; seconds: number }[] = [];
+  let titleParts: string[] = [];
+  let lastWasTime = false;
+  for (const token of inner.split(/[,;]/).map((t) => t.trim()).filter(Boolean)) {
+    if (TIME_TOKEN.test(token)) {
+      if (!titleParts.length) return null;
+      const seconds = toSeconds(token);
+      if (seconds !== null) pairs.push({ title: titleParts.join(', '), seconds });
+      lastWasTime = true;
+    } else {
+      if (lastWasTime) titleParts = [];
+      lastWasTime = false;
+      titleParts.push(token);
+    }
+  }
+  return pairs.length ? pairs : null;
+}
 
 export const CITE_HREF_PREFIX = '#cite-';
 
@@ -57,9 +77,11 @@ export function linkCitations(markdown: string, episodes: Episode[], sources: So
 
   // First pass: which episodes are cited? One episode -> chips show only times.
   const citedIds = new Set<string>();
-  for (const match of markdown.matchAll(CITATION)) {
-    const ep = resolve(lookup, match[1]);
-    if (ep) citedIds.add(ep.id);
+  for (const match of markdown.matchAll(BRACKET)) {
+    for (const pair of parseBracket(match[1]) ?? []) {
+      const ep = resolve(lookup, pair.title);
+      if (ep) citedIds.add(ep.id);
+    }
   }
   const showTitles = citedIds.size > 1;
   const DROPPED = '\u0000';
@@ -71,26 +93,28 @@ export function linkCitations(markdown: string, episodes: Episode[], sources: So
     .map((line) => {
       const seen = new Set<string>();
       return line
-        .replace(CITATION, (whole, title: string, times: string) => {
-          const ep = resolve(lookup, title);
-          if (!ep) return whole;
-          const chips = times
-            .split(',')
-            .map((part) => toSeconds(part))
-            .filter((s): s is number => s !== null)
-            .filter((seconds) => {
-              const key = `${ep.id}-${seconds}`;
-              if (seen.has(key)) return false;
-              seen.add(key);
-              return true;
-            })
-            .map((seconds) => {
-              const m = Math.floor(seconds / 60);
-              const label = `${m}:${String(seconds % 60).padStart(2, '0')}`;
-              const text = showTitles ? `${shortTitle(ep.title)} ${label}` : label;
-              return `[${text.replace(/[[\]]/g, '')}](${CITE_HREF_PREFIX}${ep.id}-${seconds})`;
-            });
-          return chips.length ? chips.join(' ') : DROPPED;
+        .replace(BRACKET, (whole, inner: string) => {
+          const pairs = parseBracket(inner);
+          if (!pairs) return whole;
+          const out: string[] = [];
+          let resolvedAny = false;
+          for (const { title, seconds } of pairs) {
+            const ep = resolve(lookup, title);
+            const m = Math.floor(seconds / 60);
+            const label = `${m}:${String(seconds % 60).padStart(2, '0')}`;
+            if (!ep) {
+              out.push(`[${title}, ${label}]`); // unknown episode: keep as plain text
+              continue;
+            }
+            resolvedAny = true;
+            const key = `${ep.id}-${seconds}`;
+            if (seen.has(key)) continue;
+            seen.add(key);
+            const text = showTitles ? `${shortTitle(ep.title)} ${label}` : label;
+            out.push(`[${text.replace(/[[\]]/g, '')}](${CITE_HREF_PREFIX}${ep.id}-${seconds})`);
+          }
+          if (!resolvedAny) return whole;
+          return out.length ? out.join(' ') : DROPPED;
         })
         .replace(/\s*\u0000/g, '');
     })

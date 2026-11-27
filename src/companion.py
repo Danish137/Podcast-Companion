@@ -14,11 +14,11 @@ from src.retrieval import query_passages, query_episodes, query_passages_multi_e
 
 import httpx
 
-# "[Episode Title, 14:30]" — title may itself contain commas ("..., Hawking 1975"),
-# and the model sometimes adds ranges or several timestamps.
-CITATION_PATTERN = re.compile(
-    r"\[([^\[\]]+?),\s*(\d{1,3}:\d{2}(?:\s*[-–]\s*\d{1,3}:\d{2})?(?:\s*,\s*\d{1,3}:\d{2}(?:\s*[-–]\s*\d{1,3}:\d{2})?)*)\]"
-)
+# Citations look like "[Episode Title, 14:30]". A title may itself contain commas
+# ("..., Hawking 1975"), and the model sometimes writes ranges, several timestamps,
+# or several "Title, MM:SS" pairs in one bracket. Mirrors frontend/src/utils/citations.ts.
+BRACKET_PATTERN = re.compile(r"\[([^\[\]]+)\]")
+TIME_TOKEN = re.compile(r"^(\d{1,3}):(\d{2})(?:\s*[-–]\s*\d{1,3}:\d{2})?$")
 
 # How much better (cosine similarity) another episode must match before a
 # follow-up escapes the current episode focus.
@@ -230,16 +230,32 @@ class FermiCompanion:
     def parse_citations(cls, response: str) -> List[tuple]:
         """
         Extract (normalized_title, seconds) pairs from citations like
-        "[Episode Title, 14:30]" or "[Title, 08:00-09:30, 44:00]", in order of appearance.
+        "[Episode Title, 14:30]", "[Title, 08:00-09:30, 44:00]" or
+        "[Title A, 01:30, Title B, 20:30]", in order of appearance.
+        Each timestamp belongs to the title tokens that precede it.
         """
         citations = []
-        for match in CITATION_PATTERN.finditer(response):
-            title, times = match.group(1), match.group(2)
-            for part in times.split(","):
-                first = re.search(r"(\d{1,3}):(\d{2})", part)
-                if first:
-                    seconds = int(first.group(1)) * 60 + int(first.group(2))
-                    citations.append((cls._normalize_title(title), seconds))
+        for match in BRACKET_PATTERN.finditer(response):
+            title_parts: List[str] = []
+            last_was_time = False
+            pairs = []
+            for token in (t.strip() for t in re.split(r"[,;]", match.group(1))):
+                if not token:
+                    continue
+                time_match = TIME_TOKEN.match(token)
+                if time_match:
+                    if not title_parts:
+                        pairs = []  # starts with a time: not a citation
+                        break
+                    seconds = int(time_match.group(1)) * 60 + int(time_match.group(2))
+                    pairs.append((cls._normalize_title(", ".join(title_parts)), seconds))
+                    last_was_time = True
+                else:
+                    if last_was_time:
+                        title_parts = []
+                    last_was_time = False
+                    title_parts.append(token)
+            citations.extend(pairs)
         return citations
 
     def select_cited_evidence(self, response: str, passages: list) -> list:
