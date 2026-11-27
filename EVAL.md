@@ -85,6 +85,41 @@ even though the same relevant evidence was simultaneously displayed in the front
 Therefore retrieval and generation had a semantic mismatch.
 
 **Fix**:
-generation now receives resolved_query.
+generation now receives resolved_query. (Later refined in section Q: generation receives the learner's original message plus the resolved query as context, so "I didn't get it" is answered as a request to re-explain rather than as the rewritten question.)
 
 The automated evaluation did not reliably expose this because LLM behavior was stochastic: in some programmatic runs the model successfully resolved the pronoun on its own, masking the product-level failure. Final manual QA exposed this additional robustness issue and the implementation was corrected accordingly. After the fix, the same scenario was manually re-tested successfully. This serves as a concrete example of: evaluation -> failure discovery -> root-cause investigation -> improvement -> manual re-validation.
+
+## Q. Second Improvement Round: Adversarial Multi-Turn Probing
+
+The 15-case suite passed, but it scores each case in isolation. To find failures a real learner would hit, 16 adversarial turns in 6 multi-turn conversations were run against the live API: re-explanation requests, false premises, discover→follow-up, greetings, prompt injection, topic switches and comparisons.
+
+**Raw artifacts** (question, intent, full answer and returned sources per turn):
+- `probe_adversarial_before_20261127.json`: before the fixes
+- `probe_adversarial_after_20261127.json`: after the fixes, all 16 turns
+- `probe_adversarial_after_final_20261127.json`: after the final prompt adjustments (targeted conversations)
+
+**Failures observed and fixes:**
+
+| Turn | Before | Root cause | After |
+|------|--------|------------|-------|
+| "Which episodes cover biology?" after a relativity question | 5 relativity sources shown under a biology answer | Evidence state not reset on `DISCOVER` turns | 0 sources (evidence is reset every turn) |
+| "Tell me more about the second one" (after the biology list) | Refusal | `DISCOVER` locked episode focus to the *first* listed episode | Grounded answer about Darwin & Wallace (3 cited sources) |
+| "How does that relate to Shannon's idea of entropy?" (after attention) | Answer linked Shannon to *black-hole* entropy | `COMPARE` did not resolve "that"; retrieved the wrong episodes | Retrieves Shannon + Attention, explains each with citations, and states the episodes don't connect them |
+| "I did not get it clearly" | Near-verbatim repeat of the previous answer | Generation only saw the rewritten question | Shorter re-explanation with an everyday analogy, still cited |
+| "hi" | "I couldn't find enough evidence…" | No greeting intent | Short description of what the companion can do |
+| Compare / explain answers | 5–9 source cards, many never cited | All retrieved passages were shown | Only passages the answer cites (matched by episode + timestamp) |
+| Partial refusal ("not in that episode, but Bell's Theorem says…") | Real citations hidden | Sources were suppressed whenever the refusal phrase appeared | Cited sources shown |
+
+Behaviour that was already correct and stayed correct: "Who are the hosts?" and "What did the hosts say about the Higgs boson?" are refused (the transcripts contain neither), and prompt injection is refused.
+
+**Regression check on the 15-case suite:** the same cases were re-run before and after.
+
+| Run | Artifact | Intent match | Status |
+|-----|----------|--------------|--------|
+| Before | `eval_pre_session4_20261127_143540.json` | 13/15 | 15/15 ran |
+| After | `eval_post_session4_20261127_143955.json` | 13/15 | 15/15 ran |
+| After (final prompts) | `eval_post_session4_final_20261127_144543.json` | 13/15 | 15/15 ran |
+
+The same two routing mismatches as in section M remain (C09 routed `EXPLAIN` but still refuses; C14 routed `DISCOVER` but still switches topic correctly). No case regressed. The runner now records the intent the companion actually used (previously a second, separate router call) and the cited sources per case.
+
+**Remaining limitation:** when re-explaining with an analogy, the model sometimes attaches a citation to the analogy sentence itself. Analogies are allowed as teaching aids, but only claims about episode content are meant to be cited.

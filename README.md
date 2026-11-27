@@ -82,11 +82,16 @@ python -m src.retrieval build
 *(Warning: The transcription step sends audio to the OpenRouter API and takes considerable time depending on the length of the audio. If you just want to run the application immediately, leave the existing pre-generated artifacts in the `data/` directory.)*
 
 ## Run
-To run the full stack (Frontend + Backend) with a single command, execute from the root directory:
+Run the backend and frontend in two terminals:
 ```bash
+# Terminal 1 (project root, venv active)
+uvicorn src.api:app --reload --port 8000
+
+# Terminal 2
+cd frontend
 npm run dev
 ```
-*(Note: A `package.json` in the root directory manages both concurrently. If you prefer separate terminals, run `uvicorn src.api:app --reload` in the root and `npm run dev` in the frontend directory).*
+Then open http://localhost:5173. Each chat turn is appended to `logs/chat_log.jsonl` (git-ignored) for review.
 
 ## Evaluation
 To run the automated programmatic evaluation suite:

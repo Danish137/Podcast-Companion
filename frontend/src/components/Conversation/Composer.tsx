@@ -1,111 +1,100 @@
 import { useState, useRef, useEffect, type KeyboardEvent } from 'react';
 import { useConversation } from '../../contexts/ConversationContext';
+import { useAudio } from '../../contexts/AudioContext';
+import { AudioPlayer } from '../AudioPlayer';
+import { SendIcon } from '../icons';
 
+/**
+ * Bottom dock: the audio player (when something is playing) and the question
+ * box live in one floating card, so playback never pushes between the
+ * conversation and the input.
+ */
 export function Composer() {
-  const { sendMessage, isLoading } = useConversation();
+  const { sendMessage, isLoading, messages } = useConversation();
+  const { currentEpisodeId, error: audioError } = useAudio();
   const [input, setInput] = useState('');
   const textareaRef = useRef<HTMLTextAreaElement>(null);
+  const playerOpen = Boolean(currentEpisodeId || audioError);
+  const canSend = input.trim().length > 0 && !isLoading;
 
-  // Auto-resize textarea
   useEffect(() => {
     const textarea = textareaRef.current;
     if (textarea) {
       textarea.style.height = 'auto';
-      textarea.style.height = `${Math.min(textarea.scrollHeight, 200)}px`;
+      textarea.style.height = `${Math.min(textarea.scrollHeight, 180)}px`;
     }
   }, [input]);
 
-  const handleSubmit = async () => {
+  // Return focus to the box once an answer arrives.
+  useEffect(() => {
+    if (!isLoading) textareaRef.current?.focus({ preventScroll: true });
+  }, [isLoading]);
+
+  const handleSubmit = () => {
     const message = input.trim();
     if (!message || isLoading) return;
-
     setInput('');
-    await sendMessage(message);
-    
-    // Reset textarea height
-    if (textareaRef.current) {
-      textareaRef.current.style.height = 'auto';
-    }
+    void sendMessage(message);
   };
 
   const handleKeyDown = (e: KeyboardEvent<HTMLTextAreaElement>) => {
-    if (e.key === 'Enter' && !e.shiftKey) {
+    if (e.key === 'Enter' && !e.shiftKey && !e.nativeEvent.isComposing) {
       e.preventDefault();
       handleSubmit();
     }
   };
 
   return (
-    <div 
-      className="border-t px-2 py-2"
-      style={{
-        backgroundColor: 'var(--color-bg-elevated)',
-        borderColor: 'var(--color-border-subtle)'
-      }}
+    <div
+      className="flex-none px-3 sm:px-6 pb-3 sm:pb-4 pt-2"
+      style={{ background: 'linear-gradient(to bottom, transparent, var(--paper) 30%)' }}
     >
-      <div className="max-w-3xl mx-auto">
-        <div className="relative">
-          <textarea
-            ref={textareaRef}
-            value={input}
-            onChange={(e) => setInput(e.target.value)}
-            onKeyDown={handleKeyDown}
-            disabled={isLoading}
-            placeholder="What do you want to understand?"
-            aria-label="Your question"
-            className="w-full resize-none px-5 py-4 pr-14 border rounded-xl focus:outline-none transition-all min-h-[64px] max-h-[200px]"
-            style={{
-              backgroundColor: 'var(--color-bg-elevated)',
-              borderColor: 'var(--color-border-default)',
-              color: 'var(--color-text-primary)',
-              fontSize: 'var(--text-base)',
-              lineHeight: '1.5'
-            }}
-            onFocus={(e) => {
-              e.currentTarget.style.borderColor = 'var(--color-accent)';
-              e.currentTarget.style.boxShadow = '0 0 0 3px var(--color-accent-subtle)';
-            }}
-            onBlur={(e) => {
-              e.currentTarget.style.borderColor = 'var(--color-border-default)';
-              e.currentTarget.style.boxShadow = 'none';
-            }}
-            rows={1}
-          />
-          <button
-            onClick={handleSubmit}
-            disabled={!input.trim() || isLoading}
-            aria-label="Send message"
-            className="absolute right-3 bottom-3 w-10 h-10 flex items-center justify-center rounded-lg transition-all focus:outline-none"
-            style={{
-              backgroundColor: input.trim() && !isLoading ? 'var(--color-accent)' : 'var(--color-bg-subtle)',
-              color: input.trim() && !isLoading ? 'white' : 'var(--color-text-tertiary)'
-            }}
-            onMouseEnter={(e) => {
-              if (input.trim() && !isLoading) {
-                e.currentTarget.style.backgroundColor = 'var(--color-accent-hover)';
-              }
-            }}
-            onMouseLeave={(e) => {
-              if (input.trim() && !isLoading) {
-                e.currentTarget.style.backgroundColor = 'var(--color-accent)';
-              }
-            }}
-          >
-            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-              <path d="M3 10L17 10M17 10L11 4M17 10L11 16" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-            </svg>
-          </button>
-        </div>
-        {isLoading && (
-          <div className="mt-3 flex items-center gap-2" style={{ color: 'var(--color-text-tertiary)' }}>
-            <div className="flex gap-1">
-              <div className="w-1.5 h-1.5 rounded-full animate-bounce" style={{ backgroundColor: 'currentColor' }}></div>
-              <div className="w-1.5 h-1.5 rounded-full animate-bounce" style={{ backgroundColor: 'currentColor', animationDelay: '0.15s' }}></div>
-              <div className="w-1.5 h-1.5 rounded-full animate-bounce" style={{ backgroundColor: 'currentColor', animationDelay: '0.3s' }}></div>
+      <div className="max-w-[46rem] mx-auto">
+        <div
+          className="overflow-hidden border transition-shadow focus-within:border-[var(--accent)]"
+          style={{
+            background: 'var(--surface)',
+            borderColor: 'var(--line)',
+            borderRadius: 'var(--radius-dock)',
+            boxShadow: 'var(--dock-shadow)',
+          }}
+        >
+          {playerOpen && (
+            <div style={{ borderBottom: '1px solid var(--line)' }}>
+              <AudioPlayer />
             </div>
-            <span className="text-sm font-medium">Processing...</span>
+          )}
+
+          <div className="flex items-end gap-2 p-2 pl-4">
+            <textarea
+              ref={textareaRef}
+              value={input}
+              onChange={(e) => setInput(e.target.value)}
+              onKeyDown={handleKeyDown}
+              placeholder={messages.length ? 'Ask a follow-up, or say what didn’t click' : 'Ask about any idea in the episodes'}
+              aria-label="Your question"
+              rows={1}
+              className="flex-1 resize-none bg-transparent border-0 outline-none py-2 text-[1rem] leading-6 max-h-[180px]"
+              style={{ color: 'var(--ink)' }}
+            />
+            <button
+              type="button"
+              onClick={handleSubmit}
+              disabled={!canSend}
+              aria-label="Send question"
+              className="flex-none w-9 h-9 rounded-full flex items-center justify-center transition-colors"
+              style={{
+                background: canSend ? 'var(--accent)' : 'var(--paper)',
+                color: canSend ? '#fff' : 'var(--ink-faint)',
+              }}
+            >
+              <SendIcon />
+            </button>
           </div>
-        )}
+        </div>
+        <p className="mt-2 text-center text-[0.75rem]" style={{ color: 'var(--ink-faint)' }}>
+          Answers come only from the podcast audio. Click a timestamp to hear the original.
+        </p>
       </div>
     </div>
   );

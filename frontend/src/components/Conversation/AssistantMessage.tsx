@@ -1,6 +1,10 @@
+import { useMemo } from 'react';
 import ReactMarkdown from 'react-markdown';
-import { SourceCard } from './SourceCard';
 import type { SourceEvidence } from '../../types/api';
+import { useEpisodes } from '../../hooks/useEpisodes';
+import { linkCitations, parseCiteHref } from '../../utils/citations';
+import { CitationChip } from './CitationChip';
+import { SourceList } from './SourceList';
 
 interface AssistantMessageProps {
   content: string;
@@ -8,77 +12,36 @@ interface AssistantMessageProps {
 }
 
 export function AssistantMessage({ content, sources }: AssistantMessageProps) {
+  const { episodes } = useEpisodes();
+  const markdown = useMemo(() => linkCitations(content, episodes, sources), [content, episodes, sources]);
+
   return (
-    <div className="mb-12">
-      <div className="prose max-w-none">
+    <article className="rise">
+      <div className="answer">
         <ReactMarkdown
           components={{
-            p: ({ children }) => (
-              <p 
-                className="leading-relaxed mb-5"
-                style={{ 
-                  color: 'var(--color-text-primary)',
-                  fontSize: 'var(--text-base)',
-                  lineHeight: '1.8'
-                }}
-              >
-                {children}
-              </p>
-            ),
-            ul: ({ children }) => (
-              <ul 
-                className="list-disc pl-6 space-y-2 mb-5"
-                style={{ color: 'var(--color-text-primary)' }}
-              >
-                {children}
-              </ul>
-            ),
-            ol: ({ children }) => (
-              <ol 
-                className="list-decimal pl-6 space-y-2 mb-5"
-                style={{ color: 'var(--color-text-primary)' }}
-              >
-                {children}
-              </ol>
-            ),
-            li: ({ children }) => (
-              <li style={{ lineHeight: '1.75' }}>{children}</li>
-            ),
-            strong: ({ children }) => (
-              <strong 
-                className="font-semibold"
-                style={{ color: 'var(--color-text-primary)' }}
-              >
-                {children}
-              </strong>
-            ),
-            em: ({ children }) => (
-              <em>{children}</em>
-            ),
-            code: ({ children }) => (
-              <code 
-                className="px-1.5 py-0.5 rounded text-sm font-mono"
-                style={{
-                  backgroundColor: 'var(--color-bg-subtle)',
-                  color: 'var(--color-text-primary)'
-                }}
-              >
-                {children}
-              </code>
-            ),
+            a: ({ href, children }) => {
+              const cite = parseCiteHref(href);
+              if (cite) {
+                return (
+                  <CitationChip episodeId={cite.episodeId} seconds={cite.seconds}>
+                    {children}
+                  </CitationChip>
+                );
+              }
+              return (
+                <a href={href} className="external" target="_blank" rel="noreferrer">
+                  {children}
+                </a>
+              );
+            },
           }}
         >
-          {content}
+          {markdown}
         </ReactMarkdown>
       </div>
 
-      {sources && sources.length > 0 && (
-        <div className="mt-8 space-y-4">
-          {sources.map((source, index) => (
-            <SourceCard key={index} source={source} />
-          ))}
-        </div>
-      )}
-    </div>
+      {sources && sources.length > 0 && <SourceList sources={sources} />}
+    </article>
   );
 }

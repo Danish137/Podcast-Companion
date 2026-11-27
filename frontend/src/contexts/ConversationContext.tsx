@@ -8,6 +8,7 @@ interface ConversationContextType {
   isLoading: boolean;
   error: string | null;
   sendMessage: (content: string) => Promise<void>;
+  retry: () => void;
   newConversation: () => void;
 }
 
@@ -17,64 +18,73 @@ function generateSessionId(): string {
   return crypto.randomUUID();
 }
 
+function readStorage<T>(key: string, fallback: T): T {
+  try {
+    const raw = sessionStorage.getItem(key);
+    return raw ? (JSON.parse(raw) as T) : fallback;
+  } catch {
+    return fallback;
+  }
+}
+
+function writeStorage(key: string, value: unknown) {
+  try {
+    sessionStorage.setItem(key, JSON.stringify(value));
+  } catch {
+    // Storage can be unavailable (private mode); the conversation still works.
+  }
+}
+
 export function ConversationProvider({ children }: { children: ReactNode }) {
-  const [sessionId, setSessionId] = useState(() => {
-    return sessionStorage.getItem('fermi_session_id') || generateSessionId();
-  });
-  const [messages, setMessages] = useState<Message[]>(() => {
-    const saved = sessionStorage.getItem('fermi_messages');
-    if (saved) {
-      try {
-        return JSON.parse(saved);
-      } catch (e) {
-        return [];
-      }
-    }
-    return [];
-  });
+  const [sessionId, setSessionId] = useState<string>(() => readStorage('fermi_session_id', generateSessionId()));
+  const [messages, setMessages] = useState<Message[]>(() => readStorage<Message[]>('fermi_messages', []));
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  // Sync to sessionStorage
-  useEffect(() => {
-    sessionStorage.setItem('fermi_session_id', sessionId);
-  }, [sessionId]);
+  useEffect(() => writeStorage('fermi_session_id', sessionId), [sessionId]);
+  useEffect(() => writeStorage('fermi_messages', messages), [messages]);
 
-  useEffect(() => {
-    sessionStorage.setItem('fermi_messages', JSON.stringify(messages));
-  }, [messages]);
-
-  const sendMessage = async (content: string) => {
-    const userMessage: Message = {
-      id: crypto.randomUUID(),
-      role: 'user',
-      content,
-      timestamp: Date.now(),
-    };
-    setMessages(prev => [...prev, userMessage]);
+  const ask = async (content: string, prior: Message[]) => {
     setIsLoading(true);
     setError(null);
-
     try {
-      const response = await chat(sessionId, content);
-      
-      const assistantMessage: Message = {
-        id: crypto.randomUUID(),
-        role: 'assistant',
-        content: response.response,
-        sources: response.sources,
-        intentUsed: response.intent_used,
-        timestamp: Date.now(),
-      };
-      setMessages(prev => [...prev, assistantMessage]);
+      const history = prior.slice(-8).map(({ role, content }) => ({ role, content }));
+      const response = await chat(sessionId, content, history);
+      setMessages((prev) => [
+        ...prev,
+        {
+          id: crypto.randomUUID(),
+          role: 'assistant',
+          content: response.response,
+          sources: response.sources,
+          intentUsed: response.intent_used,
+          timestamp: Date.now(),
+        },
+      ]);
     } catch (err) {
-      const errorMessage = err instanceof ApiError 
-        ? 'Something went wrong while getting that explanation.' 
-        : 'Network error. Please check your connection.';
-      setError(errorMessage);
+      setError(
+        err instanceof ApiError
+          ? "The companion hit an error while answering. Try again, or rephrase the question."
+          : "Can't reach the companion. Check that the backend is running on port 8000, then try again."
+      );
     } finally {
       setIsLoading(false);
     }
+  };
+
+  const sendMessage = async (content: string) => {
+    if (isLoading) return;
+    setMessages((prev) => [
+      ...prev,
+      { id: crypto.randomUUID(), role: 'user', content, timestamp: Date.now() },
+    ]);
+    await ask(content, messages);
+  };
+
+  // Re-ask the last question that didn't get an answer.
+  const retry = () => {
+    const last = messages[messages.length - 1];
+    if (last?.role === 'user' && !isLoading) void ask(last.content, messages.slice(0, -1));
   };
 
   const newConversation = () => {
@@ -84,13 +94,14 @@ export function ConversationProvider({ children }: { children: ReactNode }) {
   };
 
   return (
-    <ConversationContext.Provider value={{ 
-      sessionId, 
-      messages, 
-      isLoading, 
-      error, 
-      sendMessage, 
-      newConversation 
+    <ConversationContext.Provider value={{
+      sessionId,
+      messages,
+      isLoading,
+      error,
+      sendMessage,
+      retry,
+      newConversation,
     }}>
       {children}
     </ConversationContext.Provider>

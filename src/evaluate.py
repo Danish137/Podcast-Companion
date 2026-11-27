@@ -172,8 +172,10 @@ def run_evaluation(run_name: str):
         start_time = datetime.now()
         
         try:
-            intent = companion.route_intent(case["question"], state)
             response = companion.process_message(case["question"], state)
+            # The intent the companion actually used (previously a second,
+            # separate router call that could disagree with the real one)
+            intent = state.last_intent
             
             # Extract citations for logging
             import re
@@ -204,6 +206,10 @@ def run_evaluation(run_name: str):
                 "response": response,
                 "citations": citations,
                 "evidence_retrieved_count": len(state.last_retrieved_evidence) if hasattr(state, 'last_retrieved_evidence') else 0,
+                "cited_sources": [
+                    {"episode_id": p["episode_id"], "start_time": p["start_time"], "end_time": p["end_time"]}
+                    for p in getattr(state, "last_cited_evidence", [])
+                ],
                 "status": "success",
                 "time_ms": int((datetime.now() - start_time).total_seconds() * 1000)
             }

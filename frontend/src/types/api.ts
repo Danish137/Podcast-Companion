@@ -15,6 +15,17 @@ export interface ChatResponse {
 export interface ChatRequest {
   session_id: string;
   message: string;
+  /** Recent turns, so the server can restore context if it lost the session. */
+  history?: { role: 'user' | 'assistant'; content: string }[];
+}
+
+export interface Episode {
+  episode_id: string;
+  episode_title: string;
+  paper_title?: string;
+  publication_year?: number;
+  field?: string;
+  duration_seconds?: number;
 }
 
 export interface Message {

@@ -58,3 +58,6 @@ test_results.txt
 transcript.jsonl
 transcript_full.jsonl
 .kiro/
+
+# Local chat transcripts (may contain user questions)
+logs/
